@@ -1,4 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "http://https://andu199.github.io/bit-ml-new-website/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Bitdefender Machine Learning Team"
 theme = "PaperMod"
+
+[params]
+    description = "Engaging with the broader Machine Learning Community."
