@@ -1,7 +1,68 @@
-baseURL = "http://https://andu199.github.io/bit-ml-new-website/"
+baseURL = "https://andu199.github.io/bit-ml-new-website/"
 languageCode = "en-us"
 title = "Bitdefender Machine Learning Team"
 theme = "PaperMod"
 
 [params]
-    description = "Engaging with the broader Machine Learning Community."
+  description = "Engaging with the broader Machine Learning Community."
+
+  # Home page: image, title, short text, and links (R1)
+  [params.profileMode]
+    enabled = true
+    title = "Bitdefender ML Research"
+    subtitle = "Welcome to our research team's website. We work on machine learning and engage with the broader community."
+    imageUrl = "img/team-hero.jpg"
+    imageTitle = "Team"
+    imageWidth = 200
+    imageHeight = 200
+    [[params.profileMode.buttons]]
+      name = "News"
+      url = "/news/"
+    [[params.profileMode.buttons]]
+      name = "Research"
+      url = "/research/"
+    [[params.profileMode.buttons]]
+      name = "Academic"
+      url = "/academic/"
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/blog/"
+    [[params.profileMode.buttons]]
+      name = "Community"
+      url = "/community/"
+    [[params.profileMode.buttons]]
+      name = "Team"
+      url = "/team/"
+
+  # Only "news" section feeds the home list (we use profileMode so home shows custom content)
+  mainSections = ["news"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 2
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 3
+  [[menu.main]]
+    name = "Academic"
+    url = "/academic/"
+    weight = 4
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+  [[menu.main]]
+    name = "Community"
+    url = "/community/"
+    weight = 6
+  [[menu.main]]
+    name = "Team"
+    url = "/team/"
+    weight = 7

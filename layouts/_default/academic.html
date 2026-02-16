@@ -1,0 +1,38 @@
+{{- define "main" }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{- .Content }}
+</div>
+{{- end }}
+
+{{- $academic := where (where site.RegularPages "Section" "news") "Params.type" "academic" }}
+{{- $academic = sort ($academic | first 50) "Date" "desc" }}
+
+{{- if $academic }}
+<h2 id="publication-news">Publication & presentation news</h2>
+{{- range $academic }}
+<article class="post-entry academic-entry">
+  {{- if .Params.cover.image }}
+  <figure class="entry-cover">
+    <img src="{{ .Params.cover.image | absURL }}" alt="" loading="lazy">
+  </figure>
+  {{- end }}
+  <div class="academic-citation">
+    <strong>{{ .Params.authors | default "Authors" }}.</strong>
+    {{ .Title }}.
+    Accepted at <em>{{ .Params.venue | default "Venue" }}</em>{{ $p := .Params.presentation }}{{ $t := .Params.top_percent }}{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
+  </div>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+{{- end }}
+
+{{- end }}

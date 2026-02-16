@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bitdefender Machine Learning Team</title>
+    <link>http://localhost:1313/bit-ml-new-website/</link>
+    <description>Recent content on Bitdefender Machine Learning Team</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/bit-ml-new-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to our new website</title>
+      <link>http://localhost:1313/bit-ml-new-website/news/sample-general-news/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bit-ml-new-website/news/sample-general-news/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve launched our new team website. You can find here our research directions, academic highlights, blog posts, and team info.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Our first blog post</title>
+      <link>http://localhost:1313/bit-ml-new-website/news/sample-blogpost/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bit-ml-new-website/news/sample-blogpost/</guid>
+      <description>&lt;p&gt;This is a sample blog post. Blog posts appear both here in &lt;strong&gt;News&lt;/strong&gt; and in the &lt;strong&gt;Blog&lt;/strong&gt; section. Add longer write-ups and tutorials here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sample Paper Title</title>
+      <link>http://localhost:1313/bit-ml-new-website/news/sample-academic-entry/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bit-ml-new-website/news/sample-academic-entry/</guid>
+      <description>&lt;p&gt;Placeholder for the academic-format entry. Replace with your own. The actual citation line is built from front matter: &lt;strong&gt;Authors. Title. Accepted at Conference/Journal (Oral/Spotlight/Poster, top X%).&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
