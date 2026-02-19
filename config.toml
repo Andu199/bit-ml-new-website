@@ -5,16 +5,17 @@ theme = "PaperMod"
 
 [params]
   description = "Engaging with the broader Machine Learning Community."
+  defaultTheme = "dark"
 
   # Home page: image, title, short text, and links (R1)
   [params.profileMode]
     enabled = true
     title = "Bitdefender ML Research"
     subtitle = "Welcome to our research team's website. We work on machine learning and engage with the broader community."
-    imageUrl = "img/team-hero.jpg"
+    imageUrl = "img/hero_avatar.webp"
     imageTitle = "Team"
-    imageWidth = 200
-    imageHeight = 200
+    imageWidth = 960
+    imageHeight = 400
     [[params.profileMode.buttons]]
       name = "News"
       url = "/news/"

@@ -17,7 +17,6 @@
 {{- $academic = sort ($academic | first 50) "Date" "desc" }}
 
 {{- if $academic }}
-<h2 id="publication-news">Publication & presentation news</h2>
 {{- range $academic }}
 <article class="post-entry academic-entry">
   {{- if .Params.cover.image }}

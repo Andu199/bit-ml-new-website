@@ -10,7 +10,9 @@ Hugo-based site for the research team (GitHub Pages). Uses the [PaperMod](https:
 ## Build & preview
 
 ```bash
-hugo server -D    # preview at http://localhost:1313
+# Local preview (use this exact command so menu links work; required when using port forwarding)
+hugo server -D --bind 0.0.0.0 --baseURL "http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/"
+
 hugo              # build to public/
 ```
 

@@ -13,5 +13,3 @@ layout: academic
 ---
 
 ## Publication & presentation news
-
-Academic-formatted entries from News (accepted papers, oral/spotlight/poster, top %) appear below.

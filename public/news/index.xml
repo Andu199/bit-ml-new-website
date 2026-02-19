@@ -6,8 +6,18 @@
     <description>Recent content in News on Bitdefender Machine Learning Team</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andu199.github.io/bit-ml-new-website/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Circumventing shortcuts in audio-visual deepfake detection datasets with unsupervised learning</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2412.00175&#34;&gt;arXiv&lt;/a&gt; · &lt;a href=&#34;https://github.com/bit-ml/AVH-Align/tree/main&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Overview of the AVH-Align method&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/avh-align-overview.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Good datasets are essential for developing and benchmarking any machine learning system. Their importance is even more extreme for safety critical applications such as deepfake detection—the focus of this paper. Here we reveal that two of the most widely used audio-video deepfake datasets suffer from a previously unidentified spurious feature: the leading silence. Fake videos start with a very brief moment of silence and, on the basis of this feature alone, we can separate the real and fake samples almost perfectly. As such, previous audio-only and audio-video models exploit the presence of silence in the fake videos and consequently perform worse when the leading silence is removed. To circumvent latching on such an unwanted artifact and possibly other unrevealed ones, we propose a shift from supervised to unsupervised learning by training models exclusively on real data. We show that by aligning self-supervised audio-video representations we remove the risk of relying on dataset-specific biases and improve robustness in deepfake detection.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Welcome to our new website</title>
       <link>https://andu199.github.io/bit-ml-new-website/news/sample-general-news/</link>
@@ -21,13 +31,6 @@
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/news/sample-blogpost/</guid>
       <description>&lt;p&gt;This is a sample blog post. Blog posts appear both here in &lt;strong&gt;News&lt;/strong&gt; and in the &lt;strong&gt;Blog&lt;/strong&gt; section. Add longer write-ups and tutorials here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sample Paper Title</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/sample-academic-entry/</link>
-      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/sample-academic-entry/</guid>
-      <description>&lt;p&gt;Placeholder for the academic-format entry. Replace with your own. The actual citation line is built from front matter: &lt;strong&gt;Authors. Title. Accepted at Conference/Journal (Oral/Spotlight/Poster, top X%).&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
