@@ -17,3 +17,30 @@
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18), 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Team page: circular image left of name */
+.team-member {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.team-member .team-member-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50% !important;
+  object-fit: cover;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.team-member-body {
+  flex: 1;
+  min-width: 0;
+}
+.team-member-body h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.team-member-body p:last-child {
+  margin-bottom: 0;
+}

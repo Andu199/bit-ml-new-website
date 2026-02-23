@@ -1,0 +1,4 @@
+{{- $filename := .Get 0 -}}
+{{- $alt := .Get 1 | default "Team member" -}}
+{{- $path := printf "img/team/%s" $filename -}}
+<img src="{{ $path | relURL }}" alt="{{ $alt }}" loading="lazy">

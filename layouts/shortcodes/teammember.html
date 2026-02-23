@@ -1,0 +1,17 @@
+{{- $name := .Get 0 -}}
+{{- $imgFile := .Get 1 -}}
+{{- $src := "" -}}
+{{- with .Page.Resources.Get $imgFile -}}
+  {{- $src = .RelPermalink -}}
+{{- else -}}
+  {{- $src = (printf "img/team/%s" $imgFile) | relURL -}}
+{{- end -}}
+<div class="team-member">
+  <div class="team-member-img-wrap">
+    <img class="team-member-img" src="{{ $src }}" alt="{{ $name }}" loading="lazy">
+  </div>
+  <div class="team-member-body">
+    <h3>{{ $name }}</h3>
+    {{ .Inner | markdownify }}
+  </div>
+</div>
