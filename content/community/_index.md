@@ -13,3 +13,13 @@ Here at **Bitdefender** we are actively involved in designing and teaching Deep 
 {{< course "thumb_bitdefender.png" "DeepBit – Deep Learning for Bitdefender Engineers" "May – July" "/community/deep-bit/" >}}{{< /course >}}
 </div>
 
+## Strong presence in the community
+
+Beyond teaching, we stay close to the research and industry ecosystem:
+
+- **AI Olympiad** — we are involved in the AI Olympiad.
+- **Romanian AI Days** — we are involved in the Romanian AI Days.
+- **European research projects** — we take part in European research projects.
+- **Romanian research projects** — we are involved in Romanian research projects.
+- **International collaborations** — we collaborate with multiple international institutions, including the Max Planck Institute (IMPRS-IS, Germany), ETH Zurich, Mila (Montreal), and Idiap (Switzerland).
+- **Event sponsorship** — we actively sponsor events such as the Eastern European ML Summer School and Romanian AI Days.
