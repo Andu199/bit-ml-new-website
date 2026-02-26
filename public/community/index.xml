@@ -6,6 +6,55 @@
     <description>Recent content in Community Engagement on Bitdefender Machine Learning Team</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andu199.github.io/bit-ml-new-website/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepBit4PM – ML for Bitdefender Product Managers</title>
+      <link>https://andu199.github.io/bit-ml-new-website/community/deep-bit-pm/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-bit-pm/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; February&lt;/p&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;The course is about understanding Deep Learning basic concepts and focus on combining them for solving more complex problems during the product development process.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Add syllabus, prerequisites, course team, enrollment info, etc.)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DeepFMI – Learning Deep Neural Networks</title>
+      <link>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; February – April&lt;/p&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;The course is about basic Deep Learning methods, current models and capabilities. It covers basic theoretical concepts about training neural networks, followed by applications in computer vision and natural language understanding, with an accent on the applied part, through labs, assignments and the final project.&lt;/p&gt;
+&lt;h2 id=&#34;syllabus&#34;&gt;Syllabus&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Deep Learning&lt;/li&gt;
+&lt;li&gt;Optimization&lt;/li&gt;
+&lt;li&gt;Computer Vision applications&lt;/li&gt;
+&lt;li&gt;Natural Language Processing applications&lt;/li&gt;
+&lt;li&gt;Labs and final project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;(Add more details, prerequisites, course team, enrollment info, etc.)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Reinforcement Learning @ ACS</title>
+      <link>https://andu199.github.io/bit-ml-new-website/community/deep-rl-acs/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-rl-acs/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; October – December&lt;/p&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;At the invitation of the Faculty of Automatic Control and Computer Science, Politehnica University of Bucharest we created and delivered an introduction to Deep Reinforcement Learning as part of the Advanced Methods in AI course within the AI Master&amp;rsquo;s Degree program.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Add syllabus, prerequisites, course team, materials, etc.)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DeepBit – Deep Learning for Bitdefender Engineers</title>
+      <link>https://andu199.github.io/bit-ml-new-website/community/deep-bit/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-bit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; May – July&lt;/p&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;The course is an introduction to up-to-date Deep Learning methods for Bitdefender engineers. It covers very basic theoretical concepts about training neural networks, followed by applications in computer vision and natural language understanding, with accent on building the final project, which was focused on the security field.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Add syllabus, prerequisites, course team, project details, etc.)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

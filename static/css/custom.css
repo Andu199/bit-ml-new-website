@@ -44,3 +44,60 @@
 .team-member-body p:last-child {
   margin-bottom: 0;
 }
+
+/* Community / Courses: no wrapper, img only (same as team). Fixed size so circle not ellipse. */
+.course-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.course-entry-img-link {
+  flex-shrink: 0;
+  display: block;
+}
+.course-entry .course-entry-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50% !important;
+  object-fit: cover;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.course-entry-body {
+  flex: 1;
+  min-width: 0;
+}
+.course-entry-title {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+}
+@media (min-width: 74.6875em) {
+  .course-entry-title {
+    font-size: 1.2rem;
+  }
+}
+.course-entry-period {
+  display: block;
+  margin-bottom: 0.5rem;
+  opacity: 0.85;
+}
+.course-entry-desc {
+  font-size: 0.833rem;
+  line-height: 1.48rem;
+}
+@media (min-width: 74.6875em) {
+  .course-entry-desc {
+    width: calc(100% - (72px + 1rem));
+  }
+}
+.course-entry-desc p:last-child {
+  margin-bottom: 0;
+}
+.course-entry-more {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.9rem;
+}
+.course-entry-more a {
+  text-decoration: none;
+}

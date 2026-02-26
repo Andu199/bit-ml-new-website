@@ -1,0 +1,41 @@
+{{- define "main" }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{- .Content }}
+</div>
+{{- end }}
+
+{{- $community := where (where site.RegularPages "Section" "news") "Params.type" "community" }}
+{{- $community = sort ($community | first 50) "Date" "desc" }}
+
+{{- if $community }}
+<h2 id="news">News</h2>
+{{- range $community }}
+<article class="post-entry community-entry">
+  <header class="entry-header">
+    <h3 class="entry-hint-parent">{{ .Title }}</h3>
+  </header>
+  {{- if (ne (.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  {{- if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+{{- end }}
+
+{{- end }}

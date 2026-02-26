@@ -1,0 +1,35 @@
+{{- $imgFile := .Get 0 -}}
+{{- $title := .Get 1 -}}
+{{- $period := .Get 2 -}}
+{{- $link := .Get 3 -}}
+{{- $external := and $link (hasPrefix $link "http") -}}
+{{- $href := $link -}}
+{{- if and $link (not $external) -}}
+  {{- $pagePath := strings.TrimPrefix "/" (strings.TrimSuffix "/" $link) -}}
+  {{- with site.GetPage $pagePath -}}
+    {{- $href = .Permalink -}}
+  {{- else -}}
+    {{- $href = $link | relURL -}}
+  {{- end -}}
+{{- end -}}
+{{- $src := "" -}}
+{{- with .Page.Resources.Get $imgFile -}}
+  {{- $src = .RelPermalink -}}
+{{- else -}}
+  {{- $src = (printf "img/courses/%s" $imgFile) | relURL -}}
+{{- end -}}
+<div class="course-entry">
+  {{- if $link }}<a href="{{ $href }}" {{ if $external }}target="_blank" rel="noopener"{{ end }} class="course-entry-img-link">{{ end }}
+  <img class="course-entry-img" src="{{ $src }}" alt="" loading="lazy">
+  {{- if $link }}</a>{{ end }}
+  <div class="course-entry-body">
+    <h4 class="course-entry-title">
+      {{- if $link }}<a href="{{ $href }}" {{ if $external }}target="_blank" rel="noopener"{{ end }}>{{ end }}
+      {{ $title }}
+      {{- if $link }}</a>{{ end }}
+    </h4>
+    {{- if $period }}<small class="course-entry-period">{{ $period }}</small>{{ end }}
+    <div class="course-entry-desc">{{ .Inner | markdownify }}</div>
+    {{- if $link }}<p class="course-entry-more"><a href="{{ $href }}" {{ if $external }}target="_blank" rel="noopener"{{ end }}>More &rarr;</a></p>{{ end }}
+  </div>
+</div>

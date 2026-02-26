@@ -64,17 +64,33 @@ cover:
 Optional abstract or note.
 ```
 
+**Community entry** (courses, teaching, outreach – also appears under **Community**):
+
+- Folder: `content/news/2025-03-01-new-course-deep-learning/`
+- File: `content/news/2025-03-01-new-course-deep-learning/index.md`
+
+```yaml
+---
+title: "New course: Deep Learning @ FMI"
+date: 2025-03-01
+type: community
+draft: false
+---
+Optional short summary. Enrollments open in March.
+```
+
 The site will show:
 
 - **News**: all items from `content/news/` (all types).
 - **Academic**: “Greatest achievements” (edited in `content/academic/_index.md`) + entries with `type: academic` in the format *Authors. Title. Accepted at Venue (Oral/Spotlight/Poster, top X%)*, with optional image.
+- **Community**: static “Courses” content (in `content/community/_index.md`) + entries with `type: community` (e.g. new course announcements).
 - **Blog**: only items with `type: blog`.
 
 ## Editing other pages
 
 - **Research directions (R3)**: edit `content/research/_index.md`
 - **Academic – greatest achievements**: edit the first part of `content/academic/_index.md`
-- **Community (R6)**: edit `content/community/_index.md`
+- **Community (R6)**: edit `content/community/_index.md` for the static Courses section; add news items with `type: community` in `content/news/` for course announcements etc.
 - **Team (R7)**: edit `content/team/_index.md`
 
 ## Home page image

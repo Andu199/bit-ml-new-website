@@ -19,6 +19,14 @@
 &lt;p&gt;Good datasets are essential for developing and benchmarking any machine learning system. Their importance is even more extreme for safety critical applications such as deepfake detection—the focus of this paper. Here we reveal that two of the most widely used audio-video deepfake datasets suffer from a previously unidentified spurious feature: the leading silence. Fake videos start with a very brief moment of silence and, on the basis of this feature alone, we can separate the real and fake samples almost perfectly. As such, previous audio-only and audio-video models exploit the presence of silence in the fake videos and consequently perform worse when the leading silence is removed. To circumvent latching on such an unwanted artifact and possibly other unrevealed ones, we propose a shift from supervised to unsupervised learning by training models exclusively on real data. We show that by aligning self-supervised audio-video representations we remove the risk of relying on dataset-specific biases and improve robustness in deepfake detection.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>New course: Deep Learning @ FMI – enrollments open</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2025-03-01-sample-community-news/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-03-01-sample-community-news/</guid>
+      <description>&lt;p&gt;We are opening enrollments for the upcoming &lt;strong&gt;Deep Learning&lt;/strong&gt; course at the Faculty of Mathematics and Computer Science, University of Bucharest. The course runs from March to April 2025 and covers basic deep learning methods, with labs and a final project.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/enroll&#34;&gt;Enroll here&lt;/a&gt; · &lt;a href=&#34;https://example.com/syllabus&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Welcome to our new website</title>
       <link>https://andu199.github.io/bit-ml-new-website/news/sample-general-news/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
