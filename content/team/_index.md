@@ -5,9 +5,9 @@ title: "Team"
 ## Machine Learning team
 
 {{< teammember "Elena Burceanu" "elena_burceanu.webp" >}}
-I recently defended my PhD thesis in Computer Vision, on *Efficiently Exploiting Space-Time Consensus for Object Segmentation and Tracking in Video*, at University of Bucharest, under Marius Leordeanu and Gheorghe Ștefănescu supervision. My current research interest is in Generalization problems under Distribution Shifts, with a focus on the anomaly detection task.
+I am a Research Scientist working on robust machine learning, with a current focus on out of distribution generalization: understanding and mitigating distribution shifts, spurious correlations, and shortcut features that hurt reliability in real settings. Recently, I have been increasingly interested in mechanistic interpretability as a way to diagnose why models latch onto spurious cues and to design interventions that improve generalization. I was an Associate Program Chair at NeurIPS 2025 and I am the Local Chair for CoLLAs 2026, Bucharest.
 
-[email](mailto:eburceanu@bitdefender.com) · [GitHub](https://github.com/ilarele) · [Twitter](https://twitter.com/ilarele) · [website](https://ilarele.github.io/)
+[email](mailto:eburceanu@bitdefender.com) · [GitHub](https://github.com/ilarele) · [Twitter](https://twitter.com/ilarele) · [LinkedIn](https://www.linkedin.com/in/elena-burceanu-97016539/) · [website](https://ilarele.github.io/)
 {{< /teammember >}}
 
 {{< teammember "Florin Brad" "florin_brad.webp" >}}
@@ -25,7 +25,7 @@ I am a Ph.D. student at the IMPRS-IS and ELLIS, under the co-supervision of Math
 {{< teammember "Marius Drăgoi" "marius_dragoi.webp" >}}
 I earned my Bachelor's degree in Computer Science and Master's degree in Artificial Intelligence from Politehnica University of Bucharest. My earlier research focused on anomaly detection in scenarios involving distribution shifts. Currently, I am working on Large Language Models, with an emphasis on enhancing their reasoning capabilities.
 
-[email](mailto:mdragoi@bitdefender.com) · [GitHub](https://github.com/marviss) · [Twitter](https://twitter.com/dmarviss)
+[email](mailto:mdragoi@bitdefender.com) · [GitHub](https://github.com/marviss) · [Twitter](https://twitter.com/dmarviss) · [LinkedIn](https://www.linkedin.com/in/marius-ninel-catalin-dragoi-14a8b9133/)
 {{< /teammember >}}
 
 {{< teammember "Florin Gogianu" "florin_gogianu.webp" >}}
@@ -35,9 +35,9 @@ Currently pursuing a PhD in Reinforcement Learning under the supervision of Prof
 {{< /teammember >}}
 
 {{< teammember "Ștefan Smeu" "stefan_smeu.webp" >}}
-I studied Mathematics and Computer Science at University of Bucharest, where I got my bachelor's degree and am currently pursuing its Artificial Intelligence Master degree program. I am interested in the unsupervised representation learning branch of deep learning. Nowadays I research the problem of distributional shift and anomaly detection, mainly on visual data.
+I obtained my Master’s degree in Artificial Intelligence from the University of Bucharest. I am interested in self-supervised methods on audio-visual representation learning and currently conduct research on multimodal deepfake detection across audio and visual modalities.
 
-[email](mailto:ssmeu@bitdefender.com) · [GitHub](https://github.com/MrNiceGuy090) · [Twitter](https://twitter.com/SmeuStefan)
+[email](mailto:ssmeu@bitdefender.com) · [GitHub](https://github.com/MrNiceGuy090) · [Twitter](https://twitter.com/SmeuStefan) · [LinkedIn](https://www.linkedin.com/in/stefan-smeu/) · [website](https://scholar.google.com/citations?user=Y3KWk-UAAAAJ&hl=en&oi=ao)
 {{< /teammember >}}
 
 {{< teammember "Elisabeta Oneață" "elisabeta_oneata.webp" >}}
@@ -59,7 +59,7 @@ I am an Artificial Intelligence master's student at the University of Bucharest,
 {{< /teammember >}}
 
 {{< teammember "Cristian Păduraru" "cristi_paduraru.webp" >}}
-I earned my Bachelor's degree in Computer Science from the University of Bucharest, where I am currently pursuing a Master's program in Artificial Intelligence. My interests include bias identification and correction, as well as model interpretability.
+I earned a Bachelor's degree in Computer Science and Master's degree in AI from the University of Bucharest. My research interests include bias identification and correction, interpretability, as well as representation learning.
 
 [email](mailto:cpaduraru@bitdefender.com)
 {{< /teammember >}}
@@ -71,9 +71,9 @@ Currently pursuing a PhD focused on weakly-supervised and self-supervised learni
 {{< /teammember >}}
 
 {{< teammember "Dragoș (Andu) Boldișor" "andu_boldisor.webp" >}}
-I am currently studying for my Master's Degree in Artificial Intelligence at University Politehnica of Bucharest. I am presently researching approaches to deepfake detection.
+I am currently pursuing a PhD focused on robust and interpretable methods for audio-visual deepfake detection at the University Politehnica of Bucharest. I am presently researching approaches to deepfake detection.
 
-[email](mailto:dboldisor@bitdefender.com) · [GitHub](https://github.com/anduboldisor)
+[email](mailto:dboldisor@bitdefender.com) · [GitHub](https://github.com/anduboldisor) · [LinkedIn](https://www.linkedin.com/in/drago%C8%99-alexandru-boldi%C8%99or-8a08b4107/)
 {{< /teammember >}}
 
 ## Collaborators

@@ -45,6 +45,34 @@
   margin-bottom: 0;
 }
 
+/* Research page: card-style blocks with clear topic and team line */
+.research-directions {
+  margin-top: 1.5rem;
+}
+.research-directions h2 {
+  font-size: 1.15rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border, rgba(255, 255, 255, 0.12));
+  color: var(--primary, #fff);
+}
+.research-directions h2:first-child {
+  margin-top: 0;
+}
+.research-directions h2 + p {
+  margin-bottom: 0.5rem;
+  line-height: 1.65;
+}
+/* Team / contributors line (second paragraph after each h2) */
+.research-directions h2 + p + p {
+  font-size: 0.85rem;
+  font-style: italic;
+  opacity: 0.88;
+  margin-bottom: 0;
+  margin-top: 0.25rem;
+}
+
 /* Community / Courses: grid of cards, description on course page only */
 .course-entries-grid {
   display: grid;
