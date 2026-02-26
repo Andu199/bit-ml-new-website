@@ -1,0 +1,58 @@
+{{- define "main" }}
+<article class="post-single poster-gallery-page">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+  </header>
+
+  <div class="poster-gallery-grid">
+    {{- $images := .Resources.ByType "image" }}
+    {{- range $images }}
+    {{- $thumb := .Fill "400x560 smart" }}
+    <figure class="poster-gallery-item">
+      <a href="{{ .RelPermalink }}" class="poster-gallery-link poster-lightbox-trigger" data-fullimg="{{ .RelPermalink }}" aria-label="View larger">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" loading="lazy" class="poster-gallery-img">
+      </a>
+    </figure>
+    {{- end }}
+    {{- if not $images }}
+    <p class="poster-gallery-empty">No posters in this gallery yet.</p>
+    {{- end }}
+  </div>
+
+  <div id="poster-lightbox" class="poster-lightbox" role="dialog" aria-modal="true" aria-label="Poster view" hidden>
+    <button type="button" class="poster-lightbox-close" aria-label="Close">&times;</button>
+    <div class="poster-lightbox-backdrop"></div>
+    <div class="poster-lightbox-content">
+      <img src="" alt="" class="poster-lightbox-img">
+      <a href="" target="_blank" rel="noopener" class="poster-lightbox-dl">Open full size</a>
+    </div>
+  </div>
+
+  <script>
+  (function() {
+    var lb = document.getElementById('poster-lightbox');
+    if (!lb) return;
+    var img = lb.querySelector('.poster-lightbox-img');
+    var dl = lb.querySelector('.poster-lightbox-dl');
+    var close = function() { lb.hidden = true; document.body.style.overflow = ''; };
+    lb.querySelector('.poster-lightbox-close').onclick = close;
+    lb.querySelector('.poster-lightbox-backdrop').onclick = close;
+    document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close(); });
+    document.querySelectorAll('.poster-lightbox-trigger').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        e.preventDefault();
+        var src = a.getAttribute('data-fullimg');
+        if (src) {
+          img.src = src;
+          img.alt = a.querySelector('img').alt || 'Poster';
+          dl.href = src;
+          lb.hidden = false;
+          document.body.style.overflow = 'hidden';
+        }
+      });
+    });
+  })();
+  </script>
+</article>
+{{- end }}

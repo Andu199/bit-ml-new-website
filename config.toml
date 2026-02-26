@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Bitdefender Machine Learning Team"
 theme = "PaperMod"
 
+# Allow raw HTML in markdown (e.g. <div class="course-entries-grid"> on community page)
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   description = "Engaging with the broader Machine Learning Community."
   defaultTheme = "dark"

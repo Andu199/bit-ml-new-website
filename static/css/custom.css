@@ -45,59 +45,168 @@
   margin-bottom: 0;
 }
 
-/* Community / Courses: no wrapper, img only (same as team). Fixed size so circle not ellipse. */
-.course-entry {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
+/* Community / Courses: grid of cards, description on course page only */
+.course-entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.course-entry-img-link {
-  flex-shrink: 0;
-  display: block;
-}
-.course-entry .course-entry-img {
-  width: 72px;
-  height: 72px;
-  border-radius: 50% !important;
-  object-fit: cover;
-  flex-shrink: 0;
-  overflow: hidden;
-}
-.course-entry-body {
-  flex: 1;
-  min-width: 0;
-}
-.course-entry-title {
-  margin: 0 0 0.25rem 0;
-  font-size: 1rem;
-}
-@media (min-width: 74.6875em) {
-  .course-entry-title {
-    font-size: 1.2rem;
+@media (min-width: 768px) {
+  .course-entries-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-.course-entry-period {
-  display: block;
-  margin-bottom: 0.5rem;
-  opacity: 0.85;
-}
-.course-entry-desc {
-  font-size: 0.833rem;
-  line-height: 1.48rem;
-}
-@media (min-width: 74.6875em) {
-  .course-entry-desc {
-    width: calc(100% - (72px + 1rem));
-  }
-}
-.course-entry-desc p:last-child {
+.course-entries-grid .course-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin-bottom: 0;
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--entry, #2e2e33);
 }
-.course-entry-more {
-  margin: 0.5rem 0 0 0;
+.course-entries-grid .course-entry-img-link {
+  margin-bottom: 0.75rem;
+}
+.course-entries-grid .course-entry .course-entry-img {
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  min-height: 80px;
+  align-self: center;
+}
+.course-entries-grid .course-entry-body {
+  width: 100%;
+}
+.course-entries-grid .course-entry-title {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+.course-entries-grid .course-entry-title a {
+  text-decoration: none;
+}
+.course-entries-grid .course-entry-period {
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+.course-entries-grid .course-entry-more {
+  margin: 0;
   font-size: 0.9rem;
 }
-.course-entry-more a {
+.course-entries-grid .course-entry-more a {
   text-decoration: none;
+}
+
+/* Poster gallery: posters only, full-width grid */
+.poster-gallery-page .poster-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.poster-gallery-page .poster-gallery-item {
+  margin: 0;
+  background: var(--entry, #2e2e33);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.poster-gallery-page .poster-gallery-link {
+  display: block;
+  line-height: 0;
+}
+.poster-gallery-page .poster-gallery-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.poster-gallery-page .poster-gallery-item figcaption {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.poster-gallery-page .poster-gallery-empty {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+  grid-column: 1 / -1;
+}
+
+/* Poster lightbox: click thumbnail to view larger (like bit-ml.github.io/teaching/deep-bit-2019) */
+.poster-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.poster-lightbox[hidden] {
+  display: none !important;
+}
+.poster-lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+}
+.poster-lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10001;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 50%;
+  background: var(--entry, #2e2e33);
+  color: var(--primary, #fff);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.poster-lightbox-close:hover {
+  background: var(--tertiary, #4a4a4f);
+}
+.poster-lightbox-content {
+  position: relative;
+  z-index: 10000;
+  max-width: 95vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+.poster-lightbox-img {
+  max-width: 100%;
+  max-height: calc(90vh - 3rem);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+.poster-lightbox-dl {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--primary, #fff);
+  opacity: 0.9;
+}
+.poster-lightbox-dl:hover {
+  text-decoration: underline;
+}
+.poster-gallery-page .poster-gallery-link {
+  cursor: pointer;
 }
