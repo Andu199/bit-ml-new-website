@@ -1,6 +1,7 @@
 ---
 title: "Deep Reinforcement Learning @ ACS"
 date: 2019-10-01
+hideMeta: true
 ---
 
 **Period:** October – December

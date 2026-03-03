@@ -3,7 +3,7 @@ title: "Circumventing shortcuts in audio-visual deepfake detection datasets with
 date: 2025-06-15
 type: academic
 draft: false
-authors: "S. Smeu, D.A. Boldisor, D. Oneata, E. Oneata"
+authors: "Stefan Smeu, Dragos-Alexandru Boldisor, Dan Oneata, Elisabeta Oneata"
 venue: "CVPR 2025"
 presentation: "Highlight paper"
 top_percent: 3

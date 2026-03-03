@@ -16,7 +16,8 @@
 {{- $community := where (where site.RegularPages "Section" "news") "Params.type" "community" }}
 {{- $community = sort ($community | first 50) "Date" "desc" }}
 
-{{- if $community }}
+{{- /* Only show news on the main community index, not on subsections (e.g. deep-fmi) */ -}}
+{{- if and $community (eq .CurrentSection .FirstSection) }}
 <h2 id="news">News</h2>
 {{- range $community }}
 <article class="post-entry community-entry">

@@ -1,6 +1,7 @@
 ---
 title: "DeepBit – Deep Learning for Bitdefender Engineers"
 date: 2019-05-01
+hideMeta: true
 ---
 
 **Period:** May – July
