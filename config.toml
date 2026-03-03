@@ -9,7 +9,7 @@ theme = "PaperMod"
 
 [params]
   description = "Engaging with the broader Machine Learning Community."
-  defaultTheme = "dark"
+  defaultTheme = "light"
 
   # Home page: image, title, short text, and links (R1)
   [params.profileMode]
