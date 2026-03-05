@@ -5,7 +5,7 @@ type: academic
 draft: false
 authors: "Stefan Smeu, Dragos-Alexandru Boldisor, Dan Oneata, Elisabeta Oneata"
 venue: "CVPR 2025"
-presentation: "Highlight paper"
+presentation: "Highlight"
 top_percent: 3
 ---
 

@@ -164,6 +164,97 @@
 </article>
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Investigating self-supervised representations for audio-visual deepfake detection
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Links: arXiv
+Abstract Self-supervised representations excel at many vision and speech tasks, but their potential for audio-visual deepfake detection remains underexplored. Unlike prior work that uses these features in isolation or buried within complex architectures, we systematically evaluate them across modalities (audio, video, multimodal) and domains (lip movements, generic visual content). We assess three key dimensions: detection effectiveness, interpretability of encoded information, and cross-modal complementarity. We find that most self-supervised features capture deepfake-relevant information, and that this information is complementary. Moreover, models primarily attend to semantically meaningful regions rather than spurious artifacts. Yet none generalize reliably across datasets. This generalization failure likely stems from dataset characteristics, not from the features themselves latching onto superficial patterns. These results expose both the promise and fundamental challenges of self-supervised representations for deepfake detection: while they learn meaningful patterns, achieving robust cross-domain performance remains elusive.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-02-21 00:00:00 +0000 UTC'>February 21, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Investigating self-supervised representations for audio-visual deepfake detection" href="https://andu199.github.io/bit-ml-new-website/news/2026-06-06-investigating-self-supervised-av-deepfake/"></a>
+</article>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Links: arXiv GitHub
+Abstract Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-art preference optimization algorithms to boost MT performance. We introduce a novel curriculum learning strategy with restarts (CLewR), which reiterates easy-to-hard curriculum multiple times during training to effectively mitigate the catastrophic forgetting of easy examples. We demonstrate consistent gains across several model families (Gemma2, Qwen2.5, Llama3.1) and preference optimization techniques.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-01-09 00:00:00 +0000 UTC'>January 9, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning" href="https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/"></a>
+</article>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C-ing Clearly: Enhanced Binary Code Explanations using C code
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Links: arXiv
+Abstract Large Language Models (LLMs) typically excel at coding tasks involving high-level programming languages, as opposed to lower-level programming languages, such as assembly. We propose a synthetic data generation method named C-ing Clearly, which leverages the corresponding C code to enhance an LLM’s understanding of assembly. By fine-tuning on data generated through our method, we demonstrate improved LLM performance for binary code summarization and vulnerability detection. Our approach demonstrates consistent gains across different LLM families and model sizes.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-16 00:00:00 +0000 UTC'>December 16, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to C-ing Clearly: Enhanced Binary Code Explanations using C code" href="https://andu199.github.io/bit-ml-new-website/news/2025-12-16-c-ing-clearly/"></a>
+</article>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Beyond Pass@k: Breadth-Depth Metrics for Reasoning Boundaries
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Links: arXiv
+Abstract Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a powerful paradigm to improve Large Language Models on reasoning tasks such as coding, math or logic. To assess the reasoning boundary (the fraction of problems a model can solve) researchers often report Pass@k at large sampling budgets. Recent results reveal a crossover phenomenon: while RLVR models outperform the base model at small k values, the base model usually outperforms them when sampling a very large number of completions. This has been interpreted as evidence that base models have a larger reasoning boundary. We argue that on tasks with discrete answer spaces, such as math with numeric outputs, Pass@k at large k reflects the increasingly higher chance of success in the limit of the number of trials rather than genuine reasoning, and can therefore be misleading. We propose Cover@tau, which measures the fraction of problems that a model can solve for which at least a tau proportion of completions are correct. Unlike Pass@k, Cover@tau captures reasoning under an explicit reliability threshold: models that rely on random guessing degrade rapidly as tau increases. We evaluate several RLVR models using Cover@tau-based metrics and illustrate how the relative rankings of popular algorithms change compared to Pass@1, offering a different perspective on reasoning boundaries.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to Beyond Pass@k: Breadth-Depth Metrics for Reasoning Boundaries" href="https://andu199.github.io/bit-ml-new-website/news/2025-12-06-beyond-pass-k/"></a>
+</article>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ChronoGraph: A Real-World Graph-Based Multivariate Time Series Dataset
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Links: arXiv GitHub
+Abstract We present ChronoGraph, a graph-structured multivariate time series forecasting dataset built from real-world production microservices. Each node is a service that emits a multivariate stream of system-level performance metrics, capturing CPU, memory, and network usage patterns, while directed edges encode dependencies between services. The primary task is forecasting future values of these signals at the service level. In addition, ChronoGraph provides expert-annotated incident windows as anomaly labels, enabling evaluation of anomaly detection methods and assessment of forecast robustness during operational disruptions. Compared to existing benchmarks from industrial control systems or traffic and air-quality domains, ChronoGraph uniquely combines (i) multivariate time series, (ii) an explicit, machine-readable dependency graph, and (iii) anomaly labels aligned with real incidents. We report baseline results spanning forecasting models, pretrained time-series foundation models, and standard anomaly detectors. ChronoGraph offers a realistic benchmark for studying structure-aware forecasting and incident-aware evaluation in microservice systems.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to ChronoGraph: A Real-World Graph-Based Multivariate Time Series Dataset" href="https://andu199.github.io/bit-ml-new-website/news/2025-12-06-chronograph/"></a>
+</article>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Not All Splits Are Equal: Rethinking Attribute Generalization Across Unrelated Categories
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Links: arXiv GitHub
+Abstract Can models generalize attribute knowledge across semantically and perceptually dissimilar categories? While prior work has addressed attribute prediction within narrow taxonomic or visually similar domains, it remains unclear whether current models can abstract attributes and apply them to conceptually distant categories. This work presents the first explicit evaluation for the robustness of the attribute prediction task under such conditions, testing whether models can correctly infer shared attributes between unrelated object types: e.g., identifying that the attribute “has four legs” is common to both “dogs” and “chairs”. To enable this evaluation, we introduce train-test split strategies that progressively reduce correlation between training and test sets, based on: LLM-driven semantic grouping, embedding similarity thresholding, embedding-based clustering, and supercategory-based partitioning using ground-truth labels. Results show a sharp drop in performance as the correlation between training and test categories decreases, indicating strong sensitivity to split design. Among the evaluated methods, clustering yields the most effective trade-off, reducing hidden correlations while preserving learnability. These findings offer new insights into the limitations of current representations and inform future benchmark construction for attribute reasoning.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to Not All Splits Are Equal: Rethinking Attribute Generalization Across Unrelated Categories" href="https://andu199.github.io/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/"></a>
+</article>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Rethinking Sparse Autoencoders: Select-and-Project for Fairness and Control from Encoder Features Alone
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Links: arXiv
+Abstract Sparse Autoencoders (SAEs) have proven valuable due to their ability to provide interpretable and steerable representations. Current debiasing methods based on SAEs manipulate these sparse activations presuming that feature representations are housed within decoder weights. We challenge this fundamental assumption and introduce an encoder-focused alternative for representation debiasing, contributing three key findings: (i) we highlight an unconventional SAE feature selection strategy, (ii) we propose a novel SAE debiasing methodology that orthogonalizes input embeddings against encoder weights, and (iii) we establish a performance-preserving mechanism during debiasing through encoder weight interpolation. Our Selection and Projection framework, termed S&amp;P TopK, surpasses conventional SAE usage in fairness metrics by a factor of up to 3.2 and advances state-of-the-art test-time VLM debiasing results by a factor of up to 1.8 while maintaining downstream performance.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-06 00:00:00 +0000 UTC'>December 6, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to Rethinking Sparse Autoencoders: Select-and-Project for Fairness and Control from Encoder Features Alone" href="https://andu199.github.io/bit-ml-new-website/news/2025-12-06-rethinking-sparse-autoencoders/"></a>
+</article>
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Learning (Approximately) Equivariant Networks via Constrained Optimization
     </h2>
   </header>
@@ -175,19 +266,12 @@ Abstract Equivariant neural networks are designed to respect symmetries through 
   <footer class="entry-footer"><span title='2025-12-02 00:00:00 +0000 UTC'>December 2, 2025</span></footer>
   <a class="entry-link" aria-label="post link to Learning (Approximately) Equivariant Networks via Constrained Optimization" href="https://andu199.github.io/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/"></a>
 </article>
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Circumventing shortcuts in audio-visual deepfake detection datasets with unsupervised learning
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Links: arXiv · GitHub
-Abstract Good datasets are essential for developing and benchmarking any machine learning system. Their importance is even more extreme for safety critical applications such as deepfake detection—the focus of this paper. Here we reveal that two of the most widely used audio-video deepfake datasets suffer from a previously unidentified spurious feature: the leading silence. Fake videos start with a very brief moment of silence and, on the basis of this feature alone, we can separate the real and fake samples almost perfectly. As such, previous audio-only and audio-video models exploit the presence of silence in the fake videos and consequently perform worse when the leading silence is removed. To circumvent latching on such an unwanted artifact and possibly other unrevealed ones, we propose a shift from supervised to unsupervised learning by training models exclusively on real data. We show that by aligning self-supervised audio-video representations we remove the risk of relying on dataset-specific biases and improve robustness in deepfake detection.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-15 00:00:00 +0000 UTC'>June 15, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to Circumventing shortcuts in audio-visual deepfake detection datasets with unsupervised learning" href="https://andu199.github.io/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://andu199.github.io/bit-ml-new-website/news/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

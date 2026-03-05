@@ -26,8 +26,15 @@
   {{- end }}
   <div class="academic-citation">
     <strong>{{ .Params.authors | default "Authors" }}.</strong>
-    {{ .Title }}.
-    Accepted at <em>{{ .Params.venue | default "Venue" }}</em>{{ $p := .Params.presentation }}{{ $t := .Params.top_percent }}{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
+    {{ .Title }}.{{ " " }}
+    {{- $v := .Params.venue | default "Venue" -}}
+    {{- $p := .Params.presentation -}}
+    {{- $t := .Params.top_percent -}}
+    {{- if hasPrefix (lower $v) "under review" -}}
+    <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
+    {{- else -}}
+    Accepted at <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
+    {{- end }}
   </div>
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
