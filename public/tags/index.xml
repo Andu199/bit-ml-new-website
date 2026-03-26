@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Bitdefender AI Research</title>
-    <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/</link>
+    <link>https://andu199.github.io/bit-ml-new-website/tags/</link>
     <description>Recent content in Tags on Bitdefender AI Research</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andu199.github.io/bit-ml-new-website/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Explainability</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/explainability/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/tags/explainability/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/explainability/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/tags/explainability/</guid>
       <description></description>
     </item>
     <item>
       <title>Foundation Models</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/foundation-models/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/tags/foundation-models/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/foundation-models/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/tags/foundation-models/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/machine-learning/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/tags/machine-learning/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/machine-learning/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Mechanistic Interpretability</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/mechanistic-interpretability/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/tags/mechanistic-interpretability/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/mechanistic-interpretability/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/tags/mechanistic-interpretability/</guid>
       <description></description>
     </item>
     <item>
       <title>Model Reliability</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/model-reliability/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/tags/model-reliability/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/model-reliability/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/tags/model-reliability/</guid>
       <description></description>
     </item>
     <item>
       <title>Spurious Correlations</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/spurious-correlations/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/tags/spurious-correlations/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/spurious-correlations/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/tags/spurious-correlations/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Bitdefender AI Research</title>
-    <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/</link>
+    <link>https://andu199.github.io/bit-ml-new-website/blog/</link>
     <description>Recent content in Blog on Bitdefender AI Research</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andu199.github.io/bit-ml-new-website/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BEE Aware of Spuriousness: Mechanistic Interpretability for Fine Tuning Foundation Models</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</guid>
       <description>BEE reveals spurious correlations learned during fine tuning by analyzing classifier weight drift and embedding geometry. A mechanistic interpretability view of why shortcuts form, plus visual evidence from ImageNet and beyond.</description>
     </item>
     <item>
       <title>Homomorphic Encryption: a Toy Implementation in Python</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/homomorphic-encryption-toy-implementation-in-python/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/blog/homomorphic-encryption-toy-implementation-in-python/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/homomorphic-encryption-toy-implementation-in-python/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/blog/homomorphic-encryption-toy-implementation-in-python/</guid>
       <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 fLueSc&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;November 16, 2020&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;Homomorphic Encryption: a Toy Implementation in Python&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;
 We made this blog post as self-contained as possible, even though it was
@@ -41,26 +41,26 @@ post as well since it may be of interest to anyone using the [FV12] scheme in
     </item>
     <item>
       <title>Large Language Models for Malware Analysis</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/large-language-models-for-malware-analysis/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/blog/large-language-models-for-malware-analysis/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/large-language-models-for-malware-analysis/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/blog/large-language-models-for-malware-analysis/</guid>
       <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 cimTyS&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;January 12, 2024&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;Large Language Models for Malware Analysis&lt;/h1&gt;
 &lt;p&gt;Large Language Models (LLMs) took the world by storm in 2023, revolutionizing the way people search and generate text content. LLMs for code have also made inroads in helping people understand code or write code based on requests in natural language. For instance, translating requests to &lt;a href=&#34;https://yale-lily.github.io/spider&#34;&gt;SQL queries&lt;/a&gt; has rapidly advanced since the advent of GPT4.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Private Set Intersection from Homomorphic Encryption: A Python Implementation</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/private-set-intersection-an-implementation-in-python/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/blog/private-set-intersection-an-implementation-in-python/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/private-set-intersection-an-implementation-in-python/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/blog/private-set-intersection-an-implementation-in-python/</guid>
       <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 jGgUca&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;May 21, 2021&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;Private Set Intersection from Homomorphic Encryption: A Python Implementation&lt;/h1&gt;
 &lt;p&gt;Check out our &lt;strong&gt;Private Set Intersection (PSI)&lt;/strong&gt; implementation in Python &lt;a href=&#34;https://github.com/bit-ml/Private-Set-Intersection&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;In this blog post, we will first motivate our interest in &lt;strong&gt;PSI&lt;/strong&gt;, by providing a list of applications: password checkup, private contact discovery for Whatsapp or Signal, measuring ads efficiency privately or DNA pattern matching. Secondly, we will show how to build a &lt;strong&gt;PSI&lt;/strong&gt; protocol using a &lt;strong&gt;HE&lt;/strong&gt; encryption scheme. Thirdly, we will describe our Python implementation of a specific &lt;strong&gt;PSI&lt;/strong&gt; protocol.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The BGV fully homomorphic encryption scheme</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</guid>
       <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 dZuuIH&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;June 29, 2023&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;The BGV fully homomorphic encryption scheme&lt;/h1&gt;
 &lt;p&gt;This is a sister blogpost to the &lt;a href=&#34;https://bit-ml.github.io/blog/post/homomorphic-encryption-toy-implementation-in-python/&#34;&gt;previous one about a similar scheme (BFV)&lt;/a&gt; and it&#39;s part of the series that covers fully homomorphic encryption techniques and applications.&lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
@@ -69,17 +69,17 @@ post as well since it may be of interest to anyone using the [FV12] scheme in
     </item>
     <item>
       <title>Towards Fused Kernels for Gated MLP</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/fused-swiglu-kernel/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/blog/fused-swiglu-kernel/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/fused-swiglu-kernel/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/blog/fused-swiglu-kernel/</guid>
       <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 fXfQZS&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;February 05, 2025&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;Towards Fused Kernels for Gated MLP&lt;/h1&gt;
 &lt;p&gt;The decoder block of a Transformer is the basic unit of all modern LLMs. Most of the compute used for it is spent on self-attention and the MLP, with self-attention in special being problematic on long sequences due to its quadratic compute and memory requirements. It is not surprising therefore that there&#39;s been a lot of progress towards increasing the performance of self-attention, such as FlashAttention [&lt;a href=&#34;#fa&#34;&gt;1&lt;/a&gt;], or algorithms and models that approximate full attention, like Window Attention [&lt;a href=&#34;#wa&#34;&gt;2&lt;/a&gt;], or State-Space Models [&lt;a href=&#34;#mam&#34;&gt;3&lt;/a&gt;, &lt;a href=&#34;#lru&#34;&gt;4&lt;/a&gt;, &lt;a href=&#34;#mam2&#34;&gt;5&lt;/a&gt;]. While efficient kernels for MLPs do exist, from what we could find they seem to be either tailored to very specific setups, or only partially solve some of the issues of MLPs, such as fusing the gating operation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🕹️ Pretrained Atari Agents</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/pretrained-atari-agents/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/blog/pretrained-atari-agents/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/pretrained-atari-agents/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/blog/pretrained-atari-agents/</guid>
       <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 hAChiG&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;May 05, 2022&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;🕹️ Pretrained Atari Agents&lt;/h1&gt;
 &lt;p&gt;Releasing trained models in computer vision and natural language processing has been a major source of progress for the research in these fields and a significant catalyst for the adaption of deep learning models in the industry. By comparison, RL agents pretrained on otherwise resource and time intensive benchmarks such as Arcade Learning Environment are rather hard to come by.&lt;/p&gt;</description>
     </item>

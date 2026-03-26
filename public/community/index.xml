@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Community Engagement on Bitdefender AI Research</title>
-    <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/</link>
+    <link>https://andu199.github.io/bit-ml-new-website/community/</link>
     <description>Recent content in Community Engagement on Bitdefender AI Research</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andu199.github.io/bit-ml-new-website/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Reinforcement Learning @ ACS</title>
-      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-rl-acs/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/community/deep-rl-acs/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-rl-acs/</guid>
+      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-rl-acs/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; October – December&lt;/p&gt;
 &lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 &lt;p&gt;At the invitation of the Faculty of Automatic Control and Computer Science, Politehnica University of Bucharest we created and delivered an introduction to Deep Reinforcement Learning as part of the Advanced Methods in AI course within the AI Master&amp;rsquo;s Degree program.&lt;/p&gt;</description>
