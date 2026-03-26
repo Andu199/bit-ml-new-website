@@ -13,27 +13,12 @@
 </div>
 {{- end }}
 
-{{- $blog := where (where site.RegularPages "Section" "news") "Params.type" "blog" }}
+{{- $blog := where site.RegularPages "Section" "blog" }}
 {{- $blog = sort $blog "Date" "desc" }}
 {{- $paginator := .Paginate $blog 10 }}
 
 {{- range $paginator.Pages }}
-<article class="post-entry">
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">{{ .Title }}</h2>
-  </header>
-  {{- if (ne (.Param "hideSummary") true) }}
-  <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-  </div>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . }}
-  </footer>
-  {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-</article>
+  {{- partial "list_entry.html" . }}
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}

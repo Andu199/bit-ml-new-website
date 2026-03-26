@@ -2,6 +2,7 @@
 title: "MolMix: A Simple Yet Effective Baseline for Multimodal Molecular Representation Learning"
 date: 2024-12-15
 type: academic
+research_direction: nlp
 draft: false
 authors: "A. Manolache, D. Tantaru, M. Niepert"
 venue: "NeurIPS 2024 Workshop on Machine Learning for Structural Biology"

@@ -2,6 +2,7 @@
 title: "Learning (Approximately) Equivariant Networks via Constrained Optimization"
 date: 2025-12-02
 type: academic
+research_direction: rl
 draft: false
 authors: "Andrei Manolache, Luiz F.O. Chamon, Mathias Niepert"
 venue: "NeurIPS 2025"

@@ -2,6 +2,7 @@
 title: "Investigating self-supervised representations for audio-visual deepfake detection"
 date: 2026-02-21
 type: academic
+research_direction: deepfake
 draft: false
 authors: "Dragos-Alexandru Boldisor, Stefan Smeu, Dan Oneata, Elisabeta Oneata"
 venue: "CVPR 2026"

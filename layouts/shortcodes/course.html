@@ -2,6 +2,7 @@
 {{- $title := .Get 1 -}}
 {{- $period := .Get 2 -}}
 {{- $link := .Get 3 -}}
+{{- $contact := .Get 4 -}}
 {{- $external := and $link (hasPrefix $link "http") -}}
 {{- $href := $link -}}
 {{- if and $link (not $external) -}}
@@ -28,7 +29,8 @@
       {{ $title }}
       {{- if $link }}</a>{{ end }}
     </h4>
-    {{- if $period }}<small class="course-entry-period">{{ $period }}</small>{{ end }}
+    {{- if $period }}<div class="course-entry-period">{{ $period }}</div>{{ end }}
+    {{- if $contact }}<div class="course-entry-contact">{{ $contact | markdownify }}</div>{{ end }}
     {{- if $link }}<p class="course-entry-more"><a href="{{ $href }}" {{ if $external }}target="_blank" rel="noopener"{{ end }}>More &rarr;</a></p>{{ end }}
     {{- /* Use .Inner so Hugo allows closing tag; hidden on main page (descriptions live on course pages) */ -}}
     {{- with .Inner }}<div class="course-entry-desc" style="display:none">{{ . | markdownify }}</div>{{ end -}}

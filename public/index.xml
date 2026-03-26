@@ -1,227 +1,301 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Bitdefender Machine Learning Team</title>
-    <link>https://andu199.github.io/bit-ml-new-website/</link>
-    <description>Recent content on Bitdefender Machine Learning Team</description>
+    <title>Bitdefender AI Research</title>
+    <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/</link>
+    <description>Recent content on Bitdefender AI Research</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://andu199.github.io/bit-ml-new-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System and method for detecting malicious software using machine learning</title>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-03-26-sample-patent/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-03-26-sample-patent/</guid>
+      <description>&lt;p&gt;A patent granted for a novel system and method for detecting malicious software using advanced machine learning techniques.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;#&#34;&gt;View Patent on Google Patents&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BEE Aware of Spuriousness: Mechanistic Interpretability for Fine Tuning Foundation Models</title>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</guid>
+      <description>BEE reveals spurious correlations learned during fine tuning by analyzing classifier weight drift and embedding geometry. A mechanistic interpretability view of why shortcuts form, plus visual evidence from ImageNet and beyond.</description>
+    </item>
     <item>
       <title>Deep Learning @ FMI – 2026 edition</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2026-02-23-deepfmi/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-02-23-deepfmi/</link>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2026-02-23-deepfmi/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-02-23-deepfmi/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;Deep Learning&lt;/strong&gt; course at the Faculty of Mathematics and Computer Science, University of Bucharest is running again in 2026. It is aimed at third-year students. The 2026 edition starts in the second semester of the 2025–2026 academic year on &lt;strong&gt;23 February 2026&lt;/strong&gt;, and covers basic deep learning methods, with labs and a final project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Investigating self-supervised representations for audio-visual deepfake detection</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2026-06-06-investigating-self-supervised-av-deepfake/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-06-06-investigating-self-supervised-av-deepfake/</link>
       <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2026-06-06-investigating-self-supervised-av-deepfake/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-06-06-investigating-self-supervised-av-deepfake/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2511.17181&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Overview of the method&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2026-06-06-investigating-self-supervised-av-deepfake/We-evaluate-a-wide-array-of-self-supervised-representations-for-audio-visual-deepfake-1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Overview of the method&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-06-06-investigating-self-supervised-av-deepfake/We-evaluate-a-wide-array-of-self-supervised-representations-for-audio-visual-deepfake-1.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Self-supervised representations excel at many vision and speech tasks, but their potential for audio-visual deepfake detection remains underexplored. Unlike prior work that uses these features in isolation or buried within complex architectures, we systematically evaluate them across modalities (audio, video, multimodal) and domains (lip movements, generic visual content). We assess three key dimensions: detection effectiveness, interpretability of encoded information, and cross-modal complementarity. We find that most self-supervised features capture deepfake-relevant information, and that this information is complementary. Moreover, models primarily attend to semantically meaningful regions rather than spurious artifacts. Yet none generalize reliably across datasets. This generalization failure likely stems from dataset characteristics, not from the features themselves latching onto superficial patterns. These results expose both the promise and fundamental challenges of self-supervised representations for deepfake detection: while they learn meaningful patterns, achieving robust cross-domain performance remains elusive.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-01-09-clewr-mt/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-01-09-clewr-mt/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2601.05858&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/alexandra-dragomir/CLewR&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2026-01-09-clewr-mt/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-art preference optimization algorithms to boost MT performance. We introduce a novel curriculum learning strategy with restarts (CLewR), which reiterates easy-to-hard curriculum multiple times during training to effectively mitigate the catastrophic forgetting of easy examples. We demonstrate consistent gains across several model families (Gemma2, Qwen2.5, Llama3.1) and preference optimization techniques.&lt;/p&gt;</description>
     </item>
     <item>
       <title>C-ing Clearly: Enhanced Binary Code Explanations using C code</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-12-16-c-ing-clearly/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-16-c-ing-clearly/</link>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-12-16-c-ing-clearly/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-16-c-ing-clearly/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2512.14500&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-12-16-c-ing-clearly/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-16-c-ing-clearly/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Large Language Models (LLMs) typically excel at coding tasks involving high-level programming languages, as opposed to lower-level programming languages, such as assembly. We propose a synthetic data generation method named C-ing Clearly, which leverages the corresponding C code to enhance an LLM&amp;rsquo;s understanding of assembly. By fine-tuning on data generated through our method, we demonstrate improved LLM performance for binary code summarization and vulnerability detection. Our approach demonstrates consistent gains across different LLM families and model sizes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beyond Pass@k: Breadth-Depth Metrics for Reasoning Boundaries</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-12-06-beyond-pass-k/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-beyond-pass-k/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-12-06-beyond-pass-k/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-beyond-pass-k/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2510.08325&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-12-06-beyond-pass-k/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-beyond-pass-k/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a powerful paradigm to improve Large Language Models on reasoning tasks such as coding, math or logic. To assess the reasoning boundary (the fraction of problems a model can solve) researchers often report Pass@k at large sampling budgets. Recent results reveal a crossover phenomenon: while RLVR models outperform the base model at small k values, the base model usually outperforms them when sampling a very large number of completions. This has been interpreted as evidence that base models have a larger reasoning boundary. We argue that on tasks with discrete answer spaces, such as math with numeric outputs, Pass@k at large k reflects the increasingly higher chance of success in the limit of the number of trials rather than genuine reasoning, and can therefore be misleading. We propose Cover@tau, which measures the fraction of problems that a model can solve for which at least a tau proportion of completions are correct. Unlike Pass@k, Cover@tau captures reasoning under an explicit reliability threshold: models that rely on random guessing degrade rapidly as tau increases. We evaluate several RLVR models using Cover@tau-based metrics and illustrate how the relative rankings of popular algorithms change compared to Pass@1, offering a different perspective on reasoning boundaries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ChronoGraph: A Real-World Graph-Based Multivariate Time Series Dataset</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-12-06-chronograph/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-chronograph/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-12-06-chronograph/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-chronograph/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2509.04449&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/bit-ml/ChronoGraph&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-12-06-chronograph/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-chronograph/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;We present ChronoGraph, a graph-structured multivariate time series forecasting dataset built from real-world production microservices. Each node is a service that emits a multivariate stream of system-level performance metrics, capturing CPU, memory, and network usage patterns, while directed edges encode dependencies between services. The primary task is forecasting future values of these signals at the service level. In addition, ChronoGraph provides expert-annotated incident windows as anomaly labels, enabling evaluation of anomaly detection methods and assessment of forecast robustness during operational disruptions. Compared to existing benchmarks from industrial control systems or traffic and air-quality domains, ChronoGraph uniquely combines (i) multivariate time series, (ii) an explicit, machine-readable dependency graph, and (iii) anomaly labels aligned with real incidents. We report baseline results spanning forecasting models, pretrained time-series foundation models, and standard anomaly detectors. ChronoGraph offers a realistic benchmark for studying structure-aware forecasting and incident-aware evaluation in microservice systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Not All Splits Are Equal: Rethinking Attribute Generalization Across Unrelated Categories</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2509.06998&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/bit-ml/rethinking-attribute-generalization&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Can models generalize attribute knowledge across semantically and perceptually dissimilar categories? While prior work has addressed attribute prediction within narrow taxonomic or visually similar domains, it remains unclear whether current models can abstract attributes and apply them to conceptually distant categories. This work presents the first explicit evaluation for the robustness of the attribute prediction task under such conditions, testing whether models can correctly infer shared attributes between unrelated object types: e.g., identifying that the attribute &amp;ldquo;has four legs&amp;rdquo; is common to both &amp;ldquo;dogs&amp;rdquo; and &amp;ldquo;chairs&amp;rdquo;. To enable this evaluation, we introduce train-test split strategies that progressively reduce correlation between training and test sets, based on: LLM-driven semantic grouping, embedding similarity thresholding, embedding-based clustering, and supercategory-based partitioning using ground-truth labels. Results show a sharp drop in performance as the correlation between training and test categories decreases, indicating strong sensitivity to split design. Among the evaluated methods, clustering yields the most effective trade-off, reducing hidden correlations while preserving learnability. These findings offer new insights into the limitations of current representations and inform future benchmark construction for attribute reasoning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rethinking Sparse Autoencoders: Select-and-Project for Fairness and Control from Encoder Features Alone</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-12-06-rethinking-sparse-autoencoders/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-rethinking-sparse-autoencoders/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-12-06-rethinking-sparse-autoencoders/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-rethinking-sparse-autoencoders/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2509.10809&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-12-06-rethinking-sparse-autoencoders/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-06-rethinking-sparse-autoencoders/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Sparse Autoencoders (SAEs) have proven valuable due to their ability to provide interpretable and steerable representations. Current debiasing methods based on SAEs manipulate these sparse activations presuming that feature representations are housed within decoder weights. We challenge this fundamental assumption and introduce an encoder-focused alternative for representation debiasing, contributing three key findings: (i) we highlight an unconventional SAE feature selection strategy, (ii) we propose a novel SAE debiasing methodology that orthogonalizes input embeddings against encoder weights, and (iii) we establish a performance-preserving mechanism during debiasing through encoder weight interpolation. Our Selection and Projection framework, termed S&amp;amp;P TopK, surpasses conventional SAE usage in fairness metrics by a factor of up to 3.2 and advances state-of-the-art test-time VLM debiasing results by a factor of up to 1.8 while maintaining downstream performance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning (Approximately) Equivariant Networks via Constrained Optimization</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/</link>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2505.13631&#34;&gt;arXiv&lt;/a&gt; · &lt;a href=&#34;https://github.com/andreimano/ACE&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Equivariant neural networks are designed to respect symmetries through their architecture, boosting generalization and sample efficiency when those symmetries are present in the data distribution. Real-world data, however, often departs from perfect symmetry because of noise, structural variation, measurement bias, or other symmetry-breaking effects. Strictly equivariant models may struggle to fit the data, while unconstrained models lack a principled way to leverage partial symmetries. Even when the data is fully symmetric, enforcing equivariance can hurt training by limiting the model to a restricted region of the parameter space. Guided by homotopy principles, where an optimization problem is solved by gradually transforming a simpler problem into a complex one, we introduce Adaptive Constrained Equivariance (ACE), a constrained optimization approach that starts with a flexible, non-equivariant model and gradually reduces its deviation from equivariance. This gradual tightening smooths training early on and settles the model at a data-driven equilibrium, balancing between equivariance and non-equivariance. Across multiple architectures and tasks, our method consistently improves performance metrics, sample efficiency, and robustness to input perturbations compared with strictly equivariant models and heuristic equivariance relaxations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning the Neighborhood: Contrast-Free Multimodal Self-Supervised Molecular Graph Pretraining</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-09-26-learning-neighborhood-molecular/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-09-26-learning-neighborhood-molecular/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-09-26-learning-neighborhood-molecular/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-09-26-learning-neighborhood-molecular/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2509.22468&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/ariguiba/C-FREE&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-09-26-learning-neighborhood-molecular/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-09-26-learning-neighborhood-molecular/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;High-quality molecular representations are essential for property prediction and molecular design, yet large labeled datasets remain scarce. While self-supervised pretraining on molecular graphs has shown promise, many existing approaches either depend on hand-crafted augmentations or complex generative objectives, and often rely solely on 2D topology, leaving valuable 3D structural information underutilized. To address this gap, we introduce C-FREE (Contrast-Free Representation learning on Ego-nets), a simple framework that integrates 2D graphs with ensembles of 3D conformers. C-FREE learns molecular representations by predicting subgraph embeddings from their complementary neighborhoods in the latent space, using fixed-radius ego-nets as modeling units across different conformers. This design allows us to integrate both geometric and topological information within a hybrid Graph Neural Network (GNN)-Transformer backbone, without negatives, positional encodings, or expensive pre-processing. Pretraining on the GEOM dataset, which provides rich 3D conformational diversity, C-FREE achieves state-of-the-art results on MoleculeNet, surpassing contrastive, generative, and other multimodal self-supervised methods. Fine-tuning across datasets with diverse sizes and molecule types further demonstrates that pretraining transfers effectively to new chemical domains, highlighting the importance of 3D-informed molecular representations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Circumventing shortcuts in audio-visual deepfake detection datasets with unsupervised learning</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2412.00175&#34;&gt;arXiv&lt;/a&gt; · &lt;a href=&#34;https://github.com/bit-ml/AVH-Align/tree/main&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Overview of the AVH-Align method&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/avh-align-overview.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Overview of the AVH-Align method&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-06-15-deepfake_cvpr_2025/avh-align-overview.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Good datasets are essential for developing and benchmarking any machine learning system. Their importance is even more extreme for safety critical applications such as deepfake detection—the focus of this paper. Here we reveal that two of the most widely used audio-video deepfake datasets suffer from a previously unidentified spurious feature: the leading silence. Fake videos start with a very brief moment of silence and, on the basis of this feature alone, we can separate the real and fake samples almost perfectly. As such, previous audio-only and audio-video models exploit the presence of silence in the fake videos and consequently perform worse when the leading silence is removed. To circumvent latching on such an unwanted artifact and possibly other unrevealed ones, we propose a shift from supervised to unsupervised learning by training models exclusively on real data. We show that by aligning self-supervised audio-video representations we remove the risk of relying on dataset-specific biases and improve robustness in deepfake detection.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do We Always Need the Simplicity Bias? Looking for Optimal Inductive Biases in the Wild</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-06-15-simplicity-bias-cvpr/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-06-15-simplicity-bias-cvpr/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-06-15-simplicity-bias-cvpr/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-06-15-simplicity-bias-cvpr/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2503.10065&#34;&gt;arXiv&lt;/a&gt; · &lt;a href=&#34;https://openaccess.thecvf.com/content/CVPR2025/html/Teney_Do_We_Always_Need_the_Simplicity_Bias_Looking_for_Optimal_CVPR_2025_paper.html&#34;&gt;CVF Open Access&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-06-15-simplicity-bias-cvpr/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-06-15-simplicity-bias-cvpr/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Common choices of architecture give neural networks a preference for fitting data with simple functions. This simplicity bias is known as key to their success. This paper explores the limits of this assumption. Building on recent work that showed that activation functions are the origin of the simplicity bias (Teney, 2024), we introduce a method to meta-learn activation functions to modulate this bias.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DeCLIP: Decoding CLIP representations for deepfake localization</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-02-28-declip-wacv/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-02-28-declip-wacv/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-02-28-declip-wacv/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-02-28-declip-wacv/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2409.08849&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://openaccess.thecvf.com/content/WACV2025/papers/Smeu_DeCLIP_Decoding_CLIP_Representations_for_Deepfake_Localization_WACV_2025_paper.pdf&#34;&gt;Proceedings&lt;/a&gt; &lt;a href=&#34;https://github.com/bit-ml/DeCLIP&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-02-28-declip-wacv/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-02-28-declip-wacv/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Generative models can create entirely new images, but they can also partially modify real images in ways that are undetectable to the human eye. In this paper, we address the challenge of automatically detecting such local manipulations. One of the most pressing problems in deepfake detection remains the ability of models to generalize to different classes of generators. In the case of fully manipulated images, representations extracted from large self-supervised models (such as CLIP) provide a promising direction towards more robust detectors. Here, we introduce DeCLIP, a first attempt to leverage such large pretrained features for detecting local manipulations. We show that, when combined with a reasonably large convolutional decoder, pretrained self-supervised representations are able to perform localization and improve generalization capabilities over existing methods. Unlike previous work, our approach is able to perform localization on the challenging case of latent diffusion models, where the entire image is affected by the fingerprint of the generator. Moreover, we observe that this type of data, which combines local semantic information with a global fingerprint, provides more stable generalization than other categories of generative methods.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Robust Novelty Detection through Style-Conscious Feature Ranking</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2310.03738&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://openaccess.thecvf.com/content/WACV2025/papers/Smeu_Robust_Novelty_Detection_through_Style-Conscious_Feature_Ranking_WACV_2025_paper.pdf&#34;&gt;Proceedings&lt;/a&gt; &lt;a href=&#34;https://github.com/bit-ml/Stylist&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Novelty detection seeks to identify samples deviating from a known distribution, yet data shifts in a multitude of ways, and only a few consist of relevant changes. Aligned with out-of-distribution generalization literature, we advocate for a formal distinction between task-relevant semantic or content changes and irrelevant style changes. This distinction forms the basis for robust novelty detection, emphasizing the identification of semantic changes resilient to style distributional shifts. To this end, we introduce Stylist, a method that utilizes pretrained large-scale model representations to selectively discard environment-biased features. By computing per-feature scores based on feature distribution distances between environments, Stylist effectively eliminates features responsible for spurious correlations, enhancing novelty detection performance. Evaluations on adapted domain generalization datasets and a synthetic dataset demonstrate Stylist&amp;rsquo;s efficacy in improving novelty detection across diverse datasets with stylistic and content shifts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ConceptDrift: Uncovering Biases through the Lens of Foundational Models</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2024-12-15-conceptdrift/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-15-conceptdrift/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2024-12-15-conceptdrift/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-15-conceptdrift/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2410.18970v1&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2024-12-15-conceptdrift/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-15-conceptdrift/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Datasets and pre-trained models come with intrinsic biases. Most methods rely on spotting them by analysing misclassified samples, in a semi-automated human-computer validation. In contrast, we propose ConceptDrift, a method which analyzes the weights of a linear probe, learned on top a foundational model. We capitalize on the weight update trajectory, which starts from the embedding of the textual representation of the class, and proceeds to drift towards embeddings that disclose hidden biases. Different from prior work, with this approach we can pin-point unwanted correlations from a dataset, providing more than just possible explanations for the wrong predictions. We empirically prove the efficacy of our method, by significantly improving zero-shot performance with biased-augmented prompting. Our method is not bounded to a single modality, and we experiment in this work with both image (Waterbirds, CelebA, Nico++) and text datasets (CivilComments).&lt;/p&gt;</description>
     </item>
     <item>
       <title>MolMix: A Simple Yet Effective Baseline for Multimodal Molecular Representation Learning</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2024-12-15-molmix/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-15-molmix/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2024-12-15-molmix/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-15-molmix/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2410.07981&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/andreimano/MolMix&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2024-12-15-molmix/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-15-molmix/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;In this work, we propose a simple transformer-based baseline for multimodal molecular representation learning, integrating three distinct modalities: SMILES strings, 2D graph representations, and 3D conformers of molecules. A key aspect of our approach is the aggregation of 3D conformers, allowing the model to account for the fact that molecules can adopt multiple conformations-an important factor for accurate molecular representation. The tokens for each modality are extracted using modality-specific encoders: a transformer for SMILES strings, a message-passing neural network for 2D graphs, and an equivariant neural network for 3D conformers. The flexibility and modularity of this framework enable easy adaptation and replacement of these encoders, making the model highly versatile for different molecular tasks. The extracted tokens are then combined into a unified multimodal sequence, which is processed by a downstream transformer for prediction tasks. To efficiently scale our model for large multimodal datasets, we utilize Flash Attention 2 and bfloat16 precision. Despite its simplicity, our approach achieves state-of-the-art results across multiple datasets, demonstrating its effectiveness as a strong baseline for multimodal molecular representation learning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WASP: A Weight-Space Approach to Detecting Learned Spuriousness</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2024-12-15-wasp/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-15-wasp/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2024-12-15-wasp/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-15-wasp/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2410.18970v3&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/bit-ml/WASP&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2024-12-15-wasp/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-15-wasp/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;It is of crucial importance to train machine learning models such that they clearly understand what defines each class in a given task. Though there is a sum of works dedicated to identifying the spurious correlations featured by a dataset that may impact the model&amp;rsquo;s understanding of the classes, all current approaches rely solely on data or error analysis. That is, they cannot point out spurious correlations learned by the model that are not already pointed out by the counterexamples featured in the validation or training sets. We propose a method that transcends this limitation, switching the focus from analyzing a model&amp;rsquo;s predictions to analyzing the model&amp;rsquo;s weights, the mechanism behind the making of the decisions, which proves to be more insightful. Our proposed Weight-space Approach to detecting Spuriousness (WASP) relies on analyzing the weights of foundation models as they drift towards capturing various (spurious) correlations while being fine-tuned on a given dataset. We demonstrate that different from previous works, our method (i) can expose spurious correlations featured by a dataset even when they are not exposed by training or validation counterexamples, (ii) it works for multiple modalities such as image and text, and (iii) it can uncover previously untapped spurious correlations learned by ImageNet-1k classifiers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Probabilistic Graph Rewiring via Virtual Nodes</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2405.17311&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/chendiqian/IPR-MPNN&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/teaser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Message-passing graph neural networks (MPNNs) have emerged as a powerful paradigm for graph-based machine learning. Despite their effectiveness, MPNNs face challenges such as under-reaching and over-squashing, where limited receptive fields and structural bottlenecks hinder information flow in the graph. While graph transformers hold promise in addressing these issues, their scalability is limited due to quadratic complexity regarding the number of nodes, rendering them impractical for larger graphs. Here, we propose implicitly rewired message-passing neural networks (IPR-MPNNs), a novel approach that integrates implicit probabilistic graph rewiring into MPNNs. By introducing a small number of virtual nodes, i.e., adding additional nodes to a given graph and connecting them to existing nodes, in a differentiable, end-to-end manner, IPR-MPNNs enable long-distance message propagation, circumventing quadratic complexity. Theoretically, we demonstrate that IPR-MPNNs surpass the expressiveness of traditional MPNNs. Empirically, we validate our approach by showcasing its ability to mitigate under-reaching and over-squashing effects, achieving state-of-the-art performance across multiple graph datasets. Notably, IPR-MPNNs outperform graph transformers while maintaining significantly faster computational efficiency.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Homomorphic Encryption: a Toy Implementation in Python</title>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/homomorphic-encryption-toy-implementation-in-python/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/homomorphic-encryption-toy-implementation-in-python/</guid>
+      <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 fLueSc&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;November 16, 2020&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;Homomorphic Encryption: a Toy Implementation in Python&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;
+We made this blog post as self-contained as possible, even though it was
+initially thought as a follow-up of &lt;a href=&#34;https://blog.openmined.org/build-an-homomorphic-encryption-scheme-from-scratch-with-python/#buildanhomomorphicencryptionscheme&#34;&gt;this tutorial given by
+OpenMined&lt;/a&gt;.
+The starting point of our Python implementation is &lt;a href=&#34;https://gist.github.com/youben11/f00bc95c5dde5e11218f14f7110ad289&#34;&gt;this github
+gist&lt;/a&gt;,
+which follows the Homomorphic Encryption scheme from
+&lt;a href=&#34;https://eprint.iacr.org/2012/144.pdf&#34;&gt;[FV12]&lt;/a&gt;. The motivation behind &lt;a href=&#34;https://github.com/bit-ml/he-scheme&#34;&gt;our
+implementation&lt;/a&gt; was for us to understand
+in detail the two techniques of
+&lt;a href=&#34;https://eprint.iacr.org/2012/144.pdf&#34;&gt;[FV12]&lt;/a&gt; used for ciphertext
+multiplication, namely &lt;em&gt;relinearization&lt;/em&gt; and &lt;em&gt;modulus-switching&lt;/em&gt;. This
+essential operation of ciphertext multiplication was missing in the previous
+implementation. We thought we might share this understanding through a blog
+post as well since it may be of interest to anyone using the [FV12] scheme in
+&lt;a href=&#34;https://github.com/OpenMined/TenSEAL&#34;&gt;TenSeal&lt;/a&gt; or
+&lt;a href=&#34;https://github.com/Microsoft/SEAL&#34;&gt;Seal&lt;/a&gt; libraries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Large Language Models for Malware Analysis</title>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/large-language-models-for-malware-analysis/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/large-language-models-for-malware-analysis/</guid>
+      <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 cimTyS&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;January 12, 2024&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;Large Language Models for Malware Analysis&lt;/h1&gt;
+&lt;p&gt;Large Language Models (LLMs) took the world by storm in 2023, revolutionizing the way people search and generate text content. LLMs for code have also made inroads in helping people understand code or write code based on requests in natural language. For instance, translating requests to &lt;a href=&#34;https://yale-lily.github.io/spider&#34;&gt;SQL queries&lt;/a&gt; has rapidly advanced since the advent of GPT4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Private Set Intersection from Homomorphic Encryption: A Python Implementation</title>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/private-set-intersection-an-implementation-in-python/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/private-set-intersection-an-implementation-in-python/</guid>
+      <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 jGgUca&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;May 21, 2021&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;Private Set Intersection from Homomorphic Encryption: A Python Implementation&lt;/h1&gt;
+&lt;p&gt;Check out our &lt;strong&gt;Private Set Intersection (PSI)&lt;/strong&gt; implementation in Python &lt;a href=&#34;https://github.com/bit-ml/Private-Set-Intersection&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;In this blog post, we will first motivate our interest in &lt;strong&gt;PSI&lt;/strong&gt;, by providing a list of applications: password checkup, private contact discovery for Whatsapp or Signal, measuring ads efficiency privately or DNA pattern matching. Secondly, we will show how to build a &lt;strong&gt;PSI&lt;/strong&gt; protocol using a &lt;strong&gt;HE&lt;/strong&gt; encryption scheme. Thirdly, we will describe our Python implementation of a specific &lt;strong&gt;PSI&lt;/strong&gt; protocol.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The BGV fully homomorphic encryption scheme</title>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</guid>
+      <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 dZuuIH&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;June 29, 2023&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;The BGV fully homomorphic encryption scheme&lt;/h1&gt;
+&lt;p&gt;This is a sister blogpost to the &lt;a href=&#34;https://bit-ml.github.io/blog/post/homomorphic-encryption-toy-implementation-in-python/&#34;&gt;previous one about a similar scheme (BFV)&lt;/a&gt; and it&#39;s part of the series that covers fully homomorphic encryption techniques and applications.&lt;/p&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;math math-inline&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\gdef\can #1{\|#1\|^{\text{can}}}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span aria-hidden=&#34;true&#34; class=&#34;katex-html&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In this blogpost we will focus on the encryption, decryption, relinearization and the noise analysis of the &lt;a href=&#34;https://eprint.iacr.org/2011/277.pdf&#34;&gt;Brakerski, Gentry, Vaikuntanathan (BGV)&lt;/a&gt; fully homomorphic encryption scheme. A Python implementation of the aforementioned will be provided.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Towards Fused Kernels for Gated MLP</title>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/fused-swiglu-kernel/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/fused-swiglu-kernel/</guid>
+      <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 fXfQZS&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;February 05, 2025&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;Towards Fused Kernels for Gated MLP&lt;/h1&gt;
+&lt;p&gt;The decoder block of a Transformer is the basic unit of all modern LLMs. Most of the compute used for it is spent on self-attention and the MLP, with self-attention in special being problematic on long sequences due to its quadratic compute and memory requirements. It is not surprising therefore that there&#39;s been a lot of progress towards increasing the performance of self-attention, such as FlashAttention [&lt;a href=&#34;#fa&#34;&gt;1&lt;/a&gt;], or algorithms and models that approximate full attention, like Window Attention [&lt;a href=&#34;#wa&#34;&gt;2&lt;/a&gt;], or State-Space Models [&lt;a href=&#34;#mam&#34;&gt;3&lt;/a&gt;, &lt;a href=&#34;#lru&#34;&gt;4&lt;/a&gt;, &lt;a href=&#34;#mam2&#34;&gt;5&lt;/a&gt;]. While efficient kernels for MLPs do exist, from what we could find they seem to be either tailored to very specific setups, or only partially solve some of the issues of MLPs, such as fusing the gating operation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🕹️ Pretrained Atari Agents</title>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/pretrained-atari-agents/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/pretrained-atari-agents/</guid>
+      <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post__CoverImg-oyq0rs-10 hAChiG&#34;&gt;&lt;/div&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;header&gt;&lt;nav class=&#34;Navigation__Nav-qabwmo-0 iRDKCt&#34;&gt;&lt;a href=&#34;https://bit-ml.github.io/&#34;&gt;Home&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#research&#34;&gt;Research&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/#teams&#34;&gt;Team&lt;/a&gt;&lt;a href=&#34;https://bit-ml.github.io/teaching/lectures-and-courses&#34;&gt;Teaching&lt;/a&gt;&lt;/nav&gt;&lt;/header&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;&lt;div class=&#34;Post__PostHeader-oyq0rs-5 kAktca&#34;&gt;&lt;a aria-current=&#34;page&#34; class=&#34;Post__BackLink-oyq0rs-6 gMsmUp active&#34; href=&#34;https://bit-ml.github.io/&#34;&gt;&amp;lt;&lt;!-- --&gt; Back Home&lt;/a&gt;&lt;small class=&#34;Post__Date-oyq0rs-7 kSsCZe&#34;&gt;published on &lt;!-- --&gt;May 05, 2022&lt;/small&gt;&lt;/div&gt;&lt;h1&gt;🕹️ Pretrained Atari Agents&lt;/h1&gt;
+&lt;p&gt;Releasing trained models in computer vision and natural language processing has been a major source of progress for the research in these fields and a significant catalyst for the adaption of deep learning models in the industry. By comparison, RL agents pretrained on otherwise resource and time intensive benchmarks such as Arcade Learning Environment are rather hard to come by.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Deep Reinforcement Learning @ ACS</title>
-      <link>https://andu199.github.io/bit-ml-new-website/community/deep-rl-acs/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-rl-acs/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-rl-acs/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-rl-acs/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; October – December&lt;/p&gt;
 &lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 &lt;p&gt;At the invitation of the Faculty of Automatic Control and Computer Science, Politehnica University of Bucharest we created and delivered an introduction to Deep Reinforcement Learning as part of the Advanced Methods in AI course within the AI Master&amp;rsquo;s Degree program.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>DeepBit – Deep Learning for Bitdefender Engineers</title>
-      <link>https://andu199.github.io/bit-ml-new-website/community/deep-bit/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-bit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; May – July&lt;/p&gt;
-&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;The course is an introduction to up-to-date Deep Learning methods for Bitdefender engineers. It covers very basic theoretical concepts about training neural networks, followed by applications in computer vision and natural language understanding, with accent on building the final project, which was focused on the security field.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>DeepFMI 2022 – Posters</title>
-      <link>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2022/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-fmi/posters-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2022/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-fmi/posters-2022/</guid>
       <description>&lt;p&gt;Poster session from the 2022 edition.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DeepFMI 2024 – Posters</title>
-      <link>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2024/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-fmi/posters-2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2024/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-fmi/posters-2024/</guid>
       <description>&lt;p&gt;Poster session from the 2024 edition.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DeepFMI 2025 – Posters</title>
-      <link>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2025/</link>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-fmi/posters-2025/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2025/</guid>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/community/deep-fmi/posters-2025/</guid>
       <description>&lt;p&gt;Poster session from the 2025 edition.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,6 +2,7 @@
 title: "Beyond Pass@k: Breadth-Depth Metrics for Reasoning Boundaries"
 date: 2025-12-06
 type: academic
+research_direction: nlp
 draft: false
 authors: "Marius Dragoi, Ioana Pintilie, Florin Gogianu, Florin Brad"
 venue: "NeurIPS 2025 Workshop FoRLM"

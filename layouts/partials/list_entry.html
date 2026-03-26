@@ -1,0 +1,52 @@
+{{- $type := .Params.type | default "news" -}}
+<article class="academic-card">
+  <div class="academic-card-thumb">
+    {{- $teaser := .Resources.GetMatch "teaser.*" -}}
+    {{- if not $teaser -}}
+      {{- $teaser = .Resources.GetMatch "cover.*" -}}
+    {{- end -}}
+    {{- if $teaser }}
+    <img src="{{ $teaser.RelPermalink }}" alt="Teaser for {{ .Title }}">
+    {{- else }}
+    <div class="academic-card-thumb--empty"></div>
+    {{- end }}
+  </div>
+  <div class="academic-card-body">
+    <div class="academic-card-header">
+      <span class="news-type-pill news-type-pill--{{ $type }}">{{ $type | title }}</span>
+      <h2 class="academic-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    </div>
+    <div class="academic-card-meta">
+      {{- if .Params.authors }}
+      <div class="academic-card-authors">{{ .Params.authors }}</div>
+      {{- end }}
+      {{- if .Params.venue }}
+      <div class="academic-card-venue">
+        {{- $v := .Params.venue -}}
+        {{- $p := .Params.presentation -}}
+        {{- $t := .Params.top_percent -}}
+        {{- if hasPrefix (lower $v) "under review" -}}
+        <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
+        {{- else -}}
+        Accepted at <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
+        {{- end }}
+      </div>
+      {{- end }}
+      <div class="academic-card-date">{{ .Date.Format "January 2006" }}</div>
+    </div>
+    {{- if .Summary }}
+    <div class="academic-card-summary">
+      {{ .Summary | plainify | truncate 150 }}
+    </div>
+    {{- end }}
+    <div class="academic-card-links">
+      <a href="{{ .Permalink }}" class="academic-card-more">Read more →</a>
+      {{- if .Params.arxiv }}
+      <a href="{{ .Params.arxiv }}" class="academic-card-link" target="_blank" rel="noopener">arXiv</a>
+      {{- end }}
+      {{- if .Params.github }}
+      <a href="{{ .Params.github }}" class="academic-card-link" target="_blank" rel="noopener">Code</a>
+      {{- end }}
+    </div>
+  </div>
+</article>

@@ -8,10 +8,24 @@
 </header>
 
 {{- if .Content }}
-<div class="post-content research-directions">
+<div class="post-content">
   {{- if not (.Param "disableAnchoredHeadings") }}
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
 </div>
 {{- end }}
+
+<h2 id="publications-and-news" style="margin-top: 3rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem;">Publications and news</h2>
+
+{{- $academic := where (where site.RegularPages "Section" "news") "Params.type" "academic" }}
+{{- $academic = sort $academic "Date" "desc" }}
+
+{{- if $academic }}
+<div class="academic-list">
+{{- range $academic }}
+  {{- partial "list_entry.html" . }}
+{{- end }}
+</div>
+{{- end }}
+
 {{- end }}

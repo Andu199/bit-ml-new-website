@@ -3,23 +3,24 @@ title: "Community Engagement"
 layout: community
 ---
 
-## Courses
-
-Here at **Bitdefender** we are actively involved in designing and teaching Deep Learning and Cryptography courses in partnership with the top universities in Bucharest as well as for our own internal use. Our purpose is to bring students closer to the research field, with both practical and theoretical approaches, with a lot of enthusiasm and up to date content.
-
-<div class="course-entries-grid">
-{{< course "thumb_unibuc.png" "DeepFMI – Learning Deep Neural Networks" "February – April" "/community/deep-fmi/" >}}{{< /course >}}
-{{< course "thumb_precis.jpg" "Deep Reinforcement Learning @ ACS" "October – December" "/community/deep-rl-acs/" >}}{{< /course >}}
-{{< course "thumb_bitdefender.png" "DeepBit – Deep Learning for Bitdefender Engineers" "May – July" "/community/deep-bit/" >}}{{< /course >}}
-</div>
-
 ## Strong presence in the community
 
 Beyond teaching, we stay close to the research and industry ecosystem:
 
-- **AI Olympiad** — we are involved in the AI Olympiad.
-- **Romanian AI Days** — we are involved in the Romanian AI Days.
-- **European research projects** — we take part in European research projects.
-- **Romanian research projects** — we are involved in Romanian research projects.
-- **International collaborations** — we collaborate with multiple international institutions, including the Max Planck Institute (IMPRS-IS, Germany), ETH Zurich, Mila (Montreal), and Idiap (Switzerland).
-- **Event sponsorship** — we actively sponsor events such as the Eastern European ML Summer School and Romanian AI Days.
+- **[BRAIT](https://sites.google.com/view/brait-awards)** — Romanian awards program for AI theses and innovation.
+- **AI Olympiad** — involvement in the national AI Olympiad.
+- **Romanian AI Days** — participation in Romanian AI Days.
+- **European and national research projects** — active in EU- and Romania-funded research.
+- **International collaborations** — Max Planck Institute (IMPRS-IS), ETH Zurich, Mila (Montreal), Idiap (Switzerland), and others.
+- **Event sponsorship** — e.g. Eastern European Machine Learning Summer School, Romanian AI Days.
+
+*(We will refine this list with concrete roles and years.)*
+
+## Courses
+
+Here at **Bitdefender** we design and teach deep learning courses with top universities in Bucharest and in-house programs. We bring students and engineers closer to research with up-to-date, hands-on content.
+
+<div class="course-entries-grid">
+{{< course "thumb_unibuc.png" "DeepFMI – Learning Deep Neural Networks" "2025–2026 · February – April" "/community/deep-fmi/" "Contact: [fbrad@bitdefender.com](mailto:fbrad@bitdefender.com)" >}}{{< /course >}}
+{{< course "thumb_precis.jpg" "Deep Reinforcement Learning @ ACS" "2025–2026 · October – December" "/community/deep-rl-acs/" "Contact: [fgogianu@bitdefender.com](mailto:fgogianu@bitdefender.com)" >}}{{< /course >}}
+</div>

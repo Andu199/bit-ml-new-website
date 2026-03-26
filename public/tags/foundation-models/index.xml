@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Foundation Models on Bitdefender AI Research</title>
+    <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/foundation-models/</link>
+    <description>Recent content in Foundation Models on Bitdefender AI Research</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/tags/foundation-models/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BEE Aware of Spuriousness: Mechanistic Interpretability for Fine Tuning Foundation Models</title>
+      <link>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://dboldisor-web.mlp.nmbapp.net:1313/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</guid>
+      <description>BEE reveals spurious correlations learned during fine tuning by analyzing classifier weight drift and embedding geometry. A mechanistic interpretability view of why shortcuts form, plus visual evidence from ImageNet and beyond.</description>
+    </item>
+  </channel>
+</rss>

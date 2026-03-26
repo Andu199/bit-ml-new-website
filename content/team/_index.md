@@ -2,8 +2,6 @@
 title: "Team"
 ---
 
-## Machine Learning team
-
 {{< teammember "Elena Burceanu" "elena_burceanu.webp" >}}
 I am a Research Scientist working on robust machine learning, with a current focus on out of distribution generalization: understanding and mitigating distribution shifts, spurious correlations, and shortcut features that hurt reliability in real settings. Recently, I have been increasingly interested in mechanistic interpretability as a way to diagnose why models latch onto spurious cues and to design interventions that improve generalization. I was an Associate Program Chair at NeurIPS 2025 and I am the Local Chair for CoLLAs 2026, Bucharest.
 
@@ -76,18 +74,16 @@ I am currently pursuing a PhD focused on robust and interpretable methods for au
 [email](mailto:dboldisor@bitdefender.com) · [GitHub](https://github.com/anduboldisor) · [LinkedIn](https://www.linkedin.com/in/drago%C8%99-alexandru-boldi%C8%99or-8a08b4107/)
 {{< /teammember >}}
 
-## Collaborators
-
 {{< teammember "Andrei Nicolicioiu" "andrei_nicolicioiu.webp" >}}
 PhD Student @ University of Montreal
 {{< /teammember >}}
 
 {{< teammember "Teo Poncu" "teo_poncu.webp" >}}
-Research Scientist @ University Politehnica of Bucharest, nVidia DLI University Ambassador
+Research Scientist @ University Politehnica of Bucharest, nVidia DLI University Ambassador, Member of Engineering @ poolside
 {{< /teammember >}}
 
 {{< teammember "Dragoș Țânțaru" "dragos_tantaru.webp" >}}
-Member of Engineering @ poolside
+Research collaborator
 {{< /teammember >}}
 
 {{< teammember "Tudor Berariu" "tudor_berariu.webp" >}}

@@ -2,6 +2,7 @@
 title: "Not All Splits Are Equal: Rethinking Attribute Generalization Across Unrelated Categories"
 date: 2025-12-06
 type: academic
+research_direction: generalization
 draft: false
 authors: "Liviu Nicolae Fircă, Antonio Bărbălau, Dan Oneata, Elena Burceanu"
 venue: "NeurIPS 2025 Workshop CauScien"

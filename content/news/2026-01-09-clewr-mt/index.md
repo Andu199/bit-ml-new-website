@@ -2,6 +2,7 @@
 title: "CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning"
 date: 2026-01-09
 type: academic
+research_direction: nlp
 draft: false
 authors: "Alexandra Dragomir, Florin Brad, Radu Tudor Ionescu"
 venue: "Under review"

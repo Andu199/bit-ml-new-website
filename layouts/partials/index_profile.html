@@ -1,10 +1,6 @@
-<div class="profile">
+<div class="profile profile--home-hero">
     {{- with site.Params.profileMode }}
-    <div class="profile_inner">
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
-        {{- partial "social_icons.html" -}}
-
+    <div class="profile_inner profile_inner--centered">
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
@@ -35,6 +31,10 @@
         {{- end }}
         {{- end }}
 
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
+        {{- partial "social_icons.html" -}}
+
         {{- with .buttons }}
         <div class="buttons">
             {{- range . }}
@@ -57,4 +57,54 @@
         {{- end }}
     </div>
     {{- end}}
+
+    <!-- News and Selected Publications Sections -->
+    <div class="home-feed-sections">
+        <!-- News Section (non-academic) -->
+        <div class="home-feed">
+            <h2 class="home-feed-title">News</h2>
+            {{- $newsPages := where site.RegularPages "Section" "news" -}}
+            {{- $newsPages = where $newsPages "Params.type" "!=" "academic" -}}
+            {{- $newsPages = sort $newsPages "Date" "desc" | first 5 -}}
+            <div class="home-feed-list">
+                {{- range $newsPages }}
+                <div class="home-feed-item">
+                    <span class="home-feed-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                    <a href="{{ .Permalink }}" class="home-feed-link">{{ .Title }}</a>
+                </div>
+                {{- end }}
+            </div>
+            <a href="{{ "news/" | relURL }}" class="home-feed-more">All news →</a>
+        </div>
+
+        <!-- Selected Publications Section (academic) -->
+        <div class="home-feed">
+            <h2 class="home-feed-title">Selected publications</h2>
+            {{- $pubPages := where site.RegularPages "Section" "news" -}}
+            {{- $pubPages = where $pubPages "Params.type" "academic" -}}
+            {{- $pubPages = sort $pubPages "Date" "desc" | first 5 -}}
+            <div class="home-feed-list">
+                {{- range $pubPages }}
+                <div class="home-feed-item home-feed-item--pub">
+                    <div class="home-pub-thumb">
+                        {{- $teaser := .Resources.GetMatch "teaser.*" -}}
+                        {{- if $teaser }}
+                        <img src="{{ $teaser.RelPermalink }}" alt="Teaser for {{ .Title }}">
+                        {{- else }}
+                        <div class="home-pub-thumb-placeholder"></div>
+                        {{- end }}
+                    </div>
+                    <div class="home-pub-body">
+                        <a href="{{ .Permalink }}" class="home-feed-link">{{ .Title }}</a>
+                        <div class="home-pub-meta">
+                            {{- with .Params.authors }}<span class="home-pub-authors">{{ . }}</span>{{ end }}
+                            {{- with .Params.venue }}<span class="home-pub-venue">{{ . }}</span>{{ end }}
+                        </div>
+                    </div>
+                </div>
+                {{- end }}
+            </div>
+            <a href="{{ "research/#publications-and-news" | relURL }}" class="home-feed-more">Academic highlights →</a>
+        </div>
+    </div>
 </div>

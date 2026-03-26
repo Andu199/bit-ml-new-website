@@ -2,6 +2,7 @@
 title: "ConceptDrift: Uncovering Biases through the Lens of Foundational Models"
 date: 2024-12-15
 type: academic
+research_direction: generalization
 draft: false
 authors: "Cristian Daniel Paduraru, Antonio Barbalau, Radu Filipescu, Andrei Liviu Nicolicioiu, Elena Burceanu"
 venue: "NeurIPS 2024 Workshop Interpretable AI: Past, Present and Future"

@@ -13,30 +13,4 @@
 </div>
 {{- end }}
 
-{{- $community := where (where site.RegularPages "Section" "news") "Params.type" "community" }}
-{{- $community = sort ($community | first 50) "Date" "desc" }}
-
-{{- /* Only show news on the main community index, not on subsections (e.g. deep-fmi) */ -}}
-{{- if and $community (eq .CurrentSection .FirstSection) }}
-<h2 id="news">News</h2>
-{{- range $community }}
-<article class="post-entry community-entry">
-  <header class="entry-header">
-    <h3 class="entry-hint-parent">{{ .Title }}</h3>
-  </header>
-  {{- if (ne (.Param "hideSummary") true) }}
-  <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-  </div>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-</article>
-{{- end }}
-{{- end }}
-
 {{- end }}

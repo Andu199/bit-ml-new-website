@@ -2,6 +2,7 @@
 title: "Rethinking Sparse Autoencoders: Select-and-Project for Fairness and Control from Encoder Features Alone"
 date: 2025-12-06
 type: academic
+research_direction: nlp
 draft: false
 authors: "Antonio Bărbălau, Cristian Daniel Păduraru, Teodor Poncu, Alexandru Tifrea, Elena Burceanu"
 venue: "NeurIPS 2025 Workshops: Mechanistic Interpretability; Reliable ML from Unreliable Data"

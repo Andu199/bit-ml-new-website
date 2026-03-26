@@ -2,6 +2,7 @@
 title: "Probabilistic Graph Rewiring via Virtual Nodes"
 date: 2024-12-10
 type: academic
+research_direction: generalization
 draft: false
 authors: "C. Qian, A. Manolache, C. Morris, M. Niepert"
 venue: "NeurIPS 2024"

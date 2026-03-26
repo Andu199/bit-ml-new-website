@@ -2,6 +2,7 @@
 title: "C-ing Clearly: Enhanced Binary Code Explanations using C code"
 date: 2025-12-16
 type: academic
+research_direction: nlp
 draft: false
 authors: "Teodor Poncu, Ioana Pintilie, Marius Dragoi, Dragos Tantaru, Florin Brad"
 venue: "ARR October 2025 (Rejected)"

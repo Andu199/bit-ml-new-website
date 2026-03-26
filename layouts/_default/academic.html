@@ -17,28 +17,11 @@
 {{- $academic = sort ($academic | first 50) "Date" "desc" }}
 
 {{- if $academic }}
+<div class="academic-list">
 {{- range $academic }}
-<article class="post-entry academic-entry">
-  {{- if .Params.cover.image }}
-  <figure class="entry-cover">
-    <img src="{{ .Params.cover.image | absURL }}" alt="" loading="lazy">
-  </figure>
-  {{- end }}
-  <div class="academic-citation">
-    <strong>{{ .Params.authors | default "Authors" }}.</strong>
-    {{ .Title }}.{{ " " }}
-    {{- $v := .Params.venue | default "Venue" -}}
-    {{- $p := .Params.presentation -}}
-    {{- $t := .Params.top_percent -}}
-    {{- if hasPrefix (lower $v) "under review" -}}
-    <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
-    {{- else -}}
-    Accepted at <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
-    {{- end }}
-  </div>
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-</article>
+  {{- partial "list_entry.html" . }}
 {{- end }}
+</div>
 {{- end }}
 
 {{- end }}

@@ -1,6 +1,6 @@
 baseURL = "https://andu199.github.io/bit-ml-new-website/"
 languageCode = "en-us"
-title = "Bitdefender Machine Learning Team"
+title = "Bitdefender AI Research"
 theme = "PaperMod"
 
 # Allow raw HTML in markdown (e.g. <div class="course-entries-grid"> on community page)
@@ -8,14 +8,14 @@ theme = "PaperMod"
   unsafe = true
 
 [params]
-  description = "Engaging with the broader Machine Learning Community."
+  description = "Engaging with the broader AI Community."
   defaultTheme = "light"
 
   # Home page: image, title, short text, and links (R1)
   [params.profileMode]
     enabled = true
-    title = "Bitdefender ML Research"
-    subtitle = "Welcome to our research team's website. We work on machine learning and engage with the broader community."
+    title = "Bitdefender AI Research"
+    subtitle = "Welcome to our research team's website. We work on artificial intelligence and engage with the broader community."
     imageUrl = "img/hero_avatar.webp"
     imageTitle = "Team"
     imageWidth = 960
@@ -26,9 +26,6 @@ theme = "PaperMod"
     [[params.profileMode.buttons]]
       name = "Research"
       url = "/research/"
-    [[params.profileMode.buttons]]
-      name = "Academic"
-      url = "/academic/"
     [[params.profileMode.buttons]]
       name = "Blog"
       url = "/blog/"
@@ -41,6 +38,13 @@ theme = "PaperMod"
 
   # Only "news" section feeds the home list (we use profileMode so home shows custom content)
   mainSections = ["news"]
+
+[services.googleAnalytics]
+  id = "G-XXXXXXXXXX"
+
+[privacy.googleAnalytics]
+  disable = false
+  respectDoNotTrack = true
 
 [menu]
   [[menu.main]]
@@ -56,18 +60,14 @@ theme = "PaperMod"
     url = "/research/"
     weight = 3
   [[menu.main]]
-    name = "Academic"
-    url = "/academic/"
-    weight = 4
-  [[menu.main]]
     name = "Blog"
     url = "/blog/"
-    weight = 5
+    weight = 4
   [[menu.main]]
     name = "Community"
     url = "/community/"
-    weight = 6
+    weight = 5
   [[menu.main]]
     name = "Team"
     url = "/team/"
-    weight = 7
+    weight = 6

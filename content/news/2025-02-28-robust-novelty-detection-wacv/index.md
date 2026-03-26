@@ -2,6 +2,7 @@
 title: "Robust Novelty Detection through Style-Conscious Feature Ranking"
 date: 2025-02-28
 type: academic
+research_direction: generalization
 draft: false
 authors: "Stefan Smeu, Elena Burceanu, Emanuela Haller, Andrei Liviu Nicolicioiu"
 venue: "WACV 2025"
