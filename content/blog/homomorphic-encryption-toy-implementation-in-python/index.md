@@ -1,10 +1,12 @@
 ---
 title: "Homomorphic Encryption: a Toy Implementation in Python"
-date: 2020-01-01
+date: 2020-11-16
 type: blog
+cover:
+  image: alice.png
 ---
 
-<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post__CoverImg-oyq0rs-10 fLueSc"></div><div class="Post-oyq0rs-1 fGODKX"><header><nav class="Navigation__Nav-qabwmo-0 iRDKCt"><a href="https://bit-ml.github.io/">Home</a><a href="https://bit-ml.github.io/#research">Research</a><a href="https://bit-ml.github.io/#teams">Team</a><a href="https://bit-ml.github.io/teaching/lectures-and-courses">Teaching</a></nav></header><section class="Post__PostContent-oyq0rs-2 jSdCWo"><div class="Post__PostHeader-oyq0rs-5 kAktca"><a aria-current="page" class="Post__BackLink-oyq0rs-6 gMsmUp active" href="https://bit-ml.github.io/">&lt;<!-- --> Back Home</a><small class="Post__Date-oyq0rs-7 kSsCZe">published on <!-- -->November 16, 2020</small></div><h1>Homomorphic Encryption: a Toy Implementation in Python</h1>
+<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post-oyq0rs-1 fGODKX"><section class="Post__PostContent-oyq0rs-2 jSdCWo">
 <p><strong>Motivation:</strong>
 We made this blog post as self-contained as possible, even though it was
 initially thought as a follow-up of <a href="https://blog.openmined.org/build-an-homomorphic-encryption-scheme-from-scratch-with-python/#buildanhomomorphicencryptionscheme">this tutorial given by

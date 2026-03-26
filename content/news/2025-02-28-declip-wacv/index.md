@@ -2,6 +2,8 @@
 title: "DeCLIP: Decoding CLIP representations for deepfake localization"
 date: 2025-02-28
 type: academic
+cover:
+  image: teaser.png
 research_direction: deepfake
 draft: false
 authors: "Stefan Smeu, Elisabeta Oneata, Dan Oneata"

@@ -1,0 +1,5 @@
+<!-- Debug: -->
+{{- $all := where site.RegularPages "Section" "in" (slice "news" "blog") -}}
+{{- range $all }}
+<!-- Title: {{ .Title }} - Section: {{ .Section }} -->
+{{- end }}

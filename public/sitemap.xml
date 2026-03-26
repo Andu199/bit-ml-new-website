@@ -83,6 +83,9 @@
     <loc>https://andu199.github.io/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/blog/fused-swiglu-kernel/</loc>
+    <lastmod>2025-02-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://andu199.github.io/bit-ml-new-website/news/2024-12-15-conceptdrift/</loc>
     <lastmod>2024-12-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -95,29 +98,26 @@
     <loc>https://andu199.github.io/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/blog/large-language-models-for-malware-analysis/</loc>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/blog/pretrained-atari-agents/</loc>
+    <lastmod>2022-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/blog/private-set-intersection-an-implementation-in-python/</loc>
+    <lastmod>2021-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/blog/homomorphic-encryption-toy-implementation-in-python/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://andu199.github.io/bit-ml-new-website/community/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andu199.github.io/bit-ml-new-website/blog/homomorphic-encryption-toy-implementation-in-python/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andu199.github.io/bit-ml-new-website/blog/large-language-models-for-malware-analysis/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andu199.github.io/bit-ml-new-website/blog/private-set-intersection-an-implementation-in-python/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andu199.github.io/bit-ml-new-website/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andu199.github.io/bit-ml-new-website/blog/fused-swiglu-kernel/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andu199.github.io/bit-ml-new-website/blog/pretrained-atari-agents/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andu199.github.io/bit-ml-new-website/community/deep-rl-acs/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>

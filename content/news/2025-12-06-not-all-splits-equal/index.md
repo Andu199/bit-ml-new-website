@@ -2,6 +2,8 @@
 title: "Not All Splits Are Equal: Rethinking Attribute Generalization Across Unrelated Categories"
 date: 2025-12-06
 type: academic
+cover:
+  image: teaser.png
 research_direction: generalization
 draft: false
 authors: "Liviu Nicolae Fircă, Antonio Bărbălau, Dan Oneata, Elena Burceanu"

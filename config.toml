@@ -20,21 +20,6 @@ theme = "PaperMod"
     imageTitle = "Team"
     imageWidth = 960
     imageHeight = 400
-    [[params.profileMode.buttons]]
-      name = "News"
-      url = "/news/"
-    [[params.profileMode.buttons]]
-      name = "Research"
-      url = "/research/"
-    [[params.profileMode.buttons]]
-      name = "Blog"
-      url = "/blog/"
-    [[params.profileMode.buttons]]
-      name = "Community"
-      url = "/community/"
-    [[params.profileMode.buttons]]
-      name = "Team"
-      url = "/team/"
 
   # Only "news" section feeds the home list (we use profileMode so home shows custom content)
   mainSections = ["news"]

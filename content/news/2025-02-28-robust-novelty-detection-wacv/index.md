@@ -2,6 +2,8 @@
 title: "Robust Novelty Detection through Style-Conscious Feature Ranking"
 date: 2025-02-28
 type: academic
+cover:
+  image: teaser.png
 research_direction: generalization
 draft: false
 authors: "Stefan Smeu, Elena Burceanu, Emanuela Haller, Andrei Liviu Nicolicioiu"

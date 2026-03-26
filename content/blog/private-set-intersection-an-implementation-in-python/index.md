@@ -1,10 +1,12 @@
 ---
 title: "Private Set Intersection from Homomorphic Encryption: A Python Implementation"
-date: 2020-01-01
+date: 2021-05-21
 type: blog
+cover:
+  image: CRyDlK2.png
 ---
 
-<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post__CoverImg-oyq0rs-10 jGgUca"></div><div class="Post-oyq0rs-1 fGODKX"><header><nav class="Navigation__Nav-qabwmo-0 iRDKCt"><a href="https://bit-ml.github.io/">Home</a><a href="https://bit-ml.github.io/#research">Research</a><a href="https://bit-ml.github.io/#teams">Team</a><a href="https://bit-ml.github.io/teaching/lectures-and-courses">Teaching</a></nav></header><section class="Post__PostContent-oyq0rs-2 jSdCWo"><div class="Post__PostHeader-oyq0rs-5 kAktca"><a aria-current="page" class="Post__BackLink-oyq0rs-6 gMsmUp active" href="https://bit-ml.github.io/">&lt;<!-- --> Back Home</a><small class="Post__Date-oyq0rs-7 kSsCZe">published on <!-- -->May 21, 2021</small></div><h1>Private Set Intersection from Homomorphic Encryption: A Python Implementation</h1>
+<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post-oyq0rs-1 fGODKX"><section class="Post__PostContent-oyq0rs-2 jSdCWo">
 <p>Check out our <strong>Private Set Intersection (PSI)</strong> implementation in Python <a href="https://github.com/bit-ml/Private-Set-Intersection">here</a>!</p>
 <p>In this blog post, we will first motivate our interest in <strong>PSI</strong>, by providing a list of applications: password checkup, private contact discovery for Whatsapp or Signal, measuring ads efficiency privately or DNA pattern matching. Secondly, we will show how to build a <strong>PSI</strong> protocol using a <strong>HE</strong> encryption scheme. Thirdly, we will describe our Python implementation of a specific <strong>PSI</strong> protocol.</p>
 <p>Our implementation is based on the protocol described in this <a href="https://eprint.iacr.org/2017/299.pdf">paper</a> and its <a href="https://eprint.iacr.org/2018/787.pdf">follow-up</a>. This protocol uses <strong>Homomorphic Encryption (HE)</strong>, a powerful cryptographic primitive which allows performing computations on encrypted data in such a way that only the secret key holder has access to the decryption of the result of these computations. If you are curious about <strong>HE</strong>, check out <a href="https://bit-ml.github.io/blog/post/homomorphic-encryption-toy-implementation-in-python/">our previous blog post</a>! Our implementation uses the <a href="https://eprint.iacr.org/2012/144.pdf">BFV</a> Brakerski-Fan-Vercauteren  <strong>HE</strong> scheme from the <a href="https://github.com/OpenMined/TenSEAL">TenSEAL</a> library. You can also check out a concurrent <a href="https://github.com/microsoft/SEAL">SEAL</a>-based <a href="https://github.com/microsoft/APSI">C++ implementation</a> of the same protocol that has been recently published by   Microsoft.</p>

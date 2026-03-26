@@ -1,6 +1,9 @@
 <div class="profile profile--home-hero">
     {{- with site.Params.profileMode }}
     <div class="profile_inner profile_inner--centered">
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
+
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
@@ -31,8 +34,6 @@
         {{- end }}
         {{- end }}
 
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" -}}
 
         {{- with .buttons }}
@@ -59,41 +60,56 @@
     {{- end}}
 
     <!-- News and Selected Publications Sections -->
-    <div class="home-feed-sections">
+    <div class="home-feed-sections" style="text-align: left;">
         <!-- News Section (non-academic) -->
-        <div class="home-feed">
-            <h2 class="home-feed-title">News</h2>
+        <div class="home-feed" style="text-align: left;">
+            <h2 class="home-feed-title" style="text-align: center;">News</h2>
             {{- $newsPages := where site.RegularPages "Section" "news" -}}
             {{- $newsPages = where $newsPages "Params.type" "!=" "academic" -}}
-            {{- $newsPages = sort $newsPages "Date" "desc" | first 5 -}}
+            {{- $newsPages = sort $newsPages "Date" "desc" | first 3 -}}
             <div class="home-feed-list">
                 {{- range $newsPages }}
-                <div class="home-feed-item">
+                <div class="home-feed-item" style="align-items: center;">
                     <span class="home-feed-date">{{ .Date.Format "Jan 2, 2006" }}</span>
                     <a href="{{ .Permalink }}" class="home-feed-link">{{ .Title }}</a>
                 </div>
                 {{- end }}
             </div>
-            <a href="{{ "news/" | relURL }}" class="home-feed-more">All news →</a>
+            <a href="{{ "news/" | relURL }}" class="home-feed-more" style="display: block; text-align: center;">All news →</a>
         </div>
 
         <!-- Selected Publications Section (academic) -->
-        <div class="home-feed">
-            <h2 class="home-feed-title">Selected publications</h2>
+        <div class="home-feed" style="text-align: left;">
+            <h2 class="home-feed-title" style="text-align: center;">Selected publications</h2>
             {{- $pubPages := where site.RegularPages "Section" "news" -}}
             {{- $pubPages = where $pubPages "Params.type" "academic" -}}
             {{- $pubPages = sort $pubPages "Date" "desc" | first 5 -}}
             <div class="home-feed-list">
                 {{- range $pubPages }}
-                <div class="home-feed-item home-feed-item--pub">
+                {{- $teaser := .Resources.GetMatch "teaser.*" -}}
+                {{- if not $teaser -}}
+                  {{- if .Params.cover.image -}}
+                    {{- $teaser = .Resources.GetMatch .Params.cover.image -}}
+                    {{- if not $teaser -}}
+                      {{- $teaser = .Resources.GetMatch (printf "*%s*" .Params.cover.image) -}}
+                    {{- end -}}
+                  {{- end -}}
+                {{- end -}}
+                {{- if not $teaser -}}
+                  {{- $teaser = .Resources.GetMatch "cover.*" -}}
+                {{- end -}}
+                {{- $hasThumb := false -}}
+                {{- if $teaser }}{{ $hasThumb = true }}{{ else if .Params.cover.image }}{{ $hasThumb = true }}{{ end -}}
+                <div class="home-feed-item home-feed-item--pub{{ if not $hasThumb }} home-feed-item--pub-no-thumb{{ end }}">
+                    {{- if $hasThumb }}
                     <div class="home-pub-thumb">
-                        {{- $teaser := .Resources.GetMatch "teaser.*" -}}
                         {{- if $teaser }}
                         <img src="{{ $teaser.RelPermalink }}" alt="Teaser for {{ .Title }}">
                         {{- else }}
-                        <div class="home-pub-thumb-placeholder"></div>
+                        <img src="{{ .Params.cover.image | absURL }}" alt="Teaser for {{ .Title }}">
                         {{- end }}
                     </div>
+                    {{- end }}
                     <div class="home-pub-body">
                         <a href="{{ .Permalink }}" class="home-feed-link">{{ .Title }}</a>
                         <div class="home-pub-meta">
@@ -104,7 +120,7 @@
                 </div>
                 {{- end }}
             </div>
-            <a href="{{ "research/#publications-and-news" | relURL }}" class="home-feed-more">Academic highlights →</a>
+            <a href="{{ "research/#publications-and-news" | relURL }}" class="home-feed-more" style="display: block; text-align: center;">Academic highlights →</a>
         </div>
     </div>
 </div>

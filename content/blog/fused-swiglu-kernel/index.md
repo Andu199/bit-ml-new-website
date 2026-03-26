@@ -1,10 +1,12 @@
 ---
 title: "Towards Fused Kernels for Gated MLP"
-date: 2020-01-01
+date: 2025-02-05
 type: blog
+cover:
+  image: draft3.drawio.svg
 ---
 
-<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post__CoverImg-oyq0rs-10 fXfQZS"></div><div class="Post-oyq0rs-1 fGODKX"><header><nav class="Navigation__Nav-qabwmo-0 iRDKCt"><a href="https://bit-ml.github.io/">Home</a><a href="https://bit-ml.github.io/#research">Research</a><a href="https://bit-ml.github.io/#teams">Team</a><a href="https://bit-ml.github.io/teaching/lectures-and-courses">Teaching</a></nav></header><section class="Post__PostContent-oyq0rs-2 jSdCWo"><div class="Post__PostHeader-oyq0rs-5 kAktca"><a aria-current="page" class="Post__BackLink-oyq0rs-6 gMsmUp active" href="https://bit-ml.github.io/">&lt;<!-- --> Back Home</a><small class="Post__Date-oyq0rs-7 kSsCZe">published on <!-- -->February 05, 2025</small></div><h1>Towards Fused Kernels for Gated MLP</h1>
+<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post-oyq0rs-1 fGODKX"><section class="Post__PostContent-oyq0rs-2 jSdCWo">
 <p>The decoder block of a Transformer is the basic unit of all modern LLMs. Most of the compute used for it is spent on self-attention and the MLP, with self-attention in special being problematic on long sequences due to its quadratic compute and memory requirements. It is not surprising therefore that there's been a lot of progress towards increasing the performance of self-attention, such as FlashAttention [<a href="#fa">1</a>], or algorithms and models that approximate full attention, like Window Attention [<a href="#wa">2</a>], or State-Space Models [<a href="#mam">3</a>, <a href="#lru">4</a>, <a href="#mam2">5</a>]. While efficient kernels for MLPs do exist, from what we could find they seem to be either tailored to very specific setups, or only partially solve some of the issues of MLPs, such as fusing the gating operation.</p>
 <p>We spent the last few weeks working on a kernel that computes the up-scaling and gating part of the MLP in a single (fused) call. In this blog post, we will explain our approach and dive into some low-level details of our implementation. While having some familiarity with GPU kernels will make reading this blog easier, we include some introductory sections that give a high-level overview of relevant concepts. The full implementation can be found at our GitHub <a href="https://github.com/bit-ml/Fused-SwiGLU">repo</a>.</p>
 <h2>Gated MLPs</h2>

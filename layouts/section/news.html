@@ -1,4 +1,5 @@
 {{- define "main" }}
+{{ partial "debug.html" . }}
 
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
@@ -32,11 +33,8 @@
 </div>
 {{- end }}
 
-{{- /* Collect all news entries: direct regular pages + section index pages, then sort by date only */ -}}
-{{- $all := .RegularPages }}
-{{- range .Sections }}
-  {{- $all = $all | append .Page }}
-{{- end }}
+{{- /* Collect all news and blog entries, then sort by date only */ -}}
+{{- $all := where site.RegularPages "Section" "in" (slice "news" "blog") -}}
 {{- $pages := sort $all "Date" "desc" }}
 {{- $paginator := .Paginate $pages }}
 

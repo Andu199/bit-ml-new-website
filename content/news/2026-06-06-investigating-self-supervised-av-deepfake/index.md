@@ -2,6 +2,8 @@
 title: "Investigating self-supervised representations for audio-visual deepfake detection"
 date: 2026-02-21
 type: academic
+# cover:
+#  image: teaser.png
 research_direction: deepfake
 draft: false
 authors: "Dragos-Alexandru Boldisor, Stefan Smeu, Dan Oneata, Elisabeta Oneata"
@@ -11,7 +13,7 @@ presentation: ""
 
 **Links:** [arXiv](https://arxiv.org/abs/2511.17181)
 
-![Overview of the method](We-evaluate-a-wide-array-of-self-supervised-representations-for-audio-visual-deepfake-1.png)
+![Overview of the method](teaser.png)
 
 ### Abstract
 

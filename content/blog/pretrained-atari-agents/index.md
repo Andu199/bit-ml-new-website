@@ -1,10 +1,12 @@
 ---
 title: "🕹️ Pretrained Atari Agents"
-date: 2020-01-01
+date: 2022-05-05
 type: blog
+cover:
+  image: octocat.svg
 ---
 
-<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post__CoverImg-oyq0rs-10 hAChiG"></div><div class="Post-oyq0rs-1 fGODKX"><header><nav class="Navigation__Nav-qabwmo-0 iRDKCt"><a href="https://bit-ml.github.io/">Home</a><a href="https://bit-ml.github.io/#research">Research</a><a href="https://bit-ml.github.io/#teams">Team</a><a href="https://bit-ml.github.io/teaching/lectures-and-courses">Teaching</a></nav></header><section class="Post__PostContent-oyq0rs-2 jSdCWo"><div class="Post__PostHeader-oyq0rs-5 kAktca"><a aria-current="page" class="Post__BackLink-oyq0rs-6 gMsmUp active" href="https://bit-ml.github.io/">&lt;<!-- --> Back Home</a><small class="Post__Date-oyq0rs-7 kSsCZe">published on <!-- -->May 05, 2022</small></div><h1>🕹️ Pretrained Atari Agents</h1>
+<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post-oyq0rs-1 fGODKX"><section class="Post__PostContent-oyq0rs-2 jSdCWo">
 <p>Releasing trained models in computer vision and natural language processing has been a major source of progress for the research in these fields and a significant catalyst for the adaption of deep learning models in the industry. By comparison, RL agents pretrained on otherwise resource and time intensive benchmarks such as Arcade Learning Environment are rather hard to come by.</p>
 <p>Today, our research group within Bitdefender is making available over 2️⃣5️⃣,0️⃣0️⃣0️⃣ agents trained on 60 games in the Arcade Learning Environment. We hope the diversity and the quality of these trained models will help spur new research in multi-task and imitation learning and contribute to the state of reproducibility in deep reinforcement learning.</p>
 <p>The performance of these agents closely matches figures published in the literature and have been used as strong baselines in published and unpublished work. The agents included in this release are Munchausen-DQN and Adam-optimised DQN that compare favourably with more complex agents as well as a C51 agent whose performance matches or exceeds the results reported in the paper that introduced it. We provide three independent training runs for each agent-game combination with the exception of on agent for which we only provide two seeds. We plan to continue releasing new models.</p>

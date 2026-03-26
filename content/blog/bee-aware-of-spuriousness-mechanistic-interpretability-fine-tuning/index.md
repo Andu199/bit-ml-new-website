@@ -13,6 +13,8 @@ tags:
   - spurious correlations
   - model reliability
 type: blog
+cover:
+  image: bee-figure-imagenet.png
 ---
 
 # BEE Aware of Spuriousness: mechanistic interpretability for fine tuning foundation models
@@ -42,7 +44,7 @@ Code: https://github.com/bit-ml/bee
 
 Below are qualitative flips from ImageNet. The real class is clearly present, but adding an object tied to a spurious concept can flip the prediction to a different class.
 
-![Qualitative flips on ImageNet after adding a spurious concept. Example: REAL “Peafowl” becomes PREDICTED “Fire Truck” when “Firefighter” is present.](Figure_ImageNet.png)
+![Qualitative flips on ImageNet after adding a spurious concept. Examples show REAL vs PREDICTED labels and the spurious concept (SC) that drives the flip.](bee-figure-imagenet.png)
 
 *Figure 1. Qualitative examples where spurious concepts override the primary signal.*
 
@@ -63,7 +65,7 @@ That shift in focus is why BEE can surface shortcuts even when they do not appea
 
 ## The BEE pipeline (high level)
 
-![BEE pipeline overview: linear probe training on a shared embedding space, then spurious concept identification via concept extraction, filtering, ranking, and dynamic thresholding.](Figure_Method.png)
+![BEE overview: frozen foundation encoders in a shared embedding space, linear probe training (weight drift), then filtering, ranking, and spurious-concept identification.](bee-figure-pipeline.png)
 
 *Figure 2. BEE overview and where the “mechanistic” signal comes from: class weight drift and concept alignment.*
 
@@ -87,6 +89,10 @@ A concept is suspicious when it is not just similar to a class, but uniquely sim
 
 ### 4) Dynamic thresholding
 Instead of picking an arbitrary top k, BEE selects the cutoff at the “knee” of the score curve.
+
+![Smoothed spuriousness scores sorted by rank, with a reference line; the cutoff is chosen at the index of maximum deviation from that line.](bee-figure-thresholding.png)
+
+*Figure 3. Dynamic thresholding picks the “knee” of the score curve rather than a fixed top‑k.*
 
 ---
 

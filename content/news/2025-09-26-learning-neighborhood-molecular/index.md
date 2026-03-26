@@ -2,6 +2,8 @@
 title: "Learning the Neighborhood: Contrast-Free Multimodal Self-Supervised Molecular Graph Pretraining"
 date: 2025-09-26
 type: academic
+cover:
+  image: teaser.png
 research_direction: nlp
 draft: false
 authors: "Boshra Ariguib, Mathias Niepert, Andrei Manolache"

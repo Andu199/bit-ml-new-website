@@ -2,6 +2,8 @@
 title: "WASP: A Weight-Space Approach to Detecting Learned Spuriousness"
 date: 2024-12-15
 type: academic
+cover:
+  image: teaser.png
 research_direction: rl
 draft: false
 authors: "Cristian Daniel Paduraru, Antonio Barbalau, Radu Filipescu, Andrei Liviu Nicolicioiu, Elena Burceanu"

@@ -2,6 +2,8 @@
 title: "Do We Always Need the Simplicity Bias? Looking for Optimal Inductive Biases in the Wild"
 date: 2025-06-15
 type: academic
+cover:
+  image: teaser.png
 research_direction: rl
 draft: false
 authors: "Damien Teney, Lianze Jiang, Florin Gogianu, Ehsan Abbasnejad"

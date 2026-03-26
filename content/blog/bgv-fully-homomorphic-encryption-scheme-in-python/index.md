@@ -1,10 +1,12 @@
 ---
 title: "The BGV fully homomorphic encryption scheme"
-date: 2020-01-01
+date: 2023-06-29
 type: blog
+cover:
+  image: ub2OyXu.png
 ---
 
-<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post__CoverImg-oyq0rs-10 dZuuIH"></div><div class="Post-oyq0rs-1 fGODKX"><header><nav class="Navigation__Nav-qabwmo-0 iRDKCt"><a href="https://bit-ml.github.io/">Home</a><a href="https://bit-ml.github.io/#research">Research</a><a href="https://bit-ml.github.io/#teams">Team</a><a href="https://bit-ml.github.io/teaching/lectures-and-courses">Teaching</a></nav></header><section class="Post__PostContent-oyq0rs-2 jSdCWo"><div class="Post__PostHeader-oyq0rs-5 kAktca"><a aria-current="page" class="Post__BackLink-oyq0rs-6 gMsmUp active" href="https://bit-ml.github.io/">&lt;<!-- --> Back Home</a><small class="Post__Date-oyq0rs-7 kSsCZe">published on <!-- -->June 29, 2023</small></div><h1>The BGV fully homomorphic encryption scheme</h1>
+<div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post-oyq0rs-1 fGODKX"><section class="Post__PostContent-oyq0rs-2 jSdCWo">
 <p>This is a sister blogpost to the <a href="https://bit-ml.github.io/blog/post/homomorphic-encryption-toy-implementation-in-python/">previous one about a similar scheme (BFV)</a> and it's part of the series that covers fully homomorphic encryption techniques and applications.</p>
 <h2>Introduction</h2>
 <p><span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow></mrow><annotation encoding="application/x-tex">\gdef\can #1{\|#1\|^{\text{can}}}</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"></span></span></span></p>
