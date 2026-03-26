@@ -6,16 +6,8 @@
     <description>Recent content in News on Bitdefender AI Research</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andu199.github.io/bit-ml-new-website/news/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>System and method for detecting malicious software using machine learning</title>
-      <link>https://andu199.github.io/bit-ml-new-website/news/2026-03-26-sample-patent/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/news/2026-03-26-sample-patent/</guid>
-      <description>&lt;p&gt;A patent granted for a novel system and method for detecting malicious software using advanced machine learning techniques.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#&#34;&gt;View Patent on Google Patents&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Deep Learning @ FMI – 2026 edition</title>
       <link>https://andu199.github.io/bit-ml-new-website/news/2026-02-23-deepfmi/</link>
@@ -102,6 +94,36 @@
 &lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Equivariant neural networks are designed to respect symmetries through their architecture, boosting generalization and sample efficiency when those symmetries are present in the data distribution. Real-world data, however, often departs from perfect symmetry because of noise, structural variation, measurement bias, or other symmetry-breaking effects. Strictly equivariant models may struggle to fit the data, while unconstrained models lack a principled way to leverage partial symmetries. Even when the data is fully symmetric, enforcing equivariance can hurt training by limiting the model to a restricted region of the parameter space. Guided by homotopy principles, where an optimization problem is solved by gradually transforming a simpler problem into a complex one, we introduce Adaptive Constrained Equivariance (ACE), a constrained optimization approach that starts with a flexible, non-equivariant model and gradually reduces its deviation from equivariance. This gradual tightening smooths training early on and settles the model at a data-driven equilibrium, balancing between equivariance and non-equivariance. Across multiple architectures and tasks, our method consistently improves performance metrics, sample efficiency, and robustness to input perturbations compared with strictly equivariant models and heuristic equivariance relaxations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Systems and Methods of Detecting Bias in AI Training Data</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2025-11-04-btd-2414-c1-detecting-bias-ai-training-data/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-11-04-btd-2414-c1-detecting-bias-ai-training-data/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Docket:&lt;/strong&gt; BTD-2414-C1 · &lt;strong&gt;US application:&lt;/strong&gt; 19/378,395 · &lt;strong&gt;PTO filed:&lt;/strong&gt; Nov 4, 2025 · &lt;strong&gt;Status:&lt;/strong&gt; Filed · &lt;strong&gt;Technologies:&lt;/strong&gt; Machine learning&lt;/p&gt;
+&lt;p&gt;Continuation patent application on detecting bias in AI training data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://patentcenter.uspto.gov/applications/19378395&#34;&gt;Application folder (USPTO Patent Center)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Systems and Methods of Identifying Spurious Correlations in AI Training Data</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2025-11-04-btd-2414-spurious-correlations-ai-data/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-11-04-btd-2414-spurious-correlations-ai-data/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Docket:&lt;/strong&gt; BTD-2414 · &lt;strong&gt;US application:&lt;/strong&gt; 19/378,391 · &lt;strong&gt;PTO filed:&lt;/strong&gt; Nov 4, 2025 · &lt;strong&gt;Status:&lt;/strong&gt; Filed · &lt;strong&gt;Technologies:&lt;/strong&gt; Machine learning&lt;/p&gt;
+&lt;p&gt;Patent application on identifying spurious correlations in AI training data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://patentcenter.uspto.gov/applications/19378391&#34;&gt;Application folder (USPTO Patent Center)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Systems and Methods of Training Deepfake Detectors</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2025-09-30-btd-2511-training-deepfake-detectors/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-09-30-btd-2511-training-deepfake-detectors/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Docket:&lt;/strong&gt; BTD-2511 · &lt;strong&gt;PTO filed:&lt;/strong&gt; Sep 30, 2025 · &lt;strong&gt;Status:&lt;/strong&gt; Filed · &lt;strong&gt;Technologies:&lt;/strong&gt; Machine learning&lt;/p&gt;
+&lt;p&gt;US patent application on training deepfake detectors.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning the Neighborhood: Contrast-Free Multimodal Self-Supervised Molecular Graph Pretraining</title>
@@ -192,6 +214,28 @@
 &lt;p&gt;&lt;img alt=&#34;Paper teaser&#34; loading=&#34;lazy&#34; src=&#34;https://andu199.github.io/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/teaser.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Message-passing graph neural networks (MPNNs) have emerged as a powerful paradigm for graph-based machine learning. Despite their effectiveness, MPNNs face challenges such as under-reaching and over-squashing, where limited receptive fields and structural bottlenecks hinder information flow in the graph. While graph transformers hold promise in addressing these issues, their scalability is limited due to quadratic complexity regarding the number of nodes, rendering them impractical for larger graphs. Here, we propose implicitly rewired message-passing neural networks (IPR-MPNNs), a novel approach that integrates implicit probabilistic graph rewiring into MPNNs. By introducing a small number of virtual nodes, i.e., adding additional nodes to a given graph and connecting them to existing nodes, in a differentiable, end-to-end manner, IPR-MPNNs enable long-distance message propagation, circumventing quadratic complexity. Theoretically, we demonstrate that IPR-MPNNs surpass the expressiveness of traditional MPNNs. Empirically, we validate our approach by showcasing its ability to mitigate under-reaching and over-squashing effects, achieving state-of-the-art performance across multiple graph datasets. Notably, IPR-MPNNs outperform graph transformers while maintaining significantly faster computational efficiency.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Systems and Methods of Detecting Chatbots</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2023-05-19-btd-2227-detecting-chatbots/</link>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2023-05-19-btd-2227-detecting-chatbots/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Docket:&lt;/strong&gt; BTD-2227 · &lt;strong&gt;US publication:&lt;/strong&gt; 2024/0386212 · &lt;strong&gt;PTO filed:&lt;/strong&gt; May 19, 2023 · &lt;strong&gt;Status:&lt;/strong&gt; Published · &lt;strong&gt;Technologies:&lt;/strong&gt; Machine learning&lt;/p&gt;
+&lt;p&gt;Patent publication on detecting chatbots.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://patents.google.com/patent/US20240386212/en&#34;&gt;View on Google Patents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Computer Security Systems and Methods Using Self-Supervised Consensus-Building Machine Learning</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2022-03-26-btd-2103-consensus-ml-security/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2022-03-26-btd-2103-consensus-ml-security/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Docket:&lt;/strong&gt; BTD-2103 · &lt;strong&gt;US application:&lt;/strong&gt; 17/656,644 · &lt;strong&gt;PTO filed:&lt;/strong&gt; Mar 26, 2022 · &lt;strong&gt;Status:&lt;/strong&gt; Published · &lt;strong&gt;Technologies:&lt;/strong&gt; Machine learning&lt;/p&gt;
+&lt;p&gt;Patent application on computer security using self-supervised, consensus-building machine learning.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://patentcenter.uspto.gov/applications/17656644&#34;&gt;Application folder (USPTO Patent Center)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

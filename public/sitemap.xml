@@ -3,13 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://andu199.github.io/bit-ml-new-website/</loc>
-    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andu199.github.io/bit-ml-new-website/news/</loc>
-    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andu199.github.io/bit-ml-new-website/news/2026-03-26-sample-patent/</loc>
-    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andu199.github.io/bit-ml-new-website/news/2026-03-03-new_site/</loc>
     <lastmod>2026-03-03T00:00:00+00:00</lastmod>
@@ -68,6 +65,15 @@
     <loc>https://andu199.github.io/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/</loc>
     <lastmod>2025-12-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/news/2025-11-04-btd-2414-c1-detecting-bias-ai-training-data/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/news/2025-11-04-btd-2414-spurious-correlations-ai-data/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/news/2025-09-30-btd-2511-training-deepfake-detectors/</loc>
+    <lastmod>2025-09-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://andu199.github.io/bit-ml-new-website/news/2025-09-26-learning-neighborhood-molecular/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -104,8 +110,14 @@
     <loc>https://andu199.github.io/bit-ml-new-website/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</loc>
     <lastmod>2023-06-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/news/2023-05-19-btd-2227-detecting-chatbots/</loc>
+    <lastmod>2023-05-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://andu199.github.io/bit-ml-new-website/blog/pretrained-atari-agents/</loc>
     <lastmod>2022-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andu199.github.io/bit-ml-new-website/news/2022-03-26-btd-2103-consensus-ml-security/</loc>
+    <lastmod>2022-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andu199.github.io/bit-ml-new-website/blog/private-set-intersection-an-implementation-in-python/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
