@@ -15,6 +15,7 @@ tags:
 type: blog
 cover:
   image: bee-figure-imagenet.png
+  hiddenInSingle: true
 ---
 
 # BEE Aware of Spuriousness: mechanistic interpretability for fine tuning foundation models

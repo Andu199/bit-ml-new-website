@@ -4,6 +4,7 @@ date: 2022-05-05
 type: blog
 cover:
   image: octocat.svg
+  hiddenInSingle: true
 ---
 
 <div><div class="Post__PageWithCoverImg-oyq0rs-0 cSOdgJ"><div class="Post-oyq0rs-1 fGODKX"><section class="Post__PostContent-oyq0rs-2 jSdCWo">

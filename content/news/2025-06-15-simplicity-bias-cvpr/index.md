@@ -14,8 +14,6 @@ top_percent: 0.8
 
 **Links:** [arXiv](https://arxiv.org/abs/2503.10065) · [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2025/html/Teney_Do_We_Always_Need_the_Simplicity_Bias_Looking_for_Optimal_CVPR_2025_paper.html)
 
-![Paper teaser](teaser.png)
-
 ### Abstract
 
 Common choices of architecture give neural networks a preference for fitting data with simple functions. This simplicity bias is known as key to their success. This paper explores the limits of this assumption. Building on recent work that showed that activation functions are the origin of the simplicity bias (Teney, 2024), we introduce a method to meta-learn activation functions to modulate this bias.
