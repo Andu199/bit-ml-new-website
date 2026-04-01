@@ -4,7 +4,7 @@ date: 2025-12-02
 type: academic
 cover:
   image: teaser.png
-research_direction: rl
+research_direction: generalization
 draft: false
 authors: "Andrei Manolache, Luiz F.O. Chamon, Mathias Niepert"
 venue: "NeurIPS 2025"

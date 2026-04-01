@@ -39,6 +39,12 @@
         <a href="{{ .Params.github }}" class="academic-card-link" target="_blank" rel="noopener">Code</a>
         {{- end }}
       </div>
+      {{- if .Params.research_direction }}
+      <div class="academic-paper-direction">
+        <span class="academic-paper-direction-label">Research direction</span>
+        {{ partial "research_direction_link.html" .Params.research_direction }}
+      </div>
+      {{- end }}
     </div>
     {{- end }}
     {{- if .Description }}

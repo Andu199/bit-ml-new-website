@@ -2,18 +2,6 @@
 title: "Research"
 ---
 
-## Greatest achievements
-
-- 1 paper at **NeurIPS** - 1 oral
-- 2 papers at **CVPR** - 1 highlight
-- 2 papers at **WACV** - 1 oral
-- 10 papers at **NeurIPS workshops**
-- Best **NeurIPS Reviewer**
-- **CVPR** daily interview
-- **NeurIPS** Associate PC
-
----
-
 ## Generalization and mechanistic interpretability
 
 We study how models generalize under distribution shift, how spurious cues and shortcuts emerge, and how mechanistic interpretability can diagnose and mitigate these failures — including graph learning, representation geometry, and debiasing.

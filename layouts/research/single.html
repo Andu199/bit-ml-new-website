@@ -1,0 +1,36 @@
+{{- define "main" }}
+<div class="research-direction-page">
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $dir := .Params.direction | default "" -}}
+{{- if $dir }}
+  {{- $pages := where site.RegularPages "Section" "news" -}}
+  {{- $pages = where $pages "Params.type" "academic" -}}
+  {{- $pages = where $pages "Params.research_direction" $dir -}}
+  {{- $pages = sort $pages "Date" "desc" -}}
+  <section class="research-direction-news-section" id="news" aria-labelledby="research-direction-news-heading">
+    <h2 class="research-direction-papers-heading" id="research-direction-news-heading">News</h2>
+    {{- if $pages }}
+    <div class="academic-list">
+    {{- range $pages }}
+      {{- partial "list_entry.html" . }}
+    {{- end }}
+    </div>
+    {{- else }}
+    <p class="research-recent-empty"><em>No academic news posts tagged with this direction yet.</em></p>
+    {{- end }}
+  </section>
+{{- end }}
+</div>
+{{- end }}

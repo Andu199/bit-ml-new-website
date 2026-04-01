@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Generalization and mechanistic interpretability | Bitdefender AI Research</title>
+<meta name="keywords" content="">
+<meta name="description" content="We study how models generalize under distribution shift, how spurious cues and shortcuts emerge, and how mechanistic interpretability can diagnose and mitigate these failures — including graph learning, representation geometry, and debiasing.">
+<meta name="author" content="">
+<link rel="canonical" href="https://andu199.github.io/bit-ml-new-website/research/generalization/">
+<link crossorigin="anonymous" href="/bit-ml-new-website/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://andu199.github.io/bit-ml-new-website/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://andu199.github.io/bit-ml-new-website/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://andu199.github.io/bit-ml-new-website/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://andu199.github.io/bit-ml-new-website/apple-touch-icon.png">
+<link rel="mask-icon" href="https://andu199.github.io/bit-ml-new-website/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://andu199.github.io/bit-ml-new-website/research/generalization/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script><link rel="stylesheet" href="/bit-ml-new-website/css/custom.css"><script>
+  MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)'], ['$', '$']],
+      displayMath: [['\\[', '\\]'], ['$$', '$$']]
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-386447349"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-386447349');
+        }
+      </script><meta property="og:url" content="https://andu199.github.io/bit-ml-new-website/research/generalization/">
+  <meta property="og:site_name" content="Bitdefender AI Research">
+  <meta property="og:title" content="Generalization and mechanistic interpretability">
+  <meta property="og:description" content="We study how models generalize under distribution shift, how spurious cues and shortcuts emerge, and how mechanistic interpretability can diagnose and mitigate these failures — including graph learning, representation geometry, and debiasing.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Generalization and mechanistic interpretability">
+<meta name="twitter:description" content="We study how models generalize under distribution shift, how spurious cues and shortcuts emerge, and how mechanistic interpretability can diagnose and mitigate these failures — including graph learning, representation geometry, and debiasing.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Research",
+      "item": "https://andu199.github.io/bit-ml-new-website/research/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Generalization and mechanistic interpretability",
+      "item": "https://andu199.github.io/bit-ml-new-website/research/generalization/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Generalization and mechanistic interpretability",
+  "name": "Generalization and mechanistic interpretability",
+  "description": "We study how models generalize under distribution shift, how spurious cues and shortcuts emerge, and how mechanistic interpretability can diagnose and mitigate these failures — including graph learning, representation geometry, and debiasing.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "We study how models generalize under distribution shift, how spurious cues and shortcuts emerge, and how mechanistic interpretability can diagnose and mitigate these failures — including graph learning, representation geometry, and debiasing.\n",
+  "wordCount" : "32",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://andu199.github.io/bit-ml-new-website/research/generalization/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bitdefender AI Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://andu199.github.io/bit-ml-new-website/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://andu199.github.io/bit-ml-new-website/" accesskey="h" title="Bitdefender AI Research (Alt + H)">Bitdefender AI Research</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://andu199.github.io/bit-ml-new-website/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://andu199.github.io/bit-ml-new-website/news/" title="News">
+                    <span>News</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://andu199.github.io/bit-ml-new-website/research/" title="Research">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://andu199.github.io/bit-ml-new-website/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://andu199.github.io/bit-ml-new-website/community/" title="Community">
+                    <span>Community</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://andu199.github.io/bit-ml-new-website/team/" title="Team">
+                    <span>Team</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<div class="research-direction-page">
+<header class="page-header">
+  <h1>Generalization and mechanistic interpretability</h1>
+</header>
+<div class="post-content"><p>We study how models generalize under distribution shift, how spurious cues and shortcuts emerge, and how mechanistic interpretability can diagnose and mitigate these failures — including graph learning, representation geometry, and debiasing.</p>
+
+
+</div><section class="research-direction-news-section" id="news" aria-labelledby="research-direction-news-heading">
+    <h2 class="research-direction-papers-heading" id="research-direction-news-heading">News</h2>
+    <div class="academic-list"><article class="academic-card">
+  <div class="academic-card-thumb">
+    <img src="/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/teaser.png" alt="Teaser for Not All Splits Are Equal: Rethinking Attribute Generalization Across Unrelated Categories">
+  </div>
+  <div class="academic-card-body">
+    <div class="academic-card-header">
+      <div class="academic-card-pills">
+        <span class="news-type-pill news-type-pill--academic">Academic</span>
+        
+<a href="/bit-ml-new-website/research/generalization/" class="news-type-pill news-type-pill--direction">Generalization &amp; Interpretability</a>
+      </div>
+      <h2 class="academic-card-title"><a href="https://andu199.github.io/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/">Not All Splits Are Equal: Rethinking Attribute Generalization Across Unrelated Categories</a></h2>
+    </div>
+    <div class="academic-card-meta">
+      <div class="academic-card-authors">Liviu Nicolae Fircă, Antonio Bărbălau, Dan Oneata, Elena Burceanu</div>
+      <div class="academic-card-meta-line">
+        <span class="academic-card-venue">Accepted at <em>NeurIPS 2025 Workshop CauScien</em> (Poster)
+        </span><span class="academic-card-meta-dot" aria-hidden="true">·</span><span class="academic-card-date">Dec 2025</span>
+      </div>
+    </div>
+    <div class="academic-card-summary">
+      Links: arXiv GitHub
+Abstract Can models generalize attribute knowledge across semantically and perceptually dissimilar categories? While prior work …
+    </div>
+    <div class="academic-card-links">
+      <a href="https://andu199.github.io/bit-ml-new-website/news/2025-12-06-not-all-splits-equal/" class="academic-card-more">Read more →</a>
+    </div>
+  </div>
+</article>
+<article class="academic-card">
+  <div class="academic-card-thumb">
+    <img src="/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/teaser.png" alt="Teaser for Learning (Approximately) Equivariant Networks via Constrained Optimization">
+  </div>
+  <div class="academic-card-body">
+    <div class="academic-card-header">
+      <div class="academic-card-pills">
+        <span class="news-type-pill news-type-pill--academic">Academic</span>
+        
+<a href="/bit-ml-new-website/research/generalization/" class="news-type-pill news-type-pill--direction">Generalization &amp; Interpretability</a>
+      </div>
+      <h2 class="academic-card-title"><a href="https://andu199.github.io/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/">Learning (Approximately) Equivariant Networks via Constrained Optimization</a></h2>
+    </div>
+    <div class="academic-card-meta">
+      <div class="academic-card-authors">Andrei Manolache, Luiz F.O. Chamon, Mathias Niepert</div>
+      <div class="academic-card-meta-line">
+        <span class="academic-card-venue">Accepted at <em>NeurIPS 2025</em> (Oral, top 0.4%)
+        </span><span class="academic-card-meta-dot" aria-hidden="true">·</span><span class="academic-card-date">Dec 2025</span>
+      </div>
+    </div>
+    <div class="academic-card-summary">
+      Links: arXiv · GitHub
+Abstract Equivariant neural networks are designed to respect symmetries through their architecture, boosting generalization and …
+    </div>
+    <div class="academic-card-links">
+      <a href="https://andu199.github.io/bit-ml-new-website/news/2025-12-02-learning_approximately_equivariant/" class="academic-card-more">Read more →</a>
+    </div>
+  </div>
+</article>
+<article class="academic-card">
+  <div class="academic-card-thumb">
+    <img src="/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/teaser.png" alt="Teaser for Robust Novelty Detection through Style-Conscious Feature Ranking">
+  </div>
+  <div class="academic-card-body">
+    <div class="academic-card-header">
+      <div class="academic-card-pills">
+        <span class="news-type-pill news-type-pill--academic">Academic</span>
+        
+<a href="/bit-ml-new-website/research/generalization/" class="news-type-pill news-type-pill--direction">Generalization &amp; Interpretability</a>
+      </div>
+      <h2 class="academic-card-title"><a href="https://andu199.github.io/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/">Robust Novelty Detection through Style-Conscious Feature Ranking</a></h2>
+    </div>
+    <div class="academic-card-meta">
+      <div class="academic-card-authors">Stefan Smeu, Elena Burceanu, Emanuela Haller, Andrei Liviu Nicolicioiu</div>
+      <div class="academic-card-meta-line">
+        <span class="academic-card-venue">Accepted at <em>WACV 2025</em> (Poster)
+        </span><span class="academic-card-meta-dot" aria-hidden="true">·</span><span class="academic-card-date">Feb 2025</span>
+      </div>
+    </div>
+    <div class="academic-card-summary">
+      Links: arXiv Proceedings GitHub
+Abstract Novelty detection seeks to identify samples deviating from a known distribution, yet data shifts in a …
+    </div>
+    <div class="academic-card-links">
+      <a href="https://andu199.github.io/bit-ml-new-website/news/2025-02-28-robust-novelty-detection-wacv/" class="academic-card-more">Read more →</a>
+    </div>
+  </div>
+</article>
+<article class="academic-card">
+  <div class="academic-card-thumb">
+    <img src="/bit-ml-new-website/news/2024-12-15-conceptdrift/teaser.png" alt="Teaser for ConceptDrift: Uncovering Biases through the Lens of Foundational Models">
+  </div>
+  <div class="academic-card-body">
+    <div class="academic-card-header">
+      <div class="academic-card-pills">
+        <span class="news-type-pill news-type-pill--academic">Academic</span>
+        
+<a href="/bit-ml-new-website/research/generalization/" class="news-type-pill news-type-pill--direction">Generalization &amp; Interpretability</a>
+      </div>
+      <h2 class="academic-card-title"><a href="https://andu199.github.io/bit-ml-new-website/news/2024-12-15-conceptdrift/">ConceptDrift: Uncovering Biases through the Lens of Foundational Models</a></h2>
+    </div>
+    <div class="academic-card-meta">
+      <div class="academic-card-authors">Cristian Daniel Paduraru, Antonio Barbalau, Radu Filipescu, Andrei Liviu Nicolicioiu, Elena Burceanu</div>
+      <div class="academic-card-meta-line">
+        <span class="academic-card-venue">Accepted at <em>NeurIPS 2024 Workshop Interpretable AI: Past, Present and Future</em>
+        </span><span class="academic-card-meta-dot" aria-hidden="true">·</span><span class="academic-card-date">Dec 2024</span>
+      </div>
+    </div>
+    <div class="academic-card-summary">
+      Links: arXiv
+Abstract Datasets and pre-trained models come with intrinsic biases. Most methods rely on spotting them by analysing misclassified …
+    </div>
+    <div class="academic-card-links">
+      <a href="https://andu199.github.io/bit-ml-new-website/news/2024-12-15-conceptdrift/" class="academic-card-more">Read more →</a>
+    </div>
+  </div>
+</article>
+<article class="academic-card">
+  <div class="academic-card-thumb">
+    <img src="/bit-ml-new-website/news/2024-12-15-wasp/teaser.png" alt="Teaser for WASP: A Weight-Space Approach to Detecting Learned Spuriousness">
+  </div>
+  <div class="academic-card-body">
+    <div class="academic-card-header">
+      <div class="academic-card-pills">
+        <span class="news-type-pill news-type-pill--academic">Academic</span>
+        
+<a href="/bit-ml-new-website/research/generalization/" class="news-type-pill news-type-pill--direction">Generalization &amp; Interpretability</a>
+      </div>
+      <h2 class="academic-card-title"><a href="https://andu199.github.io/bit-ml-new-website/news/2024-12-15-wasp/">WASP: A Weight-Space Approach to Detecting Learned Spuriousness</a></h2>
+    </div>
+    <div class="academic-card-meta">
+      <div class="academic-card-authors">Cristian Daniel Paduraru, Antonio Barbalau, Radu Filipescu, Andrei Liviu Nicolicioiu, Elena Burceanu</div>
+      <div class="academic-card-meta-line">
+        <span class="academic-card-venue">Accepted at <em>NeurIPS 2024 Workshop Interpretable AI: Past, Present and Future</em>
+        </span><span class="academic-card-meta-dot" aria-hidden="true">·</span><span class="academic-card-date">Dec 2024</span>
+      </div>
+    </div>
+    <div class="academic-card-summary">
+      Links: arXiv GitHub
+Abstract It is of crucial importance to train machine learning models such that they clearly understand what defines each class in …
+    </div>
+    <div class="academic-card-links">
+      <a href="https://andu199.github.io/bit-ml-new-website/news/2024-12-15-wasp/" class="academic-card-more">Read more →</a>
+    </div>
+  </div>
+</article>
+<article class="academic-card">
+  <div class="academic-card-thumb">
+    <img src="/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/teaser.png" alt="Teaser for Probabilistic Graph Rewiring via Virtual Nodes">
+  </div>
+  <div class="academic-card-body">
+    <div class="academic-card-header">
+      <div class="academic-card-pills">
+        <span class="news-type-pill news-type-pill--academic">Academic</span>
+        
+<a href="/bit-ml-new-website/research/generalization/" class="news-type-pill news-type-pill--direction">Generalization &amp; Interpretability</a>
+      </div>
+      <h2 class="academic-card-title"><a href="https://andu199.github.io/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/">Probabilistic Graph Rewiring via Virtual Nodes</a></h2>
+    </div>
+    <div class="academic-card-meta">
+      <div class="academic-card-authors">C. Qian, A. Manolache, C. Morris, M. Niepert</div>
+      <div class="academic-card-meta-line">
+        <span class="academic-card-venue">Accepted at <em>NeurIPS 2024</em> (Poster)
+        </span><span class="academic-card-meta-dot" aria-hidden="true">·</span><span class="academic-card-date">Dec 2024</span>
+      </div>
+    </div>
+    <div class="academic-card-summary">
+      Links: arXiv GitHub
+Abstract Message-passing graph neural networks (MPNNs) have emerged as a powerful paradigm for graph-based machine learning. …
+    </div>
+    <div class="academic-card-links">
+      <a href="https://andu199.github.io/bit-ml-new-website/news/2024-12-10-probabilistic-graph-rewiring/" class="academic-card-more">Read more →</a>
+    </div>
+  </div>
+</article>
+
+    </div>
+  </section>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://andu199.github.io/bit-ml-new-website/">Bitdefender AI Research</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

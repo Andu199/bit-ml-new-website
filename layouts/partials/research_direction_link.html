@@ -1,0 +1,11 @@
+{{- $dir := . -}}
+{{- if $dir -}}
+{{- $labels := dict "generalization" "Generalization & Interpretability" "deepfake" "Deepfake Detection" "nlp" "Natural Language Processing" "rl" "Reinforcement Learning" -}}
+{{- $label := index $labels $dir | default ($dir | humanize) -}}
+{{- $pg := site.GetPage (printf "/research/%s" $dir) -}}
+{{- if $pg }}
+<a href="{{ $pg.RelPermalink }}" class="news-type-pill news-type-pill--direction">{{ $label }}</a>
+{{- else }}
+<a href="{{ (printf "/research/%s/" $dir) | relURL }}" class="news-type-pill news-type-pill--direction">{{ $label }}</a>
+{{- end }}
+{{- end -}}

@@ -25,7 +25,12 @@
   {{- end }}
   <div class="academic-card-body">
     <div class="academic-card-header">
-      <span class="news-type-pill news-type-pill--{{ $type }}">{{ $type | title }}</span>
+      <div class="academic-card-pills">
+        <span class="news-type-pill news-type-pill--{{ $type }}">{{ $type | title }}</span>
+        {{- if and (eq $type "academic") .Params.research_direction }}
+        {{ partial "research_direction_link.html" .Params.research_direction }}
+        {{- end }}
+      </div>
       <h2 class="academic-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     </div>
     <div class="academic-card-meta">

@@ -41,6 +41,13 @@
 &lt;p&gt;Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-art preference optimization algorithms to boost MT performance. We introduce a novel curriculum learning strategy with restarts (CLewR), which reiterates easy-to-hard curriculum multiple times during training to effectively mitigate the catastrophic forgetting of easy examples. We demonstrate consistent gains across several model families (Gemma2, Qwen2.5, Llama3.1) and preference optimization techniques.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Best NeurIPS reviewer recognition</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2025-12-18-neurips-outstanding-reviewer/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-12-18-neurips-outstanding-reviewer/</guid>
+      <description>&lt;p&gt;A member of our team was recognized among the &lt;strong&gt;best reviewers&lt;/strong&gt; at &lt;strong&gt;NeurIPS&lt;/strong&gt;, reflecting sustained, high-quality peer review for the machine learning community.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>C-ing Clearly: Enhanced Binary Code Explanations using C code</title>
       <link>https://andu199.github.io/bit-ml-new-website/news/2025-12-16-c-ing-clearly/</link>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
@@ -132,6 +139,20 @@
       <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2509.22468&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/ariguiba/C-FREE&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;High-quality molecular representations are essential for property prediction and molecular design, yet large labeled datasets remain scarce. While self-supervised pretraining on molecular graphs has shown promise, many existing approaches either depend on hand-crafted augmentations or complex generative objectives, and often rely solely on 2D topology, leaving valuable 3D structural information underutilized. To address this gap, we introduce C-FREE (Contrast-Free Representation learning on Ego-nets), a simple framework that integrates 2D graphs with ensembles of 3D conformers. C-FREE learns molecular representations by predicting subgraph embeddings from their complementary neighborhoods in the latent space, using fixed-radius ego-nets as modeling units across different conformers. This design allows us to integrate both geometric and topological information within a hybrid Graph Neural Network (GNN)-Transformer backbone, without negatives, positional encodings, or expensive pre-processing. Pretraining on the GEOM dataset, which provides rich 3D conformational diversity, C-FREE achieves state-of-the-art results on MoleculeNet, surpassing contrastive, generative, and other multimodal self-supervised methods. Fine-tuning across datasets with diverse sizes and molecule types further demonstrates that pretraining transfers effectively to new chemical domains, highlighting the importance of 3D-informed molecular representations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NeurIPS Associate Program Chair</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2025-09-05-neurips-associate-pc/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-09-05-neurips-associate-pc/</guid>
+      <description>&lt;p&gt;A team member served as &lt;strong&gt;NeurIPS Associate Program Chair&lt;/strong&gt; (Associate PC), helping shape the conference’s review process and paper selection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CVPR Daily interview</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2025-06-20-cvpr-daily-interview/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2025-06-20-cvpr-daily-interview/</guid>
+      <description>&lt;p&gt;Our group was featured in a &lt;strong&gt;CVPR Daily&lt;/strong&gt; interview during &lt;strong&gt;CVPR 2025&lt;/strong&gt;. The interview can be found &lt;a href=&#34;https://www.rsipvision.com/CVPR2025-Saturday/14/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Circumventing shortcuts in audio-visual deepfake detection datasets with unsupervised learning</title>
@@ -310,6 +331,13 @@ post as well since it may be of interest to anyone using the [FV12] scheme in
 &lt;p&gt;At the invitation of the Faculty of Automatic Control and Computer Science, Politehnica University of Bucharest we created and delivered an introduction to Deep Reinforcement Learning as part of the Advanced Methods in AI course within the AI Master&amp;rsquo;s Degree program.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Deepfake detection</title>
+      <link>https://andu199.github.io/bit-ml-new-website/research/deepfake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/research/deepfake/</guid>
+      <description>&lt;p&gt;We develop multimodal (audio–video) and representation-level methods to detect synthetic and manipulated media, with emphasis on robustness, self-supervision, and dataset artifacts.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>DeepFMI 2022 – Posters</title>
       <link>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -329,6 +357,27 @@ post as well since it may be of interest to anyone using the [FV12] scheme in
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2025/</guid>
       <description>&lt;p&gt;Poster session from the 2025 edition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generalization and mechanistic interpretability</title>
+      <link>https://andu199.github.io/bit-ml-new-website/research/generalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/research/generalization/</guid>
+      <description>&lt;p&gt;We study how models generalize under distribution shift, how spurious cues and shortcuts emerge, and how mechanistic interpretability can diagnose and mitigate these failures — including graph learning, representation geometry, and debiasing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Natural language processing</title>
+      <link>https://andu199.github.io/bit-ml-new-website/research/nlp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/research/nlp/</guid>
+      <description>&lt;p&gt;We work on large language models, code and low-level languages, multilingual systems, and structured domains such as molecules — with applications to reliability, reasoning, and scientific ML.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reinforcement learning</title>
+      <link>https://andu199.github.io/bit-ml-new-website/research/rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/research/rl/</guid>
+      <description>&lt;p&gt;We investigate reinforcement learning with a focus on sample efficiency and value-based deep RL.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
