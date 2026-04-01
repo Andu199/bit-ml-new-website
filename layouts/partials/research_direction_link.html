@@ -4,8 +4,8 @@
 {{- $label := index $labels $dir | default ($dir | humanize) -}}
 {{- $pg := site.GetPage (printf "/research/%s" $dir) -}}
 {{- if $pg }}
-<a href="{{ $pg.RelPermalink }}" class="news-type-pill news-type-pill--direction">{{ $label }}</a>
+<a href="{{ $pg.RelPermalink }}" class="news-type-pill news-type-pill--direction news-type-pill--direction-{{ $dir }}">{{ $label }}</a>
 {{- else }}
-<a href="{{ (printf "/research/%s/" $dir) | relURL }}" class="news-type-pill news-type-pill--direction">{{ $label }}</a>
+<a href="{{ (printf "/research/%s/" $dir) | relURL }}" class="news-type-pill news-type-pill--direction news-type-pill--direction-{{ $dir }}">{{ $label }}</a>
 {{- end }}
 {{- end -}}
