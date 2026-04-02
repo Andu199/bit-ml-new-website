@@ -11,7 +11,7 @@ I am a Research Scientist working on robust machine learning, with a current foc
 {{< teammember "Florin Brad" "florin_brad.webp" >}}
 I earned my Master's degree in Artificial Intelligence from Politehnica University of Bucharest. I have a broader interest in LLMs with a current focus on Reinforcement Learning With Verifiable Rewards algorithms that incentivise reasoning.
 
-[email](mailto:fbrad@bitdefender.com) [LinkedIn](https://www.linkedin.com/in/fbrad/) [website](https://scholar.google.com/citations?user=vqEIJmkAAAAJ&hl=en)
+[email](mailto:fbrad@bitdefender.com) · [LinkedIn](https://www.linkedin.com/in/fbrad/) · [website](https://scholar.google.com/citations?user=vqEIJmkAAAAJ&hl=en)
 {{< /teammember >}}
 
 {{< teammember "Andrei Manolache" "andrei_manolache.webp" >}}
