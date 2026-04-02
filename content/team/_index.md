@@ -9,9 +9,9 @@ I am a Research Scientist working on robust machine learning, with a current foc
 {{< /teammember >}}
 
 {{< teammember "Florin Brad" "florin_brad.webp" >}}
-I am interested in neural generative models for natural language processing, especially for code generation. In particular, I am interested in leveraging discrete structure (syntax trees) to improve the expressiveness of the latent space and to guide the generation process.
+I earned my Master's degree in Artificial Intelligence from Politehnica University of Bucharest. I have a broader interest in LLMs with a current focus on Reinforcement Learning With Verifiable Rewards algorithms that incentivise reasoning.
 
-[email](mailto:fbrad@bitdefender.com)
+[email](mailto:fbrad@bitdefender.com) [LinkedIn](https://www.linkedin.com/in/fbrad/) [website](https://scholar.google.com/citations?user=vqEIJmkAAAAJ&hl=en)
 {{< /teammember >}}
 
 {{< teammember "Andrei Manolache" "andrei_manolache.webp" >}}
