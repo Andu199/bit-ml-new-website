@@ -5,6 +5,16 @@
             <h1 class="home-hero-title">{{ .title | default site.Title | markdownify }}</h1>
             <div class="home-hero-subtitle">{{ .subtitle | markdownify }}</div>
             
+            <div class="home-hero-focus">
+                <span class="home-hero-focus-label">Core Research</span>
+                <div class="home-hero-focus-pills">
+                    {{ partial "research_direction_link.html" "generalization" }}
+                    {{ partial "research_direction_link.html" "deepfake" }}
+                    {{ partial "research_direction_link.html" "nlp" }}
+                    {{ partial "research_direction_link.html" "rl" }}
+                </div>
+            </div>
+
             <div class="home-hero-actions">
                 {{- partial "social_icons.html" -}}
 

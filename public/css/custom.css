@@ -22,7 +22,7 @@
   align-items: center;
   text-align: center;
   margin-top: 3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 2.5rem;
   width: 100%;
   position: relative;
   z-index: 1;
@@ -52,7 +52,7 @@
 
 .home-hero-text {
   max-width: 900px;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,6 +89,39 @@
   opacity: 0;
 }
 
+.home-hero-focus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  animation: heroReveal 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.25s;
+  opacity: 0;
+}
+
+.home-hero-focus-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+.home-hero-focus-pills {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-hero-focus-pills .news-type-pill {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+}
+
 .home-hero-actions {
   display: flex;
   align-items: center;
@@ -96,8 +129,56 @@
   gap: 1.5rem;
   flex-wrap: wrap;
   animation: heroReveal 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  animation-delay: 0.3s;
+  animation-delay: 0.35s;
   opacity: 0;
+}
+
+.home-hero-actions .buttons {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.home-hero-actions .buttons .button {
+  padding: 0.8rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.home-hero-actions .buttons .button:first-child {
+  background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 15px -3px rgba(99, 102, 241, 0.4);
+}
+
+.home-hero-actions .buttons .button:first-child:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px -4px rgba(99, 102, 241, 0.6);
+  filter: brightness(1.1);
+}
+
+.home-hero-actions .buttons .button:nth-child(2) {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--border);
+}
+
+.home-hero-actions .buttons .button:nth-child(2):hover {
+  border-color: var(--primary);
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .home-hero-actions .buttons .button:nth-child(2):hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .home-hero-actions .social-icons {
@@ -953,4 +1034,9 @@ a.news-type-pill--direction:hover {
   background: var(--code-block-bg);
   border-radius: var(--radius);
   overflow: hidden;
+}
+
+/* Hide leftover KaTeX HTML from imported blogs (prevents duplicated math) */
+.katex-html {
+  display: none !important;
 }
