@@ -155,7 +155,7 @@
 .home-hero-actions .buttons .button:first-child {
   background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
   color: #ffffff;
-  border: none;
+  border: 1px solid transparent;
   box-shadow: 0 4px 15px -3px rgba(99, 102, 241, 0.4);
 }
 
