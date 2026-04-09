@@ -6,8 +6,17 @@
     <description>Recent content in News on Bitdefender AI Research</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andu199.github.io/bit-ml-new-website/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bridging Explainability and Embeddings: BEE Aware of Spuriousness</title>
+      <link>https://andu199.github.io/bit-ml-new-website/news/2026-04-07-bee-aware-of-spuriousness/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://andu199.github.io/bit-ml-new-website/news/2026-04-07-bee-aware-of-spuriousness/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://openreview.net/forum?id=9jYpHmI8ot&#34;&gt;OpenReview&lt;/a&gt; &lt;a href=&#34;https://github.com/bit-ml/bee&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Current methods for detecting spurious correlations rely on data splits or error patterns, leaving many harmful shortcuts invisible when counterexamples are absent. We introduce BEE (Bridging Explainability and Embeddings), a framework that shifts the focus from model predictions to the weight space and embedding geometry underlying decisions. By analyzing how fine-tuning perturbs pretrained representations, BEE uncovers spurious correlations that remain hidden from conventional evaluation pipelines. We use linear probing as a transparent diagnostic lens, revealing spurious features that not only persist after full fine-tuning but also transfer across diverse state-of-the-art models. Our experiments cover numerous datasets and domains: vision (Waterbirds, CelebA, ImageNet-1k), language (CivilComments, MIMIC-CXR medical notes), and multiple embedding families (CLIP, CLIP-DataComp.XL, mGTE, BLIP2, SigLIP2). BEE consistently exposes spurious correlations: from concepts that slash the ImageNet accuracy by up to 95%, to clinical shortcuts in MIMIC-CXR notes that induce dangerous false negatives. Together, these results position BEE as a general and principled tool for diagnosing spurious correlations in weight space, enabling principled dataset auditing and more trustworthy foundation models.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Deep Learning @ FMI – 2026 edition</title>
       <link>https://andu199.github.io/bit-ml-new-website/news/2026-02-23-deepfmi/</link>
