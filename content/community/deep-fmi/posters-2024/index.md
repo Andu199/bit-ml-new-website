@@ -1,5 +1,5 @@
 ---
-title: "DeepFMI 2024 – Posters"
+title: "DeepFMI 2024 Posters"
 layout: poster-gallery
 ---
 

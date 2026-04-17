@@ -21,7 +21,7 @@ theme = "PaperMod"
   [params.profileMode]
     enabled = true
     title = "Bitdefender AI Research"
-    subtitle = "We are the AI research group at Bitdefender. Our mission is to advance the state of the art in machine learning, focusing on robustness, security, and reliability. We actively publish in top-tier conferences and engage with the global AI community."
+    subtitle = "Our mission is to advance the state of the art in machine learning, focusing on robustness, security, and reliability and to engage with the global AI community."
 
     [[params.profileMode.buttons]]
       name = "Explore Research"

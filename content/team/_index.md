@@ -2,6 +2,8 @@
 title: "Team"
 ---
 
+## Team members
+
 {{< teammember "Elena Burceanu" "elena_burceanu.webp" >}}
 I am a Research Scientist working on robust machine learning, with a current focus on out of distribution generalization: understanding and mitigating distribution shifts, spurious correlations, and shortcut features that hurt reliability in real settings. Recently, I have been increasingly interested in mechanistic interpretability as a way to diagnose why models latch onto spurious cues and to design interventions that improve generalization. I was an Associate Program Chair at NeurIPS 2025 and I am the Local Chair for CoLLAs 2026, Bucharest.
 
@@ -29,7 +31,7 @@ I earned my Bachelor's degree in Computer Science and Master's degree in Artific
 {{< teammember "Florin Gogianu" "florin_gogianu.webp" >}}
 Currently pursuing a PhD in Reinforcement Learning under the supervision of Prof. Lucian Bușoniu following an MSc in Artificial Intelligence from University Politehnica of Bucharest and a BSc in Philosophy. I have a broad interest in Reinforcement Learning topics and I am currently focusing on questions regarding sample efficiency in the context of model-free value-based methods with neural network estimators.
 
-[email](mailto:fgogianu@bitdefender.com) · [GitHub](https://github.com/floringogianu) · [Twitter](https://twitter.com/FlorinGogianu)
+[email](mailto:fgogianu@bitdefender.com) · [GitHub](https://github.com/floringogianu)
 {{< /teammember >}}
 
 {{< teammember "Ștefan Smeu" "stefan_smeu.webp" >}}
@@ -63,16 +65,18 @@ I earned a Bachelor's degree in Computer Science and Master's degree in AI from 
 {{< /teammember >}}
 
 {{< teammember "Antonio Bărbălau" "antonio_barbalau.webp" >}}
-Currently pursuing a PhD focused on weakly-supervised and self-supervised learning at the University of Bucharest. I've been mainly involved in model stealing, video anomaly detection and speech processing. Presently, I'm working on domain generalization.
+I have completed my doctoral studies, centered around weakly supervised and self-supervised learning, at the University of Bucharest under the supervision of Prof. Dr. Radu Ionescu. My present research focuses on model interpretability, test-time debiasing techniques, and robustness to distribution shifts.
 
-[email](mailto:abarbalau@bitdefender.com) · [GitHub](https://github.com/antonio-barbalau)
+[email](mailto:abarbalau@bitdefender.com) · [GitHub](https://github.com/antoniobarbalau) · [website](https://antoniobarbalau.github.io)
 {{< /teammember >}}
 
 {{< teammember "Dragoș (Andu) Boldișor" "andu_boldisor.webp" >}}
 I am currently pursuing a PhD focused on robust and interpretable methods for audio-visual deepfake detection at the University Politehnica of Bucharest. I am presently researching approaches to deepfake detection.
 
-[email](mailto:dboldisor@bitdefender.com) · [GitHub](https://github.com/anduboldisor) · [LinkedIn](https://www.linkedin.com/in/drago%C8%99-alexandru-boldi%C8%99or-8a08b4107/)
+[email](mailto:dboldisor@bitdefender.com) · [GitHub](https://github.com/Andu199) · [LinkedIn](https://www.linkedin.com/in/drago%C8%99-alexandru-boldi%C8%99or-8a08b4107/)
 {{< /teammember >}}
+
+## Collaborators
 
 {{< teammember "Andrei Nicolicioiu" "andrei_nicolicioiu.webp" >}}
 PhD Student @ University of Montreal

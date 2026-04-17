@@ -136,7 +136,6 @@
 .home-hero-actions .buttons {
   display: flex;
   gap: 1rem;
-  margin-right: 1rem;
 }
 
 .home-hero-actions .buttons .button {
@@ -1039,4 +1038,9 @@ a.news-type-pill--direction:hover {
 /* Hide leftover KaTeX HTML from imported blogs (prevents duplicated math) */
 .katex-html {
   display: none !important;
+}
+
+/* Prevent horizontal scrollbars from hero glow */
+body {
+  overflow-x: hidden;
 }

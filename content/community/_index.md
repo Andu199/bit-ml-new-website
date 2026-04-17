@@ -19,6 +19,6 @@ Beyond teaching, we stay close to the research and industry ecosystem:
 Here at **Bitdefender** we design and teach deep learning courses with top universities in Bucharest and in-house programs. We bring students and engineers closer to research with up-to-date, hands-on content.
 
 <div class="course-entries-grid">
-{{< course "thumb_unibuc.png" "DeepFMI – Learning Deep Neural Networks" "2025–2026 · February – April" "/community/deep-fmi/" "Contact: [fbrad@bitdefender.com](mailto:fbrad@bitdefender.com)" >}}{{< /course >}}
-{{< course "thumb_precis.jpg" "Deep Reinforcement Learning @ ACS" "2025–2026 · October – December" "/community/deep-rl-acs/" "Contact: [fgogianu@bitdefender.com](mailto:fgogianu@bitdefender.com)" >}}{{< /course >}}
+{{< course "thumb_unibuc.png" "DeepFMI: Learning Deep Neural Networks" "2025-2026 · February - April" "/community/deep-fmi/" "Contact: [fbrad@bitdefender.com](mailto:fbrad@bitdefender.com)" >}}{{< /course >}}
+{{< course "thumb_precis.jpg" "Deep Reinforcement Learning @ ACS" "2025-2026 · October - December" "/community/deep-rl-acs/" "Contact: [fgogianu@bitdefender.com](mailto:fgogianu@bitdefender.com)" >}}{{< /course >}}
 </div>

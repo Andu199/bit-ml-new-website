@@ -18,11 +18,11 @@
 &lt;p&gt;Current methods for detecting spurious correlations rely on data splits or error patterns, leaving many harmful shortcuts invisible when counterexamples are absent. We introduce BEE (Bridging Explainability and Embeddings), a framework that shifts the focus from model predictions to the weight space and embedding geometry underlying decisions. By analyzing how fine-tuning perturbs pretrained representations, BEE uncovers spurious correlations that remain hidden from conventional evaluation pipelines. We use linear probing as a transparent diagnostic lens, revealing spurious features that not only persist after full fine-tuning but also transfer across diverse state-of-the-art models. Our experiments cover numerous datasets and domains: vision (Waterbirds, CelebA, ImageNet-1k), language (CivilComments, MIMIC-CXR medical notes), and multiple embedding families (CLIP, CLIP-DataComp.XL, mGTE, BLIP2, SigLIP2). BEE consistently exposes spurious correlations: from concepts that slash the ImageNet accuracy by up to 95%, to clinical shortcuts in MIMIC-CXR notes that induce dangerous false negatives. Together, these results position BEE as a general and principled tool for diagnosing spurious correlations in weight space, enabling principled dataset auditing and more trustworthy foundation models.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Deep Learning @ FMI – 2026 edition</title>
+      <title>Deep Learning @ FMI 2026 edition</title>
       <link>https://andu199.github.io/bit-ml-new-website/news/2026-02-23-deepfmi/</link>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/news/2026-02-23-deepfmi/</guid>
-      <description>&lt;p&gt;The &lt;strong&gt;Deep Learning&lt;/strong&gt; course at the Faculty of Mathematics and Computer Science, University of Bucharest is running again in 2026. It is aimed at third-year students. The 2026 edition starts in the second semester of the 2025–2026 academic year on &lt;strong&gt;23 February 2026&lt;/strong&gt;, and covers basic deep learning methods, with labs and a final project.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The &lt;strong&gt;Deep Learning&lt;/strong&gt; course at the Faculty of Mathematics and Computer Science, University of Bucharest is running again in 2026. It is aimed at third-year students. The 2026 edition starts in the second semester of the 2025-2026 academic year on &lt;strong&gt;23 February 2026&lt;/strong&gt;, and covers basic deep learning methods, with labs and a final project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Investigating self-supervised representations for audio-visual deepfake detection</title>

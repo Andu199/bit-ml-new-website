@@ -1,9 +1,9 @@
 ---
-title: "DeepFMI – Learning Deep Neural Networks"
+title: "DeepFMI: Learning Deep Neural Networks"
 date: 2020-02-01
 ---
 
-**Period:** February – April
+**Period:** February - April
 
 ## Poster galleries by edition
 

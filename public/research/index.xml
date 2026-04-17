@@ -12,7 +12,12 @@
       <link>https://andu199.github.io/bit-ml-new-website/research/deepfake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/research/deepfake/</guid>
-      <description>&lt;p&gt;We develop multimodal (audio–video) and representation-level methods to detect synthetic and manipulated media, with emphasis on robustness, self-supervision, and dataset artifacts.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Aletheia focuses on advancing deepfake detection across video and audio modalities. Our research is guided by three goals:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Generalization: develop methods that transfer across diverse datasets and forgery techniques.&lt;/li&gt;
+&lt;li&gt;Transparency: understand how detection models make decisions and ensure datasets are reliable (free of spurious shortcuts).&lt;/li&gt;
+&lt;li&gt;Deployability: build systems that adapt and remain robust on unconstrained &amp;ldquo;in-the-wild&amp;rdquo; content.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Generalization and mechanistic interpretability</title>

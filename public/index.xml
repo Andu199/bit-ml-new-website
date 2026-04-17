@@ -25,11 +25,11 @@
       <description>BEE reveals spurious correlations learned during fine tuning by analyzing classifier weight drift and embedding geometry. A mechanistic interpretability view of why shortcuts form, plus visual evidence from ImageNet and beyond.</description>
     </item>
     <item>
-      <title>Deep Learning @ FMI – 2026 edition</title>
+      <title>Deep Learning @ FMI 2026 edition</title>
       <link>https://andu199.github.io/bit-ml-new-website/news/2026-02-23-deepfmi/</link>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/news/2026-02-23-deepfmi/</guid>
-      <description>&lt;p&gt;The &lt;strong&gt;Deep Learning&lt;/strong&gt; course at the Faculty of Mathematics and Computer Science, University of Bucharest is running again in 2026. It is aimed at third-year students. The 2026 edition starts in the second semester of the 2025–2026 academic year on &lt;strong&gt;23 February 2026&lt;/strong&gt;, and covers basic deep learning methods, with labs and a final project.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The &lt;strong&gt;Deep Learning&lt;/strong&gt; course at the Faculty of Mathematics and Computer Science, University of Bucharest is running again in 2026. It is aimed at third-year students. The 2026 edition starts in the second semester of the 2025-2026 academic year on &lt;strong&gt;23 February 2026&lt;/strong&gt;, and covers basic deep learning methods, with labs and a final project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Investigating self-supervised representations for audio-visual deepfake detection</title>
@@ -335,7 +335,7 @@ post as well since it may be of interest to anyone using the [FV12] scheme in
       <link>https://andu199.github.io/bit-ml-new-website/community/deep-rl-acs/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/community/deep-rl-acs/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; October – December&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Period:&lt;/strong&gt; October - December&lt;/p&gt;
 &lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 &lt;p&gt;At the invitation of the Faculty of Automatic Control and Computer Science, Politehnica University of Bucharest we created and delivered an introduction to Deep Reinforcement Learning as part of the Advanced Methods in AI course within the AI Master&amp;rsquo;s Degree program.&lt;/p&gt;</description>
     </item>
@@ -344,24 +344,29 @@ post as well since it may be of interest to anyone using the [FV12] scheme in
       <link>https://andu199.github.io/bit-ml-new-website/research/deepfake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/research/deepfake/</guid>
-      <description>&lt;p&gt;We develop multimodal (audio–video) and representation-level methods to detect synthetic and manipulated media, with emphasis on robustness, self-supervision, and dataset artifacts.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Aletheia focuses on advancing deepfake detection across video and audio modalities. Our research is guided by three goals:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Generalization: develop methods that transfer across diverse datasets and forgery techniques.&lt;/li&gt;
+&lt;li&gt;Transparency: understand how detection models make decisions and ensure datasets are reliable (free of spurious shortcuts).&lt;/li&gt;
+&lt;li&gt;Deployability: build systems that adapt and remain robust on unconstrained &amp;ldquo;in-the-wild&amp;rdquo; content.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>DeepFMI 2022 – Posters</title>
+      <title>DeepFMI 2022 Posters</title>
       <link>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2022/</guid>
       <description>&lt;p&gt;Poster session from the 2022 edition.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>DeepFMI 2024 – Posters</title>
+      <title>DeepFMI 2024 Posters</title>
       <link>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2024/</guid>
       <description>&lt;p&gt;Poster session from the 2024 edition.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>DeepFMI 2025 – Posters</title>
+      <title>DeepFMI 2025 Posters</title>
       <link>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2025/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andu199.github.io/bit-ml-new-website/community/deep-fmi/posters-2025/</guid>
