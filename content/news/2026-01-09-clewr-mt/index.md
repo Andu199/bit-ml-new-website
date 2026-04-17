@@ -7,7 +7,7 @@ cover:
 research_direction: nlp
 draft: false
 authors: "Alexandra Dragomir, Florin Brad, Radu Tudor Ionescu"
-venue: "Under review"
+venue: "ACL 2026"
 presentation: ""
 ---
 

@@ -5,13 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning | Bitdefender AI Research</title>
+<title>JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models | Bitdefender AI Research</title>
 <meta name="keywords" content="">
-<meta name="description" content="Links: arXiv GitHub
-Abstract
-Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-art preference optimization algorithms to boost MT performance. We introduce a novel curriculum learning strategy with restarts (CLewR), which reiterates easy-to-hard curriculum multiple times during training to effectively mitigate the catastrophic forgetting of easy examples. We demonstrate consistent gains across several model families (Gemma2, Qwen2.5, Llama3.1) and preference optimization techniques.">
+<meta name="description" content="Abstract
+Adapter-based methods have become a cost-effective approach to continual learning (CL) for Large Language Models (LLMs), by sequentially learning a low-rank update matrix for each task. To mitigate catastrophic forgetting, state-of-the-art approaches impose constraints on new adapters with respect to the previous ones, by targeting either subspace or coordinate-wise interference. In this paper, we propose JumpLoRA, a novel framework to adaptively induce sparsity in the Low-Rank Adaptation (LoRA) blocks through the use of JumpReLU gating. The method achieves dynamic parameter isolation, which helps prevent task interference. We demonstrate that our method is highly modular and compatible with LoRA-based CL approaches. Specifically, it significantly boosts the performance of IncLoRA and outperforms the leading state-of-the-art CL method, ELLA.">
 <meta name="author" content="">
-<link rel="canonical" href="https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/">
+<link rel="canonical" href="https://andu199.github.io/bit-ml-new-website/news/2026-04-17-jumplora/">
 <link crossorigin="anonymous" href="/bit-ml-new-website/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://andu199.github.io/bit-ml-new-website/favicon.ico?v=4">
 <link rel="icon" type="image/png" sizes="16x16" href="https://andu199.github.io/bit-ml-new-website/favicon-16x16.png?v=4">
@@ -20,7 +19,7 @@ Large language models (LLMs) have demonstrated competitive performance in zero-s
 <link rel="mask-icon" href="https://andu199.github.io/bit-ml-new-website/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/">
+<link rel="alternate" hreflang="en" href="https://andu199.github.io/bit-ml-new-website/news/2026-04-17-jumplora/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,23 +57,19 @@ Large language models (LLMs) have demonstrated competitive performance in zero-s
           gtag('js', new Date());
           gtag('config', 'G-386447349');
         }
-      </script><meta property="og:url" content="https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/">
+      </script><meta property="og:url" content="https://andu199.github.io/bit-ml-new-website/news/2026-04-17-jumplora/">
   <meta property="og:site_name" content="Bitdefender AI Research">
-  <meta property="og:title" content="CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning">
-  <meta property="og:description" content="Links: arXiv GitHub
-Abstract Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-art preference optimization algorithms to boost MT performance. We introduce a novel curriculum learning strategy with restarts (CLewR), which reiterates easy-to-hard curriculum multiple times during training to effectively mitigate the catastrophic forgetting of easy examples. We demonstrate consistent gains across several model families (Gemma2, Qwen2.5, Llama3.1) and preference optimization techniques.">
+  <meta property="og:title" content="JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models">
+  <meta property="og:description" content="Abstract Adapter-based methods have become a cost-effective approach to continual learning (CL) for Large Language Models (LLMs), by sequentially learning a low-rank update matrix for each task. To mitigate catastrophic forgetting, state-of-the-art approaches impose constraints on new adapters with respect to the previous ones, by targeting either subspace or coordinate-wise interference. In this paper, we propose JumpLoRA, a novel framework to adaptively induce sparsity in the Low-Rank Adaptation (LoRA) blocks through the use of JumpReLU gating. The method achieves dynamic parameter isolation, which helps prevent task interference. We demonstrate that our method is highly modular and compatible with LoRA-based CL approaches. Specifically, it significantly boosts the performance of IncLoRA and outperforms the leading state-of-the-art CL method, ELLA.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="news">
-    <meta property="article:published_time" content="2026-01-09T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-01-09T00:00:00+00:00">
-    <meta property="og:image" content="https://andu199.github.io/bit-ml-new-website/teaser.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://andu199.github.io/bit-ml-new-website/teaser.png">
-<meta name="twitter:title" content="CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning">
-<meta name="twitter:description" content="Links: arXiv GitHub
-Abstract
-Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-art preference optimization algorithms to boost MT performance. We introduce a novel curriculum learning strategy with restarts (CLewR), which reiterates easy-to-hard curriculum multiple times during training to effectively mitigate the catastrophic forgetting of easy examples. We demonstrate consistent gains across several model families (Gemma2, Qwen2.5, Llama3.1) and preference optimization techniques.">
+    <meta property="article:published_time" content="2026-04-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-17T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models">
+<meta name="twitter:description" content="Abstract
+Adapter-based methods have become a cost-effective approach to continual learning (CL) for Large Language Models (LLMs), by sequentially learning a low-rank update matrix for each task. To mitigate catastrophic forgetting, state-of-the-art approaches impose constraints on new adapters with respect to the previous ones, by targeting either subspace or coordinate-wise interference. In this paper, we propose JumpLoRA, a novel framework to adaptively induce sparsity in the Low-Rank Adaptation (LoRA) blocks through the use of JumpReLU gating. The method achieves dynamic parameter isolation, which helps prevent task interference. We demonstrate that our method is highly modular and compatible with LoRA-based CL approaches. Specifically, it significantly boosts the performance of IncLoRA and outperforms the leading state-of-the-art CL method, ELLA.">
 
 
 <script type="application/ld+json">
@@ -91,8 +86,8 @@ Large language models (LLMs) have demonstrated competitive performance in zero-s
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning",
-      "item": "https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/"
+      "name": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
+      "item": "https://andu199.github.io/bit-ml-new-website/news/2026-04-17-jumplora/"
     }
   ]
 }
@@ -101,20 +96,20 @@ Large language models (LLMs) have demonstrated competitive performance in zero-s
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning",
-  "name": "CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning",
-  "description": "Links: arXiv GitHub\nAbstract Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-art preference optimization algorithms to boost MT performance. We introduce a novel curriculum learning strategy with restarts (CLewR), which reiterates easy-to-hard curriculum multiple times during training to effectively mitigate the catastrophic forgetting of easy examples. We demonstrate consistent gains across several model families (Gemma2, Qwen2.5, Llama3.1) and preference optimization techniques.\n",
+  "headline": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
+  "name": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
+  "description": "Abstract Adapter-based methods have become a cost-effective approach to continual learning (CL) for Large Language Models (LLMs), by sequentially learning a low-rank update matrix for each task. To mitigate catastrophic forgetting, state-of-the-art approaches impose constraints on new adapters with respect to the previous ones, by targeting either subspace or coordinate-wise interference. In this paper, we propose JumpLoRA, a novel framework to adaptively induce sparsity in the Low-Rank Adaptation (LoRA) blocks through the use of JumpReLU gating. The method achieves dynamic parameter isolation, which helps prevent task interference. We demonstrate that our method is highly modular and compatible with LoRA-based CL approaches. Specifically, it significantly boosts the performance of IncLoRA and outperforms the leading state-of-the-art CL method, ELLA.\n",
   "keywords": [
     
   ],
-  "articleBody": "Links: arXiv GitHub\nAbstract Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-art preference optimization algorithms to boost MT performance. We introduce a novel curriculum learning strategy with restarts (CLewR), which reiterates easy-to-hard curriculum multiple times during training to effectively mitigate the catastrophic forgetting of easy examples. We demonstrate consistent gains across several model families (Gemma2, Qwen2.5, Llama3.1) and preference optimization techniques.\n",
-  "wordCount" : "106",
+  "articleBody": "Abstract Adapter-based methods have become a cost-effective approach to continual learning (CL) for Large Language Models (LLMs), by sequentially learning a low-rank update matrix for each task. To mitigate catastrophic forgetting, state-of-the-art approaches impose constraints on new adapters with respect to the previous ones, by targeting either subspace or coordinate-wise interference. In this paper, we propose JumpLoRA, a novel framework to adaptively induce sparsity in the Low-Rank Adaptation (LoRA) blocks through the use of JumpReLU gating. The method achieves dynamic parameter isolation, which helps prevent task interference. We demonstrate that our method is highly modular and compatible with LoRA-based CL approaches. Specifically, it significantly boosts the performance of IncLoRA and outperforms the leading state-of-the-art CL method, ELLA.\n",
+  "wordCount" : "117",
   "inLanguage": "en",
-  "image":"https://andu199.github.io/bit-ml-new-website/teaser.png","datePublished": "2026-01-09T00:00:00Z",
-  "dateModified": "2026-01-09T00:00:00Z",
+  "datePublished": "2026-04-17T00:00:00Z",
+  "dateModified": "2026-04-17T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/"
+    "@id": "https://andu199.github.io/bit-ml-new-website/news/2026-04-17-jumplora/"
   },
   "publisher": {
     "@type": "Organization",
@@ -195,11 +190,11 @@ Large language models (LLMs) have demonstrated competitive performance in zero-s
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      CLewR: Curriculum Learning with Restarts for Machine Translation Preference Learning
+      JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models
     </h1>
     <div class="academic-paper-meta">
-      <div class="academic-paper-authors">Alexandra Dragomir, Florin Brad, Radu Tudor Ionescu</div>
-      <div class="academic-paper-venue">Accepted at <em>ACL 2026</em>
+      <div class="academic-paper-authors">Alexandra Dragomir, Ioana Pintilie, Antonio Barbalau, Marius Dragoi, Florin Brad, Cristian Paduraru, Alexandru Tifrea, Elena Burceanu, Radu Ionescu</div>
+      <div class="academic-paper-venue"><em>Under review at CoLLAs 2026</em>
       </div>
       <div class="academic-card-links" style="margin-top: 1rem;">
       </div>
@@ -209,22 +204,12 @@ Large language models (LLMs) have demonstrated competitive performance in zero-s
 <a href="/bit-ml-new-website/research/nlp/" class="news-type-pill news-type-pill--direction news-type-pill--direction-nlp">Natural Language Processing</a>
       </div>
     </div>
-    <div class="post-meta"><span title='2026-01-09 00:00:00 +0000 UTC'>January 9, 2026</span>
+    <div class="post-meta"><span title='2026-04-17 00:00:00 +0000 UTC'>April 17, 2026</span>
 
 </div>
   </header> 
-<figure class="entry-cover">
-            <img loading="eager"
-                srcset='https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/teaser_hu_134adfe7d4817e80.png 360w,https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/teaser_hu_693dcd4a312f8f6.png 480w,https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/teaser_hu_ec3030915635744b.png 720w,https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/teaser_hu_a9e554e62084e96e.png 1080w,https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/teaser.png 1191w'
-                src="https://andu199.github.io/bit-ml-new-website/news/2026-01-09-clewr-mt/teaser.png"
-                sizes="(min-width: 768px) 720px, 100vw"
-                width="1191" height="1684"
-                alt="">
-        
-</figure>
-  <div class="post-content"><p><strong>Links:</strong> <a href="https://arxiv.org/abs/2601.05858">arXiv</a> <a href="https://github.com/alexandra-dragomir/CLewR">GitHub</a></p>
-<h3 id="abstract">Abstract<a hidden class="anchor" aria-hidden="true" href="#abstract">#</a></h3>
-<p>Large language models (LLMs) have demonstrated competitive performance in zero-shot multilingual machine translation (MT). Some follow-up works further improved MT performance via preference optimization, but they leave a key aspect largely underexplored: the order in which data samples are given during training. We address this topic by integrating curriculum learning into various state-of-the-art preference optimization algorithms to boost MT performance. We introduce a novel curriculum learning strategy with restarts (CLewR), which reiterates easy-to-hard curriculum multiple times during training to effectively mitigate the catastrophic forgetting of easy examples. We demonstrate consistent gains across several model families (Gemma2, Qwen2.5, Llama3.1) and preference optimization techniques.</p>
+  <div class="post-content"><h3 id="abstract">Abstract<a hidden class="anchor" aria-hidden="true" href="#abstract">#</a></h3>
+<p>Adapter-based methods have become a cost-effective approach to continual learning (CL) for Large Language Models (LLMs), by sequentially learning a low-rank update matrix for each task. To mitigate catastrophic forgetting, state-of-the-art approaches impose constraints on new adapters with respect to the previous ones, by targeting either subspace or coordinate-wise interference. In this paper, we propose JumpLoRA, a novel framework to adaptively induce sparsity in the Low-Rank Adaptation (LoRA) blocks through the use of JumpReLU gating. The method achieves dynamic parameter isolation, which helps prevent task interference. We demonstrate that our method is highly modular and compatible with LoRA-based CL approaches. Specifically, it significantly boosts the performance of IncLoRA and outperforms the leading state-of-the-art CL method, ELLA.</p>
 
 
   </div>

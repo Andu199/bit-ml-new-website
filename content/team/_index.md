@@ -76,6 +76,12 @@ I am currently pursuing a PhD focused on robust and interpretable methods for au
 [email](mailto:dboldisor@bitdefender.com) · [GitHub](https://github.com/Andu199) · [LinkedIn](https://www.linkedin.com/in/drago%C8%99-alexandru-boldi%C8%99or-8a08b4107/)
 {{< /teammember >}}
 
+{{< teammember "Alexandra Dragomir" "alexandra_dragomir.webp" >}}
+I obtained my Master’s degree in Artificial Intelligence from the University of Bucharest, where I also completed a Bachelor’s degree in Mathematics. My research focuses on Natural Language Processing, with an emphasis on Large Language Models, particularly in areas such as preference optimization and continual learning.
+
+[email](mailto:aledragomir@bitdefender.com) · [GitHub](https://github.com/alexandra-dragomir) · [LinkedIn](https://www.linkedin.com/in/elena-alexandra-dragomir/)
+{{< /teammember >}}
+
 ## Collaborators
 
 {{< teammember "Andrei Nicolicioiu" "andrei_nicolicioiu.webp" >}}

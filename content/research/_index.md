@@ -25,7 +25,7 @@ Aletheia focuses on advancing deepfake detection across video and audio modaliti
 
 We work on large language models, code and low-level languages, multilingual systems, and structured domains such as molecules — with applications to reliability, reasoning, and scientific ML.
 
-*Florin Brad, Andrei Manolache, Ioana Pintilie, Marius Drăgoi*
+*Florin Brad, Andrei Manolache, Ioana Pintilie, Marius Drăgoi, Alexandra Dragomir*
 
 {{< research_recent "nlp" >}}
 

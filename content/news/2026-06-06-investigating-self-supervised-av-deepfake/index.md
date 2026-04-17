@@ -11,7 +11,7 @@ venue: "CVPR 2026"
 presentation: ""
 ---
 
-**Links:** [arXiv](https://arxiv.org/abs/2511.17181)
+**Links:** [arXiv](https://arxiv.org/abs/2511.17181) [GitHub](https://bit-ml.github.io/ssr-dfd/)
 
 ### Abstract
 
