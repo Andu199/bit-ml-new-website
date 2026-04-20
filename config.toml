@@ -3,9 +3,16 @@ languageCode = "en-us"
 title = "Bitdefender AI Research"
 theme = "PaperMod"
 
-# Allow raw HTML in markdown (e.g. <div class="course-entries-grid"> on community page)
-[markup.goldmark.renderer]
-  unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
 [params]
   description = "Engaging with the broader AI Community."

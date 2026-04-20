@@ -53,9 +53,9 @@ I received my Ph.D. from Université Grenoble Alpes, where I worked on automatic
 {{< /teammember >}}
 
 {{< teammember "Ioana Pintilie" "ioana_pintilie.webp" >}}
-I am an Artificial Intelligence master's student at the University of Bucharest, where I also obtained my bachelor's degree in Computer Science. I am interested in anomaly detection for multivariate time series data, diffusion models, and I have a general interest in NLP topics. Currently, my focus is on large language models.
+I obtained my Master’s degree in Artificial Intelligence from the University of Bucharest, where I also completed my bachelor’s degree in Computer Science. My background includes anomaly detection for multivariate time series data, and I am broadly interested in large language models, with a current focus on their reasoning capabilities and reinforcement learning with verifiable rewards (RLVR).
 
-[email](mailto:ipintilie@bitdefender.com)
+[email](mailto:ipintilie@bitdefender.com) · [LinkedIn](https://www.linkedin.com/in/pintilie-ioana) · [website](https://scholar.google.com/citations?user=8aNloXoAAAAJ&hl=ro)
 {{< /teammember >}}
 
 {{< teammember "Cristian Păduraru" "cristi_paduraru.webp" >}}

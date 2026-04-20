@@ -3,4 +3,4 @@ title: "Natural language processing"
 direction: nlp
 ---
 
-We work on large language models, code and low-level languages, multilingual systems, and structured domains such as molecules — with applications to reliability, reasoning, and scientific ML.
+We focus on large language models, along with reliability, reasoning, and scientific machine learning, applying our work across areas such as code and low-level languages, multilingual systems, and structured domains like molecules.
