@@ -1,6 +1,6 @@
 ---
 title: "BEE Aware of Spuriousness: Mechanistic Interpretability for Fine Tuning Foundation Models"
-description: "BEE reveals spurious correlations learned during fine tuning by analyzing classifier weight drift and embedding geometry. A mechanistic interpretability view of why shortcuts form, plus visual evidence from ImageNet and beyond."
+description: "In our ICLR 2026 paper “Bridging Explainability and Embeddings: BEE Aware of Spuriousness”, we introduce BEE, a diagnostic tool that surfaces spurious correlations by analyzing weight space drift and embedding geometry rather than relying only on held out validation data."
 slug: "bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning"
 date: 2026-02-25
 authors:
@@ -24,7 +24,7 @@ Fine tuning is usually framed as “adaptation”. In practice, it can also manu
 
 A model can recognize the “right” object or phrase and still bet on the wrong cue because that cue was cheaper and more reliable inside the training distribution. The scary part is how quietly this happens: if the shortcut exists in both train and validation splits, metrics can look great right up until deployment.
 
-In our ICLR 2026 paper “Bridging Explainability and Embeddings: BEE Aware of Spuriousness”, we introduce **BEE**, a diagnostic that surfaces spurious correlations by analyzing **weight space drift** and **embedding geometry** rather than relying only on held out errors.
+In our ICLR 2026 paper “Bridging Explainability and Embeddings: BEE Aware of Spuriousness”, we introduce **BEE**, a diagnostic tool that surfaces spurious correlations by analyzing **weight space drift** and **embedding geometry** rather than relying only on held out validation data.
 
 Paper: https://openreview.net/forum?id=9jYpHmI8ot  
 PDF: https://openreview.net/pdf?id=9jYpHmI8ot  
@@ -43,9 +43,9 @@ Code: https://github.com/bit-ml/bee
 
 ## Visual intuition: what “shortcut learning” looks like
 
-Below are qualitative flips from ImageNet. The real class is clearly present, but adding an object tied to a spurious concept can flip the prediction to a different class.
+Below are qualitative flips from ImageNet. The real class is clearly present, but adding an object tied to a spurious concept can flip the prediction to a different class which is not visually depicted in the image.
 
-![Qualitative flips on ImageNet after adding a spurious concept. Examples show REAL vs PREDICTED labels and the spurious concept (SC) that drives the flip.](bee-figure-imagenet.png)
+![Qualitative flips on ImageNet after adding a spurious concept. Examples show REAL vs PREDICTED labels and the spurious corelation (SC) that drives the flip.](bee-figure-imagenet.png)
 
 *Figure 1. Qualitative examples where spurious concepts override the primary signal.*
 
@@ -79,16 +79,16 @@ At a high level, BEE does two things:
 
 ## How BEE works (practical steps)
 
-### 1) Linear probing as a diagnostic lens
+**1) Linear probing as a diagnostic lens**
 BEE trains a linear layer on top of frozen embeddings and anchors each class weight to the embedding of the class name. This makes subsequent drift interpretable.
 
-### 2) Concept extraction and filtering
+**2) Concept extraction and filtering**
 BEE constructs a candidate pool of concepts and filters out those that are obviously class defining, keeping concepts that should not define the label.
 
-### 3) Relative alignment scoring
+**3) Relative alignment scoring**
 A concept is suspicious when it is not just similar to a class, but uniquely similar to that class compared to alternatives.
 
-### 4) Dynamic thresholding
+**4) Dynamic thresholding**
 Instead of picking an arbitrary top k, BEE selects the cutoff at the “knee” of the score curve.
 
 ![Smoothed spuriousness scores sorted by rank, with a reference line; the cutoff is chosen at the index of maximum deviation from that line.](bee-figure-thresholding.png)
@@ -134,7 +134,7 @@ BEE’s key move is making it *relative*:
 A concept is suspicious when it is uniquely aligned with one class, especially if it is class neutral.
 
 ### Why this can work without counterexamples
-Many spuriousness detectors require counterexamples because they learn from observed failures.
+Many SC detectors require counterexamples because they learn from observed failures.
 
 BEE instead reads the imprint left by training in the learned geometry. You do not need the shortcut to fail to detect its presence, because the learned weights can already reveal what the model is leaning on.
 
