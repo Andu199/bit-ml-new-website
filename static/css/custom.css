@@ -1044,3 +1044,8 @@ a.news-type-pill--direction:hover {
 body {
   overflow-x: hidden;
 }
+
+/* Increase the main content width to make blogs and images larger */
+:root {
+  --main-width: 960px;
+}

@@ -4,7 +4,7 @@ date: 2025-06-15
 type: academic
 cover:
   image: teaser.png
-research_direction: rl
+research_direction: generalization
 draft: false
 authors: "Damien Teney, Lianze Jiang, Florin Gogianu, Ehsan Abbasnejad"
 venue: "CVPR 2025"
