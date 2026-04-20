@@ -1,7 +1,7 @@
 ---
 title: "BEE Aware of Spuriousness: Mechanistic Interpretability for Fine Tuning Foundation Models"
 description: "In our ICLR 2026 paper “Bridging Explainability and Embeddings: BEE Aware of Spuriousness”, we introduce BEE, a diagnostic tool that surfaces spurious correlations by analyzing weight space drift and embedding geometry rather than relying only on held out validation data."
-slug: "bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning"
+slug: "bee-aware-of-spuriousness"
 date: 2026-02-25
 authors:
   - "Bitdefender Machine Learning"

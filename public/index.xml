@@ -28,10 +28,10 @@
     </item>
     <item>
       <title>BEE Aware of Spuriousness: Mechanistic Interpretability for Fine Tuning Foundation Models</title>
-      <link>https://andu199.github.io/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</link>
+      <link>https://andu199.github.io/bit-ml-new-website/blog/bee-aware-of-spuriousness/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://andu199.github.io/bit-ml-new-website/blog/bee-aware-of-spuriousness-mechanistic-interpretability-fine-tuning/</guid>
-      <description>BEE reveals spurious correlations learned during fine tuning by analyzing classifier weight drift and embedding geometry. A mechanistic interpretability view of why shortcuts form, plus visual evidence from ImageNet and beyond.</description>
+      <guid>https://andu199.github.io/bit-ml-new-website/blog/bee-aware-of-spuriousness/</guid>
+      <description>In our ICLR 2026 paper “Bridging Explainability and Embeddings: BEE Aware of Spuriousness”, we introduce BEE, a diagnostic tool that surfaces spurious correlations by analyzing weight space drift and embedding geometry rather than relying only on held out validation data.</description>
     </item>
     <item>
       <title>Deep Learning @ FMI 2026 edition</title>
