@@ -2,12 +2,16 @@
 title: "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models"
 date: 2026-04-17
 type: academic
+cover:
+  image: teaser.png
 research_direction: nlp
 draft: false
 authors: "Alexandra Dragomir, Ioana Pintilie, Antonio Barbalau, Marius Dragoi, Florin Brad, Cristian Paduraru, Alexandru Tifrea, Elena Burceanu, Radu Ionescu"
 venue: "Under review at CoLLAs 2026"
 presentation: ""
 ---
+
+**Links:** [arXiv](https://arxiv.org/abs/2604.16171)
 
 ### Abstract
 
